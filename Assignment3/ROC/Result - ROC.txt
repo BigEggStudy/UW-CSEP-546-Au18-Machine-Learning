@@ -1,0 +1,352 @@
+Train is 0.130383 percent spam.
+Test is 0.144907 percent spam.
+### Get the Mutual Information Table
+['Call', 'call', 'to', 'or', 'FREE', 'claim', 'To', 'mobile', 'Txt', '&']
+### Training the Models
+### Compare Models
+At threshold 0.010000
+Model 10 MI Features without heuristics has False Positive Rate 1.000000, False Negative Rate 0.000000
+Model 10 MI Features with heuristics has False Positive Rate 0.461409, False Negative Rate 0.014851
+At threshold 0.020000
+Model 10 MI Features without heuristics has False Positive Rate 1.000000, False Negative Rate 0.000000
+Model 10 MI Features with heuristics has False Positive Rate 0.245805, False Negative Rate 0.019802
+At threshold 0.030000
+Model 10 MI Features without heuristics has False Positive Rate 1.000000, False Negative Rate 0.000000
+Model 10 MI Features with heuristics has False Positive Rate 0.223993, False Negative Rate 0.024752
+At threshold 0.040000
+Model 10 MI Features without heuristics has False Positive Rate 0.326342, False Negative Rate 0.123762
+Model 10 MI Features with heuristics has False Positive Rate 0.204698, False Negative Rate 0.024752
+At threshold 0.050000
+Model 10 MI Features without heuristics has False Positive Rate 0.326342, False Negative Rate 0.123762
+Model 10 MI Features with heuristics has False Positive Rate 0.202181, False Negative Rate 0.024752
+At threshold 0.060000
+Model 10 MI Features without heuristics has False Positive Rate 0.326342, False Negative Rate 0.123762
+Model 10 MI Features with heuristics has False Positive Rate 0.164430, False Negative Rate 0.034653
+At threshold 0.070000
+Model 10 MI Features without heuristics has False Positive Rate 0.326342, False Negative Rate 0.123762
+Model 10 MI Features with heuristics has False Positive Rate 0.163591, False Negative Rate 0.039604
+At threshold 0.080000
+Model 10 MI Features without heuristics has False Positive Rate 0.326342, False Negative Rate 0.123762
+Model 10 MI Features with heuristics has False Positive Rate 0.163591, False Negative Rate 0.039604
+At threshold 0.090000
+Model 10 MI Features without heuristics has False Positive Rate 0.326342, False Negative Rate 0.123762
+Model 10 MI Features with heuristics has False Positive Rate 0.163591, False Negative Rate 0.039604
+At threshold 0.100000
+Model 10 MI Features without heuristics has False Positive Rate 0.326342, False Negative Rate 0.123762
+Model 10 MI Features with heuristics has False Positive Rate 0.163591, False Negative Rate 0.039604
+At threshold 0.110000
+Model 10 MI Features without heuristics has False Positive Rate 0.326342, False Negative Rate 0.123762
+Model 10 MI Features with heuristics has False Positive Rate 0.140101, False Negative Rate 0.044554
+At threshold 0.120000
+Model 10 MI Features without heuristics has False Positive Rate 0.092282, False Negative Rate 0.301980
+Model 10 MI Features with heuristics has False Positive Rate 0.139262, False Negative Rate 0.044554
+At threshold 0.130000
+Model 10 MI Features without heuristics has False Positive Rate 0.092282, False Negative Rate 0.301980
+Model 10 MI Features with heuristics has False Positive Rate 0.138423, False Negative Rate 0.044554
+At threshold 0.140000
+Model 10 MI Features without heuristics has False Positive Rate 0.092282, False Negative Rate 0.301980
+Model 10 MI Features with heuristics has False Positive Rate 0.138423, False Negative Rate 0.044554
+At threshold 0.150000
+Model 10 MI Features without heuristics has False Positive Rate 0.092282, False Negative Rate 0.301980
+Model 10 MI Features with heuristics has False Positive Rate 0.135906, False Negative Rate 0.044554
+At threshold 0.160000
+Model 10 MI Features without heuristics has False Positive Rate 0.092282, False Negative Rate 0.301980
+Model 10 MI Features with heuristics has False Positive Rate 0.135906, False Negative Rate 0.044554
+At threshold 0.170000
+Model 10 MI Features without heuristics has False Positive Rate 0.068792, False Negative Rate 0.316832
+Model 10 MI Features with heuristics has False Positive Rate 0.067114, False Negative Rate 0.089109
+At threshold 0.180000
+Model 10 MI Features without heuristics has False Positive Rate 0.068792, False Negative Rate 0.316832
+Model 10 MI Features with heuristics has False Positive Rate 0.067114, False Negative Rate 0.089109
+At threshold 0.190000
+Model 10 MI Features without heuristics has False Positive Rate 0.068792, False Negative Rate 0.316832
+Model 10 MI Features with heuristics has False Positive Rate 0.067114, False Negative Rate 0.089109
+At threshold 0.200000
+Model 10 MI Features without heuristics has False Positive Rate 0.067953, False Negative Rate 0.326733
+Model 10 MI Features with heuristics has False Positive Rate 0.051174, False Negative Rate 0.099010
+At threshold 0.210000
+Model 10 MI Features without heuristics has False Positive Rate 0.067953, False Negative Rate 0.326733
+Model 10 MI Features with heuristics has False Positive Rate 0.050336, False Negative Rate 0.103960
+At threshold 0.220000
+Model 10 MI Features without heuristics has False Positive Rate 0.067953, False Negative Rate 0.326733
+Model 10 MI Features with heuristics has False Positive Rate 0.049497, False Negative Rate 0.103960
+At threshold 0.230000
+Model 10 MI Features without heuristics has False Positive Rate 0.034396, False Negative Rate 0.371287
+Model 10 MI Features with heuristics has False Positive Rate 0.049497, False Negative Rate 0.103960
+At threshold 0.240000
+Model 10 MI Features without heuristics has False Positive Rate 0.033557, False Negative Rate 0.381188
+Model 10 MI Features with heuristics has False Positive Rate 0.049497, False Negative Rate 0.103960
+At threshold 0.250000
+Model 10 MI Features without heuristics has False Positive Rate 0.033557, False Negative Rate 0.381188
+Model 10 MI Features with heuristics has False Positive Rate 0.049497, False Negative Rate 0.103960
+At threshold 0.260000
+Model 10 MI Features without heuristics has False Positive Rate 0.033557, False Negative Rate 0.381188
+Model 10 MI Features with heuristics has False Positive Rate 0.049497, False Negative Rate 0.103960
+At threshold 0.270000
+Model 10 MI Features without heuristics has False Positive Rate 0.033557, False Negative Rate 0.381188
+Model 10 MI Features with heuristics has False Positive Rate 0.049497, False Negative Rate 0.103960
+At threshold 0.280000
+Model 10 MI Features without heuristics has False Positive Rate 0.033557, False Negative Rate 0.381188
+Model 10 MI Features with heuristics has False Positive Rate 0.048658, False Negative Rate 0.103960
+At threshold 0.290000
+Model 10 MI Features without heuristics has False Positive Rate 0.031879, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.047819, False Negative Rate 0.103960
+At threshold 0.300000
+Model 10 MI Features without heuristics has False Positive Rate 0.031879, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.047819, False Negative Rate 0.103960
+At threshold 0.310000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.046980, False Negative Rate 0.113861
+At threshold 0.320000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.046980, False Negative Rate 0.113861
+At threshold 0.330000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.046980, False Negative Rate 0.113861
+At threshold 0.340000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.046980, False Negative Rate 0.113861
+At threshold 0.350000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.046141, False Negative Rate 0.118812
+At threshold 0.360000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.046141, False Negative Rate 0.118812
+At threshold 0.370000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.046141, False Negative Rate 0.118812
+At threshold 0.380000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.044463, False Negative Rate 0.118812
+At threshold 0.390000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.044463, False Negative Rate 0.118812
+At threshold 0.400000
+Model 10 MI Features without heuristics has False Positive Rate 0.031040, False Negative Rate 0.386139
+Model 10 MI Features with heuristics has False Positive Rate 0.018456, False Negative Rate 0.272277
+At threshold 0.410000
+Model 10 MI Features without heuristics has False Positive Rate 0.013423, False Negative Rate 0.420792
+Model 10 MI Features with heuristics has False Positive Rate 0.018456, False Negative Rate 0.277228
+At threshold 0.420000
+Model 10 MI Features without heuristics has False Positive Rate 0.013423, False Negative Rate 0.420792
+Model 10 MI Features with heuristics has False Positive Rate 0.018456, False Negative Rate 0.287129
+At threshold 0.430000
+Model 10 MI Features without heuristics has False Positive Rate 0.013423, False Negative Rate 0.420792
+Model 10 MI Features with heuristics has False Positive Rate 0.018456, False Negative Rate 0.287129
+At threshold 0.440000
+Model 10 MI Features without heuristics has False Positive Rate 0.013423, False Negative Rate 0.420792
+Model 10 MI Features with heuristics has False Positive Rate 0.016779, False Negative Rate 0.301980
+At threshold 0.450000
+Model 10 MI Features without heuristics has False Positive Rate 0.013423, False Negative Rate 0.430693
+Model 10 MI Features with heuristics has False Positive Rate 0.016779, False Negative Rate 0.301980
+At threshold 0.460000
+Model 10 MI Features without heuristics has False Positive Rate 0.013423, False Negative Rate 0.445545
+Model 10 MI Features with heuristics has False Positive Rate 0.016779, False Negative Rate 0.301980
+At threshold 0.470000
+Model 10 MI Features without heuristics has False Positive Rate 0.013423, False Negative Rate 0.445545
+Model 10 MI Features with heuristics has False Positive Rate 0.015101, False Negative Rate 0.301980
+At threshold 0.480000
+Model 10 MI Features without heuristics has False Positive Rate 0.013423, False Negative Rate 0.445545
+Model 10 MI Features with heuristics has False Positive Rate 0.015101, False Negative Rate 0.301980
+At threshold 0.490000
+Model 10 MI Features without heuristics has False Positive Rate 0.013423, False Negative Rate 0.445545
+Model 10 MI Features with heuristics has False Positive Rate 0.015101, False Negative Rate 0.306931
+At threshold 0.500000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.524752
+Model 10 MI Features with heuristics has False Positive Rate 0.014262, False Negative Rate 0.306931
+At threshold 0.510000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.529703
+Model 10 MI Features with heuristics has False Positive Rate 0.014262, False Negative Rate 0.311881
+At threshold 0.520000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.529703
+Model 10 MI Features with heuristics has False Positive Rate 0.014262, False Negative Rate 0.311881
+At threshold 0.530000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.529703
+Model 10 MI Features with heuristics has False Positive Rate 0.014262, False Negative Rate 0.311881
+At threshold 0.540000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.529703
+Model 10 MI Features with heuristics has False Positive Rate 0.014262, False Negative Rate 0.311881
+At threshold 0.550000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.559406
+Model 10 MI Features with heuristics has False Positive Rate 0.014262, False Negative Rate 0.311881
+At threshold 0.560000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.559406
+Model 10 MI Features with heuristics has False Positive Rate 0.014262, False Negative Rate 0.311881
+At threshold 0.570000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.559406
+Model 10 MI Features with heuristics has False Positive Rate 0.012584, False Negative Rate 0.341584
+At threshold 0.580000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.584158
+Model 10 MI Features with heuristics has False Positive Rate 0.012584, False Negative Rate 0.341584
+At threshold 0.590000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.584158
+Model 10 MI Features with heuristics has False Positive Rate 0.012584, False Negative Rate 0.351485
+At threshold 0.600000
+Model 10 MI Features without heuristics has False Positive Rate 0.002517, False Negative Rate 0.584158
+Model 10 MI Features with heuristics has False Positive Rate 0.012584, False Negative Rate 0.351485
+At threshold 0.610000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.658416
+Model 10 MI Features with heuristics has False Positive Rate 0.010906, False Negative Rate 0.356436
+At threshold 0.620000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.673267
+Model 10 MI Features with heuristics has False Positive Rate 0.010906, False Negative Rate 0.356436
+At threshold 0.630000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.673267
+Model 10 MI Features with heuristics has False Positive Rate 0.010906, False Negative Rate 0.361386
+At threshold 0.640000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.673267
+Model 10 MI Features with heuristics has False Positive Rate 0.010906, False Negative Rate 0.361386
+At threshold 0.650000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.678218
+Model 10 MI Features with heuristics has False Positive Rate 0.010906, False Negative Rate 0.361386
+At threshold 0.660000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.678218
+Model 10 MI Features with heuristics has False Positive Rate 0.010906, False Negative Rate 0.361386
+At threshold 0.670000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.678218
+Model 10 MI Features with heuristics has False Positive Rate 0.009228, False Negative Rate 0.396040
+At threshold 0.680000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.678218
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.455446
+At threshold 0.690000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.678218
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.465347
+At threshold 0.700000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.688119
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.465347
+At threshold 0.710000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.688119
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.465347
+At threshold 0.720000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.693069
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.475248
+At threshold 0.730000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.693069
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.475248
+At threshold 0.740000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.693069
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.490099
+At threshold 0.750000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.693069
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.490099
+At threshold 0.760000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.693069
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.549505
+At threshold 0.770000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.693069
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.549505
+At threshold 0.780000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.737624
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.549505
+At threshold 0.790000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.742574
+Model 10 MI Features with heuristics has False Positive Rate 0.005872, False Negative Rate 0.554455
+At threshold 0.800000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.742574
+Model 10 MI Features with heuristics has False Positive Rate 0.005034, False Negative Rate 0.564356
+At threshold 0.810000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.757426
+Model 10 MI Features with heuristics has False Positive Rate 0.003356, False Negative Rate 0.589109
+At threshold 0.820000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.762376
+Model 10 MI Features with heuristics has False Positive Rate 0.003356, False Negative Rate 0.608911
+At threshold 0.830000
+Model 10 MI Features without heuristics has False Positive Rate 0.000839, False Negative Rate 0.762376
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.613861
+At threshold 0.840000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.777228
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.613861
+At threshold 0.850000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.787129
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.613861
+At threshold 0.860000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.797030
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.623762
+At threshold 0.870000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.816832
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.658416
+At threshold 0.880000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.836634
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.717822
+At threshold 0.890000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.871287
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.717822
+At threshold 0.900000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.871287
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.747525
+At threshold 0.910000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.876238
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.797030
+At threshold 0.920000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.881188
+Model 10 MI Features with heuristics has False Positive Rate 0.000839, False Negative Rate 0.797030
+At threshold 0.930000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.886139
+Model 10 MI Features with heuristics has False Positive Rate 0.000000, False Negative Rate 0.821782
+At threshold 0.940000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.900990
+Model 10 MI Features with heuristics has False Positive Rate 0.000000, False Negative Rate 0.851485
+At threshold 0.950000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.905941
+Model 10 MI Features with heuristics has False Positive Rate 0.000000, False Negative Rate 0.851485
+At threshold 0.960000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.905941
+Model 10 MI Features with heuristics has False Positive Rate 0.000000, False Negative Rate 0.881188
+At threshold 0.970000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.915842
+Model 10 MI Features with heuristics has False Positive Rate 0.000000, False Negative Rate 0.886139
+At threshold 0.980000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.945545
+Model 10 MI Features with heuristics has False Positive Rate 0.000000, False Negative Rate 0.925743
+At threshold 0.990000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 0.970297
+Model 10 MI Features with heuristics has False Positive Rate 0.000000, False Negative Rate 0.960396
+At threshold 1.000000
+Model 10 MI Features without heuristics has False Positive Rate 0.000000, False Negative Rate 1.000000
+Model 10 MI Features with heuristics has False Positive Rate 0.000000, False Negative Rate 1.000000
+
+### Plot Precision vs Recall.
+Close the plot diagram to continue program
+### Get the Threshold that Can Let the False Positive Rate achieve 10%
+For Model 10 MI Features without heuristics:
+When Threshold is 0.110909, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.111313, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.111717, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.112121, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.112525, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.112929, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.113333, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.113737, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.114141, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.114545, the False Positive Rate is 0.326342, the False Negative Rate is 0.123762
+When Threshold is 0.114949, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+When Threshold is 0.115354, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+When Threshold is 0.115758, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+When Threshold is 0.116162, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+When Threshold is 0.116566, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+When Threshold is 0.116970, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+When Threshold is 0.117374, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+When Threshold is 0.117778, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+When Threshold is 0.118182, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+When Threshold is 0.118586, the False Positive Rate is 0.092282, the False Negative Rate is 0.301980
+For Model 10 MI Features with heuristics:
+When Threshold is 0.165758, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.166162, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.166566, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.166970, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.167374, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.167778, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.168182, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.168586, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.168990, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.169394, the False Positive Rate is 0.135906, the False Negative Rate is 0.044554
+When Threshold is 0.169798, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
+When Threshold is 0.170202, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
+When Threshold is 0.170606, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
+When Threshold is 0.171010, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
+When Threshold is 0.171414, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
+When Threshold is 0.171818, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
+When Threshold is 0.172222, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
+When Threshold is 0.172626, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
+When Threshold is 0.173030, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
+When Threshold is 0.173434, the False Positive Rate is 0.067114, the False Negative Rate is 0.089109
