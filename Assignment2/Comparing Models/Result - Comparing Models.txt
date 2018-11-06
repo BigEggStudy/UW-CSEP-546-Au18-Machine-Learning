@@ -1,0 +1,34 @@
+Train is 0.130383 percent spam.
+Test is 0.144907 percent spam.
+### Get the Frequency Table
+### Get the Mutual Information Table
+### Run Gradient Descent with the Top 10 Words by Frequency
+['to', 'you', 'I', 'a', 'the', 'and', 'is', 'in', 'i', 'u']
+Test Set Accuracy is 0.857245, with lower bound 0.838881 and upper bound 0.875610
+### Run Gradient Descent with the Top 10 Words by Mutual Information
+['Call', 'call', 'to', 'or', 'FREE', 'claim', 'To', 'mobile', 'Txt', '&']
+Test Set Accuracy is 0.921808, with lower bound 0.907714 and upper bound 0.935902
+### Cross Validation with the Top 10 Words by Frequency
+For fold 1/5, choose words:
+['to', 'you', 'I', 'a', 'the', 'and', 'is', 'in', 'i', 'u']
+For fold 2/5, choose words:
+['to', 'you', 'I', 'a', 'the', 'and', 'in', 'is', 'i', 'u']
+For fold 3/5, choose words:
+['to', 'you', 'I', 'a', 'the', 'and', 'is', 'in', 'u', 'i']
+For fold 4/5, choose words:
+['to', 'you', 'I', 'a', 'the', 'and', 'is', 'in', 'i', 'u']
+For fold 5/5, choose words:
+['to', 'you', 'I', 'a', 'the', 'and', 'is', 'in', 'i', 'u']
+Accuracy from Cross Validation is 0.872488, with lower bound 0.862376 and upper bound 0.882600
+### Cross Validation with the Top 10 Words by Mutual Information
+For fold 1/5, choose words:
+['Call', 'call', 'to', 'FREE', 'or', 'mobile', 'To', '&', 'claim', 'Txt']
+For fold 2/5, choose words:
+['Call', 'call', 'claim', 'or', 'to', 'To', 'mobile', 'FREE', '&', 'Your']
+For fold 3/5, choose words:
+['Call', 'or', 'call', 'FREE', 'to', 'claim', 'mobile', 'To', 'Your', 'Txt']
+For fold 4/5, choose words:
+['Call', 'to', 'FREE', 'call', 'claim', 'Txt', 'or', 'To', '&', 'mobile']
+For fold 5/5, choose words:
+['Call', 'to', 'call', 'FREE', 'Txt', 'or', 'claim', 'To', 'mobile', '&']
+Accuracy from Cross Validation is 0.926555, with lower bound 0.918647 and upper bound 0.934463
