@@ -1,0 +1,346 @@
+Train is 0.130383 percent spam.
+Test is 0.144907 percent spam.
+### Training with Decision Tree
+Test Set Accuracy is 0.926112, with lower bound 0.912380 and upper bound 0.939844
+Visualize the Decision Tree
+Feature (1) "Has Number":
+    >= 0.500000:
+        Feature (2) "Contains 'Call'":
+            >= 0.500000:
+                Feature (0) "> 40":
+                    >= 0.500000:
+                        Feature (4) "Contains 'Your'":
+                            >= 0.500000:
+                                Leaf: 5 with label 0, 51 with label 1
+                            < 0.500000:
+                                Feature (3) "Contains 'To'":
+                                    >= 0.500000:
+                                        Leaf: 11 with label 0, 63 with label 1
+                                    < 0.500000:
+                                        Leaf: 7 with label 0, 42 with label 1
+                    < 0.500000:
+                        Leaf: 3 with label 0, 0 with label 1
+            < 0.500000:
+                Feature (3) "Contains 'To'":
+                    >= 0.500000:
+                        Feature (4) "Contains 'Your'":
+                            >= 0.500000:
+                                Leaf: 13 with label 0, 58 with label 1
+                            < 0.500000:
+                                Feature (0) "> 40":
+                                    >= 0.500000:
+                                        Leaf: 180 with label 0, 207 with label 1
+                                    < 0.500000:
+                                        Leaf: 21 with label 0, 2 with label 1
+                    < 0.500000:
+                        Feature (4) "Contains 'Your'":
+                            >= 0.500000:
+                                Leaf: 5 with label 0, 12 with label 1
+                            < 0.500000:
+                                Feature (0) "> 40":
+                                    >= 0.500000:
+                                        Leaf: 264 with label 0, 76 with label 1
+                                    < 0.500000:
+                                        Leaf: 65 with label 0, 4 with label 1
+    < 0.500000:
+        Feature (0) "> 40":
+            >= 0.500000:
+                Feature (3) "Contains 'To'":
+                    >= 0.500000:
+                        Feature (4) "Contains 'Your'":
+                            >= 0.500000:
+                                Feature (2) "Contains 'Call'":
+                                    >= 0.500000:
+                                        Leaf: 6 with label 0, 0 with label 1
+                                    < 0.500000:
+                                        Leaf: 98 with label 0, 6 with label 1
+                            < 0.500000:
+                                Feature (2) "Contains 'Call'":
+                                    >= 0.500000:
+                                        Leaf: 40 with label 0, 0 with label 1
+                                    < 0.500000:
+                                        Leaf: 704 with label 0, 15 with label 1
+                    < 0.500000:
+                        Feature (4) "Contains 'Your'":
+                            >= 0.500000:
+                                Leaf: 95 with label 0, 2 with label 1
+                            < 0.500000:
+                                Feature (2) "Contains 'Call'":
+                                    >= 0.500000:
+                                        Leaf: 41 with label 0, 0 with label 1
+                                    < 0.500000:
+                                        Leaf: 887 with label 0, 6 with label 1
+            < 0.500000:
+                Feature (3) "Contains 'To'":
+                    >= 0.500000:
+                        Leaf: 219 with label 0, 0 with label 1
+                    < 0.500000:
+                        Feature (2) "Contains 'Call'":
+                            >= 0.500000:
+                                Leaf: 64 with label 0, 0 with label 1
+                            < 0.500000:
+                                Feature (4) "Contains 'Your'":
+                                    >= 0.500000:
+                                        Leaf: 34 with label 0, 0 with label 1
+                                    < 0.500000:
+                                        Leaf: 873 with label 0, 1 with label 1
+Get the new Features
+When minToSplit is 0, accuracy from Cross Validation is 0.926555, with lower bound 0.918647 and upper bound 0.934463
+When minToSplit is 5, accuracy from Cross Validation is 0.931579, with lower bound 0.923925 and upper bound 0.939233
+When minToSplit is 10, accuracy from Cross Validation is 0.934928, with lower bound 0.927451 and upper bound 0.942406
+When minToSplit is 15, accuracy from Cross Validation is 0.937560, with lower bound 0.930225 and upper bound 0.944895
+When minToSplit is 20, accuracy from Cross Validation is 0.939713, with lower bound 0.932497 and upper bound 0.946929
+When minToSplit is 25, accuracy from Cross Validation is 0.939234, with lower bound 0.931992 and upper bound 0.946477
+When minToSplit is 30, accuracy from Cross Validation is 0.937081, with lower bound 0.929720 and upper bound 0.944443
+When minToSplit is 35, accuracy from Cross Validation is 0.936364, with lower bound 0.928963 and upper bound 0.943764
+When minToSplit is 40, accuracy from Cross Validation is 0.938517, with lower bound 0.931234 and upper bound 0.945799
+When minToSplit is 45, accuracy from Cross Validation is 0.938995, with lower bound 0.931739 and upper bound 0.946251
+When minToSplit is 50, accuracy from Cross Validation is 0.938995, with lower bound 0.931739 and upper bound 0.946251
+When minToSplit is 55, accuracy from Cross Validation is 0.938517, with lower bound 0.931234 and upper bound 0.945799
+When minToSplit is 60, accuracy from Cross Validation is 0.939234, with lower bound 0.931992 and upper bound 0.946477
+When minToSplit is 65, accuracy from Cross Validation is 0.940191, with lower bound 0.933003 and upper bound 0.947380
+When minToSplit is 70, accuracy from Cross Validation is 0.940431, with lower bound 0.933255 and upper bound 0.947606
+When minToSplit is 75, accuracy from Cross Validation is 0.941388, with lower bound 0.934266 and upper bound 0.948509
+When minToSplit is 80, accuracy from Cross Validation is 0.941148, with lower bound 0.934014 and upper bound 0.948283
+When minToSplit is 85, accuracy from Cross Validation is 0.941148, with lower bound 0.934014 and upper bound 0.948283
+When minToSplit is 90, accuracy from Cross Validation is 0.941148, with lower bound 0.934014 and upper bound 0.948283
+When minToSplit is 95, accuracy from Cross Validation is 0.940909, with lower bound 0.933761 and upper bound 0.948057
+When minToSplit is 100, accuracy from Cross Validation is 0.940909, with lower bound 0.933761 and upper bound 0.948057
+When minToSplit is 105, accuracy from Cross Validation is 0.940670, with lower bound 0.933508 and upper bound 0.947832
+When minToSplit is 110, accuracy from Cross Validation is 0.939952, with lower bound 0.932750 and upper bound 0.947154
+When minToSplit is 115, accuracy from Cross Validation is 0.941866, with lower bound 0.934772 and upper bound 0.948960
+When minToSplit is 120, accuracy from Cross Validation is 0.941866, with lower bound 0.934772 and upper bound 0.948960
+When minToSplit is 125, accuracy from Cross Validation is 0.941866, with lower bound 0.934772 and upper bound 0.948960
+When minToSplit is 130, accuracy from Cross Validation is 0.941866, with lower bound 0.934772 and upper bound 0.948960
+When minToSplit is 135, accuracy from Cross Validation is 0.941866, with lower bound 0.934772 and upper bound 0.948960
+When minToSplit is 140, accuracy from Cross Validation is 0.941866, with lower bound 0.934772 and upper bound 0.948960
+When minToSplit is 145, accuracy from Cross Validation is 0.941866, with lower bound 0.934772 and upper bound 0.948960
+When minToSplit is 150, accuracy from Cross Validation is 0.941866, with lower bound 0.934772 and upper bound 0.948960
+When minToSplit is 155, accuracy from Cross Validation is 0.941866, with lower bound 0.934772 and upper bound 0.948960
+When minToSplit is 160, accuracy from Cross Validation is 0.941388, with lower bound 0.934266 and upper bound 0.948509
+When minToSplit is 165, accuracy from Cross Validation is 0.940909, with lower bound 0.933761 and upper bound 0.948057
+When minToSplit is 170, accuracy from Cross Validation is 0.940909, with lower bound 0.933761 and upper bound 0.948057
+When minToSplit is 175, accuracy from Cross Validation is 0.939474, with lower bound 0.932245 and upper bound 0.946703
+When minToSplit is 180, accuracy from Cross Validation is 0.939474, with lower bound 0.932245 and upper bound 0.946703
+When minToSplit is 185, accuracy from Cross Validation is 0.939474, with lower bound 0.932245 and upper bound 0.946703
+When minToSplit is 190, accuracy from Cross Validation is 0.939474, with lower bound 0.932245 and upper bound 0.946703
+When minToSplit is 195, accuracy from Cross Validation is 0.939474, with lower bound 0.932245 and upper bound 0.946703
+When minToSplit is 200, accuracy from Cross Validation is 0.939474, with lower bound 0.932245 and upper bound 0.946703
+### Compare Models
+Choose minToSplit as 115, since it has the best accuracy 0.941866
+
+### Plot Precision vs Recall.
+Close the plot diagram to continue program
+Feature (1) "Has Number":
+    >= 0.500000:
+        Feature (2) "Contains 'Call'":
+            >= 0.500000:
+                Feature (0) "Length":
+                    >= 234.500000:
+                        Leaf: 6 with label 0, 0 with label 1
+                    < 234.500000:
+                        Feature (0) "Length":
+                            >= 124.500000:
+                                Feature (0) "Length":
+                                    >= 175.500000:
+                                        Leaf: 0 with label 0, 4 with label 1
+                                    < 175.500000:
+                                        Feature (0) "Length":
+                                            >= 150.500000:
+                                                Leaf: 2 with label 0, 86 with label 1
+                                            < 150.500000:
+                                                Leaf: 4 with label 0, 44 with label 1
+                            < 124.500000:
+                                Leaf: 14 with label 0, 22 with label 1
+            < 0.500000:
+                Feature (3) "Contains 'To'":
+                    >= 0.500000:
+                        Feature (4) "Contains 'Your'":
+                            >= 0.500000:
+                                Leaf: 13 with label 0, 58 with label 1
+                            < 0.500000:
+                                Feature (0) "Length":
+                                    >= 324.500000:
+                                        Leaf: 10 with label 0, 0 with label 1
+                                    < 324.500000:
+                                        Feature (0) "Length":
+                                            >= 171.000000:
+                                                Leaf: 13 with label 0, 1 with label 1
+                                            < 171.000000:
+                                                Feature (0) "Length":
+                                                    >= 94.500000:
+                                                        Feature (0) "Length":
+                                                            >= 132.500000:
+                                                                Feature (0) "Length":
+                                                                    >= 152.000000:
+                                                                        Feature (0) "Length":
+                                                                            >= 161.000000:
+                                                                                Leaf: 4 with label 0, 42 with label 1
+                                                                            < 161.000000:
+                                                                                Leaf: 16 with label 0, 71 with label 1
+                                                                    < 152.000000:
+                                                                        Leaf: 22 with label 0, 55 with label 1
+                                                            < 132.500000:
+                                                                Leaf: 50 with label 0, 30 with label 1
+                                                    < 94.500000:
+                                                        Leaf: 86 with label 0, 10 with label 1
+                    < 0.500000:
+                        Feature (4) "Contains 'Your'":
+                            >= 0.500000:
+                                Leaf: 5 with label 0, 12 with label 1
+                            < 0.500000:
+                                Feature (0) "Length":
+                                    >= 162.500000:
+                                        Leaf: 10 with label 0, 6 with label 1
+                                    < 162.500000:
+                                        Feature (0) "Length":
+                                            >= 83.000000:
+                                                Feature (0) "Length":
+                                                    >= 122.500000:
+                                                        Feature (0) "Length":
+                                                            >= 142.500000:
+                                                                Leaf: 38 with label 0, 34 with label 1
+                                                            < 142.500000:
+                                                                Leaf: 35 with label 0, 18 with label 1
+                                                    < 122.500000:
+                                                        Leaf: 58 with label 0, 9 with label 1
+                                            < 83.000000:
+                                                Feature (0) "Length":
+                                                    >= 43.000000:
+                                                        Feature (0) "Length":
+                                                            >= 62.500000:
+                                                                Leaf: 46 with label 0, 4 with label 1
+                                                            < 62.500000:
+                                                                Leaf: 68 with label 0, 5 with label 1
+                                                    < 43.000000:
+                                                        Leaf: 74 with label 0, 4 with label 1
+    < 0.500000:
+        Feature (3) "Contains 'To'":
+            >= 0.500000:
+                Feature (4) "Contains 'Your'":
+                    >= 0.500000:
+                        Feature (2) "Contains 'Call'":
+                            >= 0.500000:
+                                Leaf: 6 with label 0, 0 with label 1
+                            < 0.500000:
+                                Leaf: 106 with label 0, 6 with label 1
+                    < 0.500000:
+                        Feature (2) "Contains 'Call'":
+                            >= 0.500000:
+                                Leaf: 45 with label 0, 0 with label 1
+                            < 0.500000:
+                                Feature (0) "Length":
+                                    >= 400.000000:
+                                        Leaf: 5 with label 0, 0 with label 1
+                                    < 400.000000:
+                                        Feature (0) "Length":
+                                            >= 194.500000:
+                                                Leaf: 30 with label 0, 0 with label 1
+                                            < 194.500000:
+                                                Feature (0) "Length":
+                                                    >= 101.500000:
+                                                        Feature (0) "Length":
+                                                            >= 148.000000:
+                                                                Leaf: 88 with label 0, 3 with label 1
+                                                            < 148.000000:
+                                                                Feature (0) "Length":
+                                                                    >= 124.500000:
+                                                                        Leaf: 76 with label 0, 6 with label 1
+                                                                    < 124.500000:
+                                                                        Leaf: 76 with label 0, 1 with label 1
+                                                    < 101.500000:
+                                                        Feature (0) "Length":
+                                                            >= 55.000000:
+                                                                Feature (0) "Length":
+                                                                    >= 78.000000:
+                                                                        Leaf: 106 with label 0, 2 with label 1
+                                                                    < 78.000000:
+                                                                        Feature (0) "Length":
+                                                                            >= 66.000000:
+                                                                                Leaf: 101 with label 0, 3 with label 1
+                                                                            < 66.000000:
+                                                                                Leaf: 84 with label 0, 0 with label 1
+                                                            < 55.000000:
+                                                                Leaf: 344 with label 0, 0 with label 1
+            < 0.500000:
+                Feature (4) "Contains 'Your'":
+                    >= 0.500000:
+                        Feature (2) "Contains 'Call'":
+                            >= 0.500000:
+                                Leaf: 12 with label 0, 0 with label 1
+                            < 0.500000:
+                                Feature (0) "Length":
+                                    >= 160.500000:
+                                        Leaf: 3 with label 0, 0 with label 1
+                                    < 160.500000:
+                                        Feature (0) "Length":
+                                            >= 91.500000:
+                                                Leaf: 27 with label 0, 1 with label 1
+                                            < 91.500000:
+                                                Leaf: 91 with label 0, 1 with label 1
+                    < 0.500000:
+                        Feature (0) "Length":
+                            >= 139.000000:
+                                Leaf: 83 with label 0, 1 with label 1
+                            < 139.000000:
+                                Feature (0) "Length":
+                                    >= 70.500000:
+                                        Feature (0) "Length":
+                                            >= 104.500000:
+                                                Leaf: 96 with label 0, 2 with label 1
+                                            < 104.500000:
+                                                Feature (0) "Length":
+                                                    >= 87.000000:
+                                                        Leaf: 76 with label 0, 0 with label 1
+                                                    < 87.000000:
+                                                        Feature (0) "Length":
+                                                            >= 78.500000:
+                                                                Leaf: 55 with label 0, 0 with label 1
+                                                            < 78.500000:
+                                                                Leaf: 81 with label 0, 1 with label 1
+                                    < 70.500000:
+                                        Feature (0) "Length":
+                                            >= 36.500000:
+                                                Feature (0) "Length":
+                                                    >= 53.500000:
+                                                        Feature (0) "Length":
+                                                            >= 62.000000:
+                                                                Leaf: 98 with label 0, 1 with label 1
+                                                            < 62.000000:
+                                                                Leaf: 120 with label 0, 0 with label 1
+                                                    < 53.500000:
+                                                        Feature (0) "Length":
+                                                            >= 45.000000:
+                                                                Leaf: 205 with label 0, 0 with label 1
+                                                            < 45.000000:
+                                                                Feature (0) "Length":
+                                                                    >= 40.500000:
+                                                                        Feature (0) "Length":
+                                                                            >= 42.500000:
+                                                                                Leaf: 54 with label 0, 0 with label 1
+                                                                            < 42.500000:
+                                                                                Leaf: 60 with label 0, 1 with label 1
+                                                                    < 40.500000:
+                                                                        Leaf: 146 with label 0, 0 with label 1
+                                            < 36.500000:
+                                                Feature (0) "Length":
+                                                    >= 19.500000:
+                                                        Feature (0) "Length":
+                                                            >= 28.000000:
+                                                                Feature (0) "Length":
+                                                                    >= 32.000000:
+                                                                        Feature (0) "Length":
+                                                                            >= 34.000000:
+                                                                                Feature (0) "Length":
+                                                                                    >= 35.000000:
+                                                                                        Leaf: 88 with label 0, 0 with label 1
+                                                                                    < 35.000000:
+                                                                                        Leaf: 40 with label 0, 1 with label 1
+                                                                            < 34.000000:
+                                                                                Leaf: 86 with label 0, 0 with label 1
+                                                                    < 32.000000:
+                                                                        Leaf: 188 with label 0, 0 with label 1
+                                                            < 28.000000:
+                                                                Leaf: 290 with label 0, 0 with label 1
+                                                    < 19.500000:
+                                                        Leaf: 95 with label 0, 0 with label 1
