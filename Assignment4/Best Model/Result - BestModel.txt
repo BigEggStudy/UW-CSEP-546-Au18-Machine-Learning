@@ -1,0 +1,922 @@
+### Load the data and add the noise
+Train is 0.193062 percent spam.
+Test is 0.195839 percent spam.
+### Get the Mutual Information features
+========== Use Random Forest as the default Model ==========
+Default Model will use parameters: num_trees as 1, min_to_split as 2, use_bagging as False, and restrict_features as 0
+Default Model will use the 100 MI features
+### Training with Random Forest
+### Predicting with Random Forest
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+========== Underfitting & Overfitting ==========
+### Training with Random Forest with min_to_split as 2
+### Predicting with Random Forest
+Training Set Accuracy is 0.918182, with lower bound 0.909873 and upper bound 0.926491
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 12
+### Predicting with Random Forest
+Training Set Accuracy is 0.907177, with lower bound 0.898380 and upper bound 0.915974
+Test Set Accuracy is 0.875897, with lower bound 0.858589 and upper bound 0.893205
+### Training with Random Forest with min_to_split as 22
+### Predicting with Random Forest
+Training Set Accuracy is 0.902632, with lower bound 0.893644 and upper bound 0.911619
+Test Set Accuracy is 0.873027, with lower bound 0.855549 and upper bound 0.890505
+### Training with Random Forest with min_to_split as 32
+### Predicting with Random Forest
+Training Set Accuracy is 0.898565, with lower bound 0.889412 and upper bound 0.907717
+Test Set Accuracy is 0.867288, with lower bound 0.849479 and upper bound 0.885098
+### Training with Random Forest with min_to_split as 42
+### Predicting with Random Forest
+Training Set Accuracy is 0.897608, with lower bound 0.888417 and upper bound 0.906798
+Test Set Accuracy is 0.869440, with lower bound 0.851754 and upper bound 0.887127
+### Training with Random Forest with min_to_split as 52
+### Predicting with Random Forest
+Training Set Accuracy is 0.895455, with lower bound 0.886179 and upper bound 0.904730
+Test Set Accuracy is 0.878766, with lower bound 0.861632 and upper bound 0.895901
+### Training with Random Forest with min_to_split as 62
+### Predicting with Random Forest
+Training Set Accuracy is 0.895455, with lower bound 0.886179 and upper bound 0.904730
+Test Set Accuracy is 0.878766, with lower bound 0.861632 and upper bound 0.895901
+### Training with Random Forest with min_to_split as 72
+### Predicting with Random Forest
+Training Set Accuracy is 0.895455, with lower bound 0.886179 and upper bound 0.904730
+Test Set Accuracy is 0.878766, with lower bound 0.861632 and upper bound 0.895901
+### Training with Random Forest with min_to_split as 82
+### Predicting with Random Forest
+Training Set Accuracy is 0.895455, with lower bound 0.886179 and upper bound 0.904730
+Test Set Accuracy is 0.878766, with lower bound 0.861632 and upper bound 0.895901
+### Training with Random Forest with min_to_split as 92
+### Predicting with Random Forest
+Training Set Accuracy is 0.895215, with lower bound 0.885930 and upper bound 0.904500
+Test Set Accuracy is 0.879484, with lower bound 0.862393 and upper bound 0.896574
+### Training with Random Forest with min_to_split as 102
+### Predicting with Random Forest
+Training Set Accuracy is 0.895215, with lower bound 0.885930 and upper bound 0.904500
+Test Set Accuracy is 0.879484, with lower bound 0.862393 and upper bound 0.896574
+### Training with Random Forest with min_to_split as 112
+### Predicting with Random Forest
+Training Set Accuracy is 0.894258, with lower bound 0.884936 and upper bound 0.903581
+Test Set Accuracy is 0.878766, with lower bound 0.861632 and upper bound 0.895901
+### Training with Random Forest with min_to_split as 122
+### Predicting with Random Forest
+Training Set Accuracy is 0.892823, with lower bound 0.883445 and upper bound 0.902201
+Test Set Accuracy is 0.879484, with lower bound 0.862393 and upper bound 0.896574
+### Training with Random Forest with min_to_split as 132
+### Predicting with Random Forest
+Training Set Accuracy is 0.890909, with lower bound 0.881458 and upper bound 0.900360
+Test Set Accuracy is 0.880918, with lower bound 0.863916 and upper bound 0.897921
+### Training with Random Forest with min_to_split as 142
+### Predicting with Random Forest
+Training Set Accuracy is 0.888038, with lower bound 0.878479 and upper bound 0.897597
+Test Set Accuracy is 0.880201, with lower bound 0.863154 and upper bound 0.897248
+### Training with Random Forest with min_to_split as 152
+### Predicting with Random Forest
+Training Set Accuracy is 0.885407, with lower bound 0.875750 and upper bound 0.895063
+Test Set Accuracy is 0.878049, with lower bound 0.860871 and upper bound 0.895227
+### Training with Random Forest with min_to_split as 162
+### Predicting with Random Forest
+Training Set Accuracy is 0.882536, with lower bound 0.872775 and upper bound 0.892297
+Test Set Accuracy is 0.876614, with lower bound 0.859349 and upper bound 0.893879
+### Training with Random Forest with min_to_split as 172
+### Predicting with Random Forest
+Training Set Accuracy is 0.880622, with lower bound 0.870793 and upper bound 0.890451
+Test Set Accuracy is 0.875179, with lower bound 0.857829 and upper bound 0.892530
+### Training with Random Forest with min_to_split as 182
+### Predicting with Random Forest
+Training Set Accuracy is 0.880622, with lower bound 0.870793 and upper bound 0.890451
+Test Set Accuracy is 0.875179, with lower bound 0.857829 and upper bound 0.892530
+### Training with Random Forest with min_to_split as 192
+### Predicting with Random Forest
+Training Set Accuracy is 0.876316, with lower bound 0.866335 and upper bound 0.886296
+Test Set Accuracy is 0.871593, with lower bound 0.854030 and upper bound 0.889155
+### Training with Random Forest with min_to_split as 202
+### Predicting with Random Forest
+Training Set Accuracy is 0.876316, with lower bound 0.866335 and upper bound 0.886296
+Test Set Accuracy is 0.871593, with lower bound 0.854030 and upper bound 0.889155
+### Training with Random Forest with min_to_split as 212
+### Predicting with Random Forest
+Training Set Accuracy is 0.876316, with lower bound 0.866335 and upper bound 0.886296
+Test Set Accuracy is 0.871593, with lower bound 0.854030 and upper bound 0.889155
+### Training with Random Forest with min_to_split as 222
+### Predicting with Random Forest
+Training Set Accuracy is 0.871531, with lower bound 0.861387 and upper bound 0.881675
+Test Set Accuracy is 0.871593, with lower bound 0.854030 and upper bound 0.889155
+### Training with Random Forest with min_to_split as 232
+### Predicting with Random Forest
+Training Set Accuracy is 0.871531, with lower bound 0.861387 and upper bound 0.881675
+Test Set Accuracy is 0.871593, with lower bound 0.854030 and upper bound 0.889155
+### Training with Random Forest with min_to_split as 242
+### Predicting with Random Forest
+Training Set Accuracy is 0.871053, with lower bound 0.860893 and upper bound 0.881213
+Test Set Accuracy is 0.870875, with lower bound 0.853271 and upper bound 0.888479
+### Training with Random Forest with min_to_split as 252
+### Predicting with Random Forest
+Training Set Accuracy is 0.863876, with lower bound 0.853480 and upper bound 0.874271
+Test Set Accuracy is 0.866571, with lower bound 0.848720 and upper bound 0.884422
+### Training with Random Forest with min_to_split as 262
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 272
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 282
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 292
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 302
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 312
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 322
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 332
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 342
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 352
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 362
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865854, with lower bound 0.847963 and upper bound 0.883745
+### Training with Random Forest with min_to_split as 372
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865136, with lower bound 0.847205 and upper bound 0.883068
+### Training with Random Forest with min_to_split as 382
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865136, with lower bound 0.847205 and upper bound 0.883068
+### Training with Random Forest with min_to_split as 392
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865136, with lower bound 0.847205 and upper bound 0.883068
+### Training with Random Forest with min_to_split as 402
+### Predicting with Random Forest
+Training Set Accuracy is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Test Set Accuracy is 0.865136, with lower bound 0.847205 and upper bound 0.883068
+### Plot the Accuracy to find the Underfitting & Overfitting
+Close the plot diagram to continue program
+Find that:
+Find that when min_to_split < 50, the model is Overfitting
+Find that when min_to_split > 150, the model is Underfitting
+Choose min_to_split = 125
+========== Evaluation Manual Craft Features ==========
+### Cross Validation without 'Has Full Uppercase Word' feature
+Accuracy from Cross Validation is 0.863397, with lower bound 0.852986 and upper bound 0.873808
+### Cross Validation without 'Has Number' feature
+Accuracy from Cross Validation is 0.840670, with lower bound 0.829575 and upper bound 0.851765
+### Cross Validation without 'Has Special Word' feature
+Accuracy from Cross Validation is 0.857895, with lower bound 0.847310 and upper bound 0.868480
+### Cross Validation without 'Length' feature
+Accuracy from Cross Validation is 0.856459, with lower bound 0.845830 and upper bound 0.867089
+### Cross Validation without 'Word Count' feature
+Accuracy from Cross Validation is 0.861244, with lower bound 0.850764 and upper bound 0.871724
+### Cross Validation without 'Start with "http"' feature
+Accuracy from Cross Validation is 0.857895, with lower bound 0.847310 and upper bound 0.868480
+### Cross Validation without 'Has Uncommon Punctuation' feature
+Accuracy from Cross Validation is 0.863397, with lower bound 0.852986 and upper bound 0.873808
+### Cross Validation without 'Contains ".com"' feature
+Accuracy from Cross Validation is 0.860526, with lower bound 0.850024 and upper bound 0.871029
+### Cross Validation with all 8 manual hand craft features
+Accuracy from Cross Validation is 0.860526, with lower bound 0.850024 and upper bound 0.871029
+###### Categorize the Mistakes ######
+Training Set Accuracy is 0.866507
+###### Get the Worst False Positives ######
+("Join the UK's horniest Dogging service and u can have sex 2nite!. Just sign up and follow the instructions. Txt ENTRY to 69888 now! Nyt.EC2A.3LP.msg@150p\n", 0.9152542372881356)
+('pdate_Now - Double mins and 1000 txts on Orange tariffs. Latest Motorola, SonyEricsson & Nokia & Bluetooth FREE! Call MobileUpd8 on 08000839402 or call2optout/!YHL\n', 0.9152542372881356)
+('Freemsg: 1-month unlimited free calls! Activate SmartCall Txt: CALL to No: 68866. Subscriptn3gbp/wk unlimited calls Help: 08448714184 Stop?txt stop landlineonly\n', 0.9152542372881356)
+('1Apple/Day=No Doctor. 1Tulsi Leaf/Day=No Cancer. 1Lemon/Day=No Fat. 1Cup Milk/day=No Bone Problms 3 Litres Watr/Day=No Diseases Snd ths 2 Whom U in2\n', 0.9152542372881356)
+("DONE Last weekend's draw shows that you Game won Â£1000 cash or a Spanish holiday! CALL NOW 09050000332 to claim. T&C: RSTM, SW7 3SS. 150ppm\n", 0.9152542372881356)
+('UR GOING 2 BAHAMAS! CallFREEFONE 08081560665 and speak to a live operator to claim either Bahamas cruise ofÂ£2000 CASH 18+only. To opt out txt X to 07786200117\n', 0.8913043478260869)
+('U havenÂ’t lost me ill always b here 4u.i didnÂ’t intend 2 hurt u but I never knew how u felt about me when Iwas+marine&thatÂ’s what itried2tell urmom.i careabout 82277.\n', 0.8913043478260869)
+('URGENT! Your mobile number *************** WON a Â£2000 Bonus Caller prize on 10/06/03! This is the 2nd attempt to reach you! Call 09066368753 ASAP! Box 97N7QP, 150ppm\n', 0.8913043478260869)
+('Spook up your mob with a Halloween collection of a logo & pic message plus a free eerie tone, txt CARD SPOOK to 8007 zed 08701417012150p per logo/pic\n', 0.8913043478260869)
+('U have won a nokia 6230 plus a free digital camera. This is what u get when u win our FREE auction. To take part send NOKIA to 83383 now. POBOX114/14TCR/W1 16\n', 0.8913043478260869)
+("Wanna get laid 2nite? Want real Dogging locations sent direct to ur mobile? Join the UK's largest Dogging Network. Txt PARK to 69696 now! Nyt. ec2a. 3lp Â£1.50/msg\n", 0.8913043478260869)
+("Free entry in 2 a weekly comp for a chance to win an ipod. Txt POD 008704050406 80182 to get entry (std txt rate) T&C's apply 08452810073 for details 18+\n", 0.8913043478260869)
+('Boy; I love sorrow, Grl: Hogolo Boy: gold chain kodstini Grl: Agalla Boy: necklace madstini Grl: agalla Boy: Hogli 1 mutai eerulli left, Grl: I love U kano;-)\n', 0.8913043478260869)
+('Do you want a New Nokia 3510i Colour Phone Delivered Tomorrow? With 200 FREE minutes to any mobile + 100 FREE text + FREE camcorder Reply or Call 8000930705\n', 0.8913043478260869)
+('CDs 4u: Congratulations ur awarded Â£500 of CD gift vouchers or Â£125 gift guaranteed & Freeentry 2 Â£100 wkly draw xt MUSIC to 87066 TnCs www.ldew.com1win150ppmx3age16\n', 0.8913043478260869)
+('7 wonders in My WORLD 7th You 6th Ur style 5th Ur smile 4th Ur Personality 3rd Ur Nature 2nd Ur SMS and 1st "Ur Lovely Friendship"... good morning dear\n', 0.7982456140350878)
+('Hi Jon, Pete here, Ive bin 2 Spain recently & hav sum dinero whom Bill said u or ur Â‘rents mayb interested in it, I hav 12,000pes, so around Â£48, tb, James.\n', 0.7982456140350878)
+('"CAN I PLEASE COME UP NOW IMIN TOWN.DONTMATTER IF URGOIN OUTL8R,JUST REALLYNEED 2DOCD.PLEASE DONTPLEASE DONTIGNORE MYCALLS,U NO THECD ISV.IMPORTANT TOME 4 2MORO"\n', 0.7982456140350878)
+('XMAS Prize draws! We are trying to contact U. Todays draw shows that you have won a Â£2000 prize GUARANTEED. Call 09058094565 from land line. Valid 12hrs only\n', 0.7982456140350878)
+('WINNER! As a valued network customer WC1N3XX hvae been selected to receive a No reward! To collect call 09061701444. Valid 24 hours only. ACL03530150PM\n', 0.7982456140350878)
+###### Get the Worst False Negative ######
+('Erutupalam thandiyachu\n', 0.013333333333333334)
+('K, can that happen tonight?\n', 0.025974025974025976)
+('K, wat s tht incident?\n', 0.025974025974025976)
+('Hello, my love ! How went your day ? Are you alright ? I think of you, my sweet and send a jolt to your heart to remind you ... I LOVE YOU! Can you hear it ? I screamed it across the sea for all the world to hear. Ahmad al Hallaq is loved ! and owned ! *possessive passionate kiss*\n', 0.041666666666666664)
+('Sorry de i went to shop.\n', 0.04477611940298507)
+('Have a nice day my dear.\n', 0.04477611940298507)
+('And several to you sir.\n', 0.04477611940298507)
+('So now my dad is gonna call after he gets out of work and ask all these crazy questions.\n', 0.045871559633027525)
+("Most of the tiime when i don't let you hug me it's so i don't break into tears.\n", 0.045871559633027525)
+("Aiyo... Her lesson so early... I'm still sleepin, haha... Okie, u go home liao den confirm w me lor...\n", 0.045871559633027525)
+('Yup... Hey then one day on fri we can ask miwa and jiayin take leave go karaoke\n', 0.045871559633027525)
+('Mark works tomorrow. He gets out at 5. His work is by your house so he can meet u afterwards.\n', 0.045871559633027525)
+("Sorry. You never hear unless you reference it. One was kinda a joke--thet were really looking for skinny white girls. The other was picked line--you can only do so much on camera there... food. Something like that they're casting on the look.\n", 0.05263157894736842)
+('3. You have received your mobile content. Enjoy\n', 0.05555555555555555)
+('K, want us to come by now?\n', 0.05660377358490566)
+('Lol boo I hppnss, hoping for a laugh\n', 0.05660377358490566)
+('Sir, I am waiting for your mail.\n', 0.05660377358490566)
+('I swatch home safe n sound liao...\n', 0.05660377358490566)
+("RCT' THNQ Adrian for U text. Rgds Vatian\n", 0.05660377358490566)
+('Yep. I do like the pink furniture tho.\n', 0.05660377358490566)
+##### Update the Manual Craft Features - Remove 'Word Count' feature ######
+### Cross Validation without 'Has Full Uppercase Word' feature
+Accuracy from Cross Validation is 0.861244, with lower bound 0.850764 and upper bound 0.871724
+### Cross Validation without 'Has Number' feature
+Accuracy from Cross Validation is 0.831100, with lower bound 0.819742 and upper bound 0.842459
+### Cross Validation without 'Has Special Word' feature
+Accuracy from Cross Validation is 0.861244, with lower bound 0.850764 and upper bound 0.871724
+### Cross Validation without 'Length' feature
+Accuracy from Cross Validation is 0.846172, with lower bound 0.835235 and upper bound 0.857110
+### Cross Validation without 'Start with "http"' feature
+Accuracy from Cross Validation is 0.861244, with lower bound 0.850764 and upper bound 0.871724
+### Cross Validation without 'Has Uncommon Punctuation' feature
+Accuracy from Cross Validation is 0.865311, with lower bound 0.854961 and upper bound 0.875661
+### Cross Validation without 'Contains ".com"' feature
+Accuracy from Cross Validation is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+### Cross Validation with all 7 manual hand craft features
+Accuracy from Cross Validation is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+###### Categorize the Mistakes ######
+Training Set Accuracy is 0.866746
+###### Get the Worst False Positives ######
+('UR GOING 2 BAHAMAS! CallFREEFONE 08081560665 and speak to a live operator to claim either Bahamas cruise ofÂ£2000 CASH 18+only. To opt out txt X to 07786200117\n', 0.8672566371681416)
+('U havenÂ’t lost me ill always b here 4u.i didnÂ’t intend 2 hurt u but I never knew how u felt about me when Iwas+marine&thatÂ’s what itried2tell urmom.i careabout 82277.\n', 0.8672566371681416)
+('URGENT! Your mobile number *************** WON a Â£2000 Bonus Caller prize on 10/06/03! This is the 2nd attempt to reach you! Call 09066368753 ASAP! Box 97N7QP, 150ppm\n', 0.8672566371681416)
+('U have won a nokia 6230 plus a free digital camera. This is what u get when u win our FREE auction. To take part send NOKIA to 83383 now. POBOX114/14TCR/W1 16\n', 0.8672566371681416)
+("Join the UK's horniest Dogging service and u can have sex 2nite!. Just sign up and follow the instructions. Txt ENTRY to 69888 now! Nyt.EC2A.3LP.msg@150p\n", 0.8672566371681416)
+("Wanna get laid 2nite? Want real Dogging locations sent direct to ur mobile? Join the UK's largest Dogging Network. Txt PARK to 69696 now! Nyt. ec2a. 3lp Â£1.50/msg\n", 0.8672566371681416)
+('Feb &lt;#&gt; is "I LOVE U" day. Send dis to all ur "VALUED FRNDS" evn me. If 3 comes back u\'ll gt married d person u luv! If u ignore dis u will lose ur luv 4 Evr\n', 0.8672566371681416)
+('Today iZ Yellow rose day. cruise u love my frndship give me 1 misscall &amp; send this to ur frndZ &amp; See how many miss calls u get. If u get 6missed U marry ur Lover.\n', 0.8672566371681416)
+('pdate_Now - Double mins and 1000 txts on Orange tariffs. Latest Motorola, SonyEricsson & Nokia & Bluetooth FREE! Call MobileUpd8 on 08000839402 or call2optout/!YHL\n', 0.8672566371681416)
+("Free entry in 2 a weekly comp for a chance to win an ipod. Txt POD 008704050406 80182 to get entry (std txt rate) T&C's apply 08452810073 for details 18+\n", 0.8672566371681416)
+('Boy; I love sorrow, Grl: Hogolo Boy: gold chain kodstini Grl: Agalla Boy: necklace madstini Grl: agalla Boy: Hogli 1 mutai eerulli left, Grl: I love U kano;-)\n', 0.8672566371681416)
+('Freemsg: 1-month unlimited free calls! Activate SmartCall Txt: CALL to No: 68866. Subscriptn3gbp/wk unlimited calls Help: 08448714184 Stop?txt stop landlineonly\n', 0.8672566371681416)
+('Do you want a New Nokia 3510i Colour Phone Delivered Tomorrow? With 200 FREE minutes to any mobile + 100 FREE text + FREE camcorder Reply or Call 8000930705\n', 0.8672566371681416)
+('"Hey! do u fancy meetin me at 4 at cha Â– hav a lil beverage on me. if not txt or ring me and DONE can meet up l8r. quite tired got in at 3 v.pist ;) love Pete x x x"\n', 0.8672566371681416)
+('CDs 4u: Congratulations ur awarded Â£500 of CD gift vouchers or Â£125 gift guaranteed & Freeentry 2 Â£100 wkly draw xt MUSIC to 87066 TnCs www.ldew.com1win150ppmx3age16\n', 0.8672566371681416)
+('I got lousy sleep. I kept waking up every 2 hours to see if my cat wanted to come in. I worry about him when its cold :(\n', 0.8260869565217391)
+('You have won a guaranteed Â£200 award or even Â£1000 cashto claim UR award call free on 08000407165 (18+) 2 stop getstop on 88222 PHP\n', 0.8260869565217391)
+('K, wen ur free come to my home 08712317606 also tel vikky i hav sent mail to him also.. Better come evening il be free today aftr 6pm..:-)\n', 0.8260869565217391)
+('Spook up your mob with a Halloween collection of a logo & pic message plus a free eerie tone, txt CARD SPOOK to 8007 zed 08701417012150p per logo/pic\n', 0.8260869565217391)
+('V nice! Off 2 sheffield tom 2 air my opinions on categories 2 b used 2 measure ethnicity in next census. Busy transcribing. :-)\n', 0.8260869565217391)
+###### Get the Worst False Negative ######
+("We currently have a message awaiting your collection. To collect your message just call Who's\n", 0.029411764705882353)
+('Mark works tomorrow. He gets out at 5. His work is by your house so he can meet u afterwards.\n', 0.029411764705882353)
+('K, wat s tht incident?\n', 0.037037037037037035)
+('G.W.R\n', 0.037037037037037035)
+('Hello, my love ! How went your day ? Are you alright ? I think of you, my sweet and send a jolt to your heart to remind you ... I LOVE YOU! Can you hear it ? I screamed it across the sea for all the world to hear. Ahmad al Hallaq is loved ! and owned ! *possessive passionate kiss*\n', 0.041666666666666664)
+('At home by the way\n', 0.0425531914893617)
+('In da car park\n', 0.0425531914893617)
+('Erutupalam thandiyachu\n', 0.0425531914893617)
+('Ok no prob\n', 0.0425531914893617)
+('Remember on that day..\n', 0.050505050505050504)
+("Sorry, I'll call later\n", 0.050505050505050504)
+('Yes, princess. Toledo.\n', 0.050505050505050504)
+('And several to you sir.\n', 0.050505050505050504)
+('Going to join tomorrow.\n', 0.050505050505050504)
+('The bus leaves at &lt;#&gt;\n', 0.05172413793103448)
+('K.:)you are the only girl waiting in reception ah?\n', 0.05172413793103448)
+('Should i send you naughty pix? :)\n', 0.05172413793103448)
+('Hey morning what you come to ask:-) pa...\n', 0.05172413793103448)
+('Sure, whenever you show the fuck up &gt;:(\n', 0.05172413793103448)
+('Hey do you want anything to buy:)\n', 0.05172413793103448)
+###### Update the Manual Craft Features - Remove 'Has Uncommon Punctuation' feature ######
+### Cross Validation without 'Has Full Uppercase Word' feature
+Accuracy from Cross Validation is 0.864833, with lower bound 0.854468 and upper bound 0.875198
+### Cross Validation without 'Has Number' feature
+Accuracy from Cross Validation is 0.836603, with lower bound 0.825394 and upper bound 0.847811
+### Cross Validation without 'Has Special Word' feature
+Accuracy from Cross Validation is 0.866268, with lower bound 0.855950 and upper bound 0.876586
+### Cross Validation without 'Length' feature
+Accuracy from Cross Validation is 0.847129, with lower bound 0.836220 and upper bound 0.858039
+### Cross Validation without 'Start with "http"' feature
+Accuracy from Cross Validation is 0.865072, with lower bound 0.854714 and upper bound 0.875429
+### Cross Validation with all 5 manual hand craft features
+Accuracy from Cross Validation is 0.865072, with lower bound 0.854714 and upper bound 0.875429
+###### Categorize the Mistakes ######
+Training Set Accuracy is 0.865072
+###### Get the Worst False Positives ######
+('Hi Jon, Pete here, Ive bin 2 Spain recently & hav sum dinero whom Bill said u or ur Â‘rents mayb interested in it, I hav 12,000pes, so around Â£48, tb, James.\n', 0.89)
+('UR GOING 2 BAHAMAS! CallFREEFONE 08081560665 and speak to a live operator to claim either Bahamas cruise ofÂ£2000 CASH 18+only. To opt out txt X to 07786200117\n', 0.89)
+('"CAN I PLEASE COME UP NOW IMIN TOWN.DONTMATTER IF URGOIN OUTL8R,JUST REALLYNEED 2DOCD.PLEASE DONTPLEASE DONTIGNORE MYCALLS,U NO THECD ISV.IMPORTANT TOME 4 2MORO"\n', 0.89)
+('XMAS Prize draws! We are trying to contact U. Todays draw shows that you have won a Â£2000 prize GUARANTEED. Call 09058094565 from land line. Valid 12hrs only\n', 0.89)
+('U have won a nokia 6230 plus a free digital camera. This is what u get when u win our FREE auction. To take part send NOKIA to 83383 now. POBOX114/14TCR/W1 16\n', 0.89)
+('Boy; I love sorrow, Grl: Hogolo Boy: gold chain kodstini Grl: Agalla Boy: necklace madstini Grl: agalla Boy: Hogli 1 mutai eerulli left, Grl: I love U kano;-)\n', 0.89)
+('Freemsg: 1-month unlimited free calls! Activate SmartCall Txt: CALL to No: 68866. Subscriptn3gbp/wk unlimited calls Help: 08448714184 Stop?txt stop landlineonly\n', 0.89)
+('URGENT! We are trying to contact U. Todays draw shows that you have won a Â£800 prize GUARANTEED. Call 09050001808 from land line. Claim M95. Valid12hrs only\n', 0.89)
+("Tell my bad character which u Dnt lik in me. I'll try to change in Wanna . I ll add *I'm 2 my new year resolution. Waiting for ur reply.Be frank...good morning.\n", 0.89)
+('"HEY BABE! FAR 2 SPUN-OUT 2 SPK AT DA MO... DEAD 2 DA WRLD. BEEN SLEEPING ON DA SOFA ALL DAY, HAD A COOL NYTHO, TX 4 FONIN HON, CALL 2MWEN IM BK FRMCLOUD 9! J X"\n', 0.89)
+('WE REGRET TO INFORM U THAT THE NHS HAS MADE A MISTAKE.U WERE NEVER ACTUALLY BORN.PLEASE REPORT 2 YOR LOCAL HOSPITAL 2B TERMINATED.WE R SORRY 4 THE INCONVENIENCE\n', 0.89)
+('Today iZ Yellow rose day. cruise u love my frndship give me 1 misscall &amp; send this to ur frndZ &amp; See how many miss calls u get. If u get 6missed U marry ur Lover.\n', 0.875)
+('sexy sexy cum and text me can, wet and warm and ready for some porn! u up for some fun? THIS MSG IS FREE RECD MSGS 150P INC VAT 2 CANCEL TEXT STOP\n', 0.8666666666666667)
+("She said,'' do u mind if I go into the bedroom for a minute ? '' ''OK'', I sed in a sexy mood. She came out 5 minuts latr wid a cake...n My Wife,\n", 0.8666666666666667)
+("Ha! I wouldn't say that I just didn't read anything into way u seemed. I don't like 2 be judgemental....i day!2find that for fridays in the pub!\n", 0.8666666666666667)
+('You know my old Dom I told you about yesterday ? His name is Roger? He got in touch with me last night and wants me to meet him today at 2 pm\n', 0.8666666666666667)
+("She said,'' do u mind if I go into the bedroom for a minute ? '' ''OK'', I sed in a sexy mood. yet? came out 5 minuts latr wid a cake...n My Wife,\n", 0.8666666666666667)
+('URGENT! Your Mobile number has been awarded with a Â£2000 prize GUARANTEED. Call 09061790121 from land line. Claim 3030. Valid 12hrs only 150ppm\n', 0.8666666666666667)
+('Thanks 4 your continued support Your question this week will enter u in2 our draw 4 Â£100 cash. Name the NEW US President? txt ans to 80082\n', 0.8666666666666667)
+("DONE Last weekend's draw shows that you Game won Â£1000 cash or a Spanish holiday! CALL NOW 09050000332 to claim. T&C: RSTM, SW7 3SS. 150ppm\n", 0.8666666666666667)
+###### Get the Worst False Negative ######
+("What's Sad pin?\n", 0.02857142857142857)
+('At home by the way\n', 0.0425531914893617)
+('In da car park\n', 0.0425531914893617)
+('Erutupalam thandiyachu\n', 0.0425531914893617)
+('Ok no prob\n', 0.0425531914893617)
+('Hello, my love ! How went your day ? Are you alright ? I think of you, my sweet and send a jolt to your heart to remind you ... I LOVE YOU! Can you hear it ? I screamed it across the sea for all the world to hear. Ahmad al Hallaq is loved ! and owned ! *possessive passionate kiss*\n', 0.043478260869565216)
+('Thanks for your ringtone order, reference number X49. Your mobile will be charged 4.50. Should your tone not arrive please call customer services 09065989182. From: [colour=red]text[/colour]TXTstar\n', 0.043478260869565216)
+("Sorry. You never hear unless you reference it. One was kinda a joke--thet were really looking for skinny white girls. The other was picked line--you can only do so much on camera there... food. Something like that they're casting on the look.\n", 0.05555555555555555)
+("I don't know but I'm raping dudes at poker\n", 0.056338028169014086)
+("RCT' THNQ Adrian for U text. Rgds Vatian\n", 0.056338028169014086)
+('Yep. I do like the pink furniture tho.\n', 0.056338028169014086)
+('I will reach ur home in &lt;#&gt; minutes\n', 0.056338028169014086)
+('K, want us to come by now?\n', 0.05714285714285714)
+('K, wat s tht incident?\n', 0.05714285714285714)
+('G.W.R\n', 0.05714285714285714)
+('K k:) sms chat with me.\n', 0.05714285714285714)
+('Sorry, right. call later\n', 0.07058823529411765)
+('Sorry de i went to shop.\n', 0.07058823529411765)
+('Have a nice day my dear.\n', 0.07058823529411765)
+('And several to you sir.\n', 0.07058823529411765)
+========== Preprocess the Data ==========
+========== Evaluation Mutual Information Features ==========
+### Cross Validation with top '10' MI Word
+Accuracy from Cross Validation is 0.855263, with lower bound 0.844597 and upper bound 0.865929
+### Cross Validation with top '20' MI Word
+Accuracy from Cross Validation is 0.859091, with lower bound 0.848543 and upper bound 0.869639
+### Cross Validation with top '30' MI Word
+Accuracy from Cross Validation is 0.858612, with lower bound 0.848050 and upper bound 0.869175
+### Cross Validation with top '40' MI Word
+Accuracy from Cross Validation is 0.857177, with lower bound 0.846570 and upper bound 0.867784
+### Cross Validation with top '50' MI Word
+Accuracy from Cross Validation is 0.857177, with lower bound 0.846570 and upper bound 0.867784
+### Cross Validation with top '60' MI Word
+Accuracy from Cross Validation is 0.858373, with lower bound 0.847803 and upper bound 0.868943
+### Cross Validation with top '70' MI Word
+Accuracy from Cross Validation is 0.857895, with lower bound 0.847310 and upper bound 0.868480
+### Cross Validation with top '80' MI Word
+Accuracy from Cross Validation is 0.857656, with lower bound 0.847063 and upper bound 0.868248
+### Cross Validation with top '90' MI Word
+Accuracy from Cross Validation is 0.857656, with lower bound 0.847063 and upper bound 0.868248
+### Cross Validation with top '100' MI Word
+Accuracy from Cross Validation is 0.857416, with lower bound 0.846816 and upper bound 0.868016
+### Cross Validation with top '110' MI Word
+Accuracy from Cross Validation is 0.855024, with lower bound 0.844350 and upper bound 0.865697
+### Cross Validation with top '120' MI Word
+Accuracy from Cross Validation is 0.855981, with lower bound 0.845337 and upper bound 0.866625
+### Cross Validation with top '130' MI Word
+Accuracy from Cross Validation is 0.855263, with lower bound 0.844597 and upper bound 0.865929
+### Cross Validation with top '140' MI Word
+Accuracy from Cross Validation is 0.854306, with lower bound 0.843611 and upper bound 0.865002
+### Cross Validation with top '150' MI Word
+Accuracy from Cross Validation is 0.854306, with lower bound 0.843611 and upper bound 0.865002
+### Cross Validation with top '160' MI Word
+Accuracy from Cross Validation is 0.855024, with lower bound 0.844350 and upper bound 0.865697
+### Cross Validation with top '170' MI Word
+Accuracy from Cross Validation is 0.855024, with lower bound 0.844350 and upper bound 0.865697
+### Cross Validation with top '180' MI Word
+Accuracy from Cross Validation is 0.855024, with lower bound 0.844350 and upper bound 0.865697
+### Cross Validation with top '190' MI Word
+Accuracy from Cross Validation is 0.853828, with lower bound 0.843118 and upper bound 0.864538
+### Cross Validation with top '200' MI Word
+Accuracy from Cross Validation is 0.855024, with lower bound 0.844350 and upper bound 0.865697
+========== Merge Features ==========
+Use 5 Hand Craft Words as Features
+Use 70 Mutual Information Words as Features
+========== Parameter Sweeping for Random Forests ==========
+========== Parameter Sweeping for Random Forests ==========
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.844258, with lower bound 0.833266 and upper bound 0.855251
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = True, restrict_features = 10
+Accuracy from Cross Validation is 0.846411, with lower bound 0.835481 and upper bound 0.857342
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = True, restrict_features = 20
+Accuracy from Cross Validation is 0.868660, with lower bound 0.858420 and upper bound 0.878900
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.883493, with lower bound 0.873767 and upper bound 0.893219
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = True, restrict_features = 40
+Accuracy from Cross Validation is 0.882057, with lower bound 0.872279 and upper bound 0.891835
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = True, restrict_features = 50
+Accuracy from Cross Validation is 0.885167, with lower bound 0.875502 and upper bound 0.894833
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = True, restrict_features = 60
+Accuracy from Cross Validation is 0.882297, with lower bound 0.872527 and upper bound 0.892066
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.880622, with lower bound 0.870793 and upper bound 0.890451
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = False, restrict_features = 0
+Accuracy from Cross Validation is 0.825120, with lower bound 0.813604 and upper bound 0.836635
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = False, restrict_features = 10
+Accuracy from Cross Validation is 0.853349, with lower bound 0.842625 and upper bound 0.864074
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = False, restrict_features = 20
+Accuracy from Cross Validation is 0.872727, with lower bound 0.862624 and upper bound 0.882831
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = False, restrict_features = 30
+Accuracy from Cross Validation is 0.880861, with lower bound 0.871040 and upper bound 0.890682
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = False, restrict_features = 40
+Accuracy from Cross Validation is 0.885646, with lower bound 0.875998 and upper bound 0.895294
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = False, restrict_features = 50
+Accuracy from Cross Validation is 0.879187, with lower bound 0.869306 and upper bound 0.889067
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = False, restrict_features = 60
+Accuracy from Cross Validation is 0.882775, with lower bound 0.873023 and upper bound 0.892527
+Build Random Forests with num_trees = 10, min_to_split = 2, use_bagging = False, restrict_features = 70
+Accuracy from Cross Validation is 0.873923, with lower bound 0.863861 and upper bound 0.883986
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.879187, with lower bound 0.869306 and upper bound 0.889067
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = True, restrict_features = 10
+Accuracy from Cross Validation is 0.849282, with lower bound 0.838436 and upper bound 0.860128
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = True, restrict_features = 20
+Accuracy from Cross Validation is 0.868421, with lower bound 0.858173 and upper bound 0.878669
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.880383, with lower bound 0.870545 and upper bound 0.890221
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = True, restrict_features = 40
+Accuracy from Cross Validation is 0.883014, with lower bound 0.873271 and upper bound 0.892758
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = True, restrict_features = 50
+Accuracy from Cross Validation is 0.886364, with lower bound 0.876742 and upper bound 0.895985
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = True, restrict_features = 60
+Accuracy from Cross Validation is 0.886842, with lower bound 0.877239 and upper bound 0.896446
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.889234, with lower bound 0.879720 and upper bound 0.898749
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = False, restrict_features = 0
+Accuracy from Cross Validation is 0.861962, with lower bound 0.851505 and upper bound 0.872419
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = False, restrict_features = 10
+Accuracy from Cross Validation is 0.850957, with lower bound 0.840161 and upper bound 0.861753
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = False, restrict_features = 20
+Accuracy from Cross Validation is 0.868182, with lower bound 0.857926 and upper bound 0.878437
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = False, restrict_features = 30
+Accuracy from Cross Validation is 0.880622, with lower bound 0.870793 and upper bound 0.890451
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = False, restrict_features = 40
+Accuracy from Cross Validation is 0.888278, with lower bound 0.878727 and upper bound 0.897828
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = False, restrict_features = 50
+Accuracy from Cross Validation is 0.888517, with lower bound 0.878975 and upper bound 0.898058
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = False, restrict_features = 60
+Accuracy from Cross Validation is 0.888756, with lower bound 0.879224 and upper bound 0.898288
+Build Random Forests with num_trees = 10, min_to_split = 12, use_bagging = False, restrict_features = 70
+Accuracy from Cross Validation is 0.886603, with lower bound 0.876990 and upper bound 0.896215
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.880144, with lower bound 0.870297 and upper bound 0.889990
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = True, restrict_features = 10
+Accuracy from Cross Validation is 0.852153, with lower bound 0.841393 and upper bound 0.862914
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = True, restrict_features = 20
+Accuracy from Cross Validation is 0.871531, with lower bound 0.861387 and upper bound 0.881675
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.881818, with lower bound 0.872032 and upper bound 0.891605
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = True, restrict_features = 40
+Accuracy from Cross Validation is 0.887321, with lower bound 0.877735 and upper bound 0.896906
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = True, restrict_features = 50
+Accuracy from Cross Validation is 0.887560, with lower bound 0.877983 and upper bound 0.897137
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = True, restrict_features = 60
+Accuracy from Cross Validation is 0.887321, with lower bound 0.877735 and upper bound 0.896906
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.888756, with lower bound 0.879224 and upper bound 0.898288
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = False, restrict_features = 0
+Accuracy from Cross Validation is 0.865789, with lower bound 0.855455 and upper bound 0.876123
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = False, restrict_features = 10
+Accuracy from Cross Validation is 0.859809, with lower bound 0.849283 and upper bound 0.870334
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = False, restrict_features = 20
+Accuracy from Cross Validation is 0.877990, with lower bound 0.868068 and upper bound 0.887913
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = False, restrict_features = 30
+Accuracy from Cross Validation is 0.881818, with lower bound 0.872032 and upper bound 0.891605
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = False, restrict_features = 40
+Accuracy from Cross Validation is 0.885407, with lower bound 0.875750 and upper bound 0.895063
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = False, restrict_features = 50
+Accuracy from Cross Validation is 0.886603, with lower bound 0.876990 and upper bound 0.896215
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = False, restrict_features = 60
+Accuracy from Cross Validation is 0.885885, with lower bound 0.876246 and upper bound 0.895524
+Build Random Forests with num_trees = 10, min_to_split = 22, use_bagging = False, restrict_features = 70
+Accuracy from Cross Validation is 0.888714, with lower bound 0.876246 and upper bound 0.895524
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.883732, with lower bound 0.874014 and upper bound 0.893450
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.881100, with lower bound 0.871288 and upper bound 0.890913
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.889713, with lower bound 0.880217 and upper bound 0.899209
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.885885, with lower bound 0.876246 and upper bound 0.895524
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.883254, with lower bound 0.873519 and upper bound 0.892989
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.890670, with lower bound 0.881210 and upper bound 0.900130
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.882057, with lower bound 0.872279 and upper bound 0.891835
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.882297, with lower bound 0.872527 and upper bound 0.892066
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.886842, with lower bound 0.877239 and upper bound 0.896446
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.882057, with lower bound 0.872279 and upper bound 0.891835
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.878230, with lower bound 0.868316 and upper bound 0.888144
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.884928, with lower bound 0.875254 and upper bound 0.894602
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.879426, with lower bound 0.869554 and upper bound 0.889298
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.880383, with lower bound 0.870545 and upper bound 0.890221
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.887560, with lower bound 0.877983 and upper bound 0.897137
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.881100, with lower bound 0.871288 and upper bound 0.890913
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.878469, with lower bound 0.868563 and upper bound 0.888374
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.889474, with lower bound 0.879968 and upper bound 0.898979
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.882297, with lower bound 0.872527 and upper bound 0.892066
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.879904, with lower bound 0.870049 and upper bound 0.889759
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.892344, with lower bound 0.882948 and upper bound 0.901741
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.884211, with lower bound 0.874510 and upper bound 0.893911
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.879904, with lower bound 0.870049 and upper bound 0.889759
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.888517, with lower bound 0.878975 and upper bound 0.898058
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.882057, with lower bound 0.872279 and upper bound 0.891835
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.881818, with lower bound 0.872032 and upper bound 0.891605
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.888756, with lower bound 0.879224 and upper bound 0.898288
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.881340, with lower bound 0.871536 and upper bound 0.891143
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.879187, with lower bound 0.869306 and upper bound 0.889067
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.888517, with lower bound 0.878975 and upper bound 0.898058
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.881579, with lower bound 0.871784 and upper bound 0.891374
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.878947, with lower bound 0.869059 and upper bound 0.888836
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.886124, with lower bound 0.876494 and upper bound 0.895754
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.882536, with lower bound 0.872775 and upper bound 0.892297
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.878230, with lower bound 0.868316 and upper bound 0.888144
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.886364, with lower bound 0.876742 and upper bound 0.895985
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.884689, with lower bound 0.875006 and upper bound 0.894372
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.883014, with lower bound 0.873271 and upper bound 0.892758
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.891627, with lower bound 0.882203 and upper bound 0.901050
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.882775, with lower bound 0.873023 and upper bound 0.892527
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.881818, with lower bound 0.872032 and upper bound 0.891605
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.887560, with lower bound 0.877983 and upper bound 0.897137
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.881579, with lower bound 0.871784 and upper bound 0.891374
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.881100, with lower bound 0.871288 and upper bound 0.890913
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.888995, with lower bound 0.879472 and upper bound 0.898519
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.882297, with lower bound 0.872527 and upper bound 0.892066
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 30
+Accuracy from Cross Validation is 0.881818, with lower bound 0.872032 and upper bound 0.891605
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.888278, with lower bound 0.878727 and upper bound 0.897828
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 0
+Accuracy from Cross Validation is 0.883014, with lower bound 0.873271 and upper bound 0.892758
+
+========== Evaluation on the Best Random Forests ==========
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 70
+Accuracy from Cross Validation is 0.890670, with lower bound 0.881210 and upper bound 0.900130
+Test Set Accuracy is 0.900287, with lower bound 0.884558 and upper bound 0.916016
+                 |  Predict True  |  Predict False
+---------------- | -------------- | ---------------
+ Actually True   |            154 |             119
+ Actually False  |             20 |            1101
+None
+Accuracy: 0.900286944045911
+Precision: 0.8850574712643678
+Recall: 0.5641025641025641
+FPR: 0.01784121320249777
+FNR: 0.4358974358974359
+========== Compare Models ==========
+At threshold 0.010000
+First Model has False Positive Rate 0.873327, False Negative Rate 0.150183
+Best Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.020000
+First Model has False Positive Rate 0.873327, False Negative Rate 0.150183
+Best Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.030000
+First Model has False Positive Rate 0.855486, False Negative Rate 0.153846
+Best Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.040000
+First Model has False Positive Rate 0.855486, False Negative Rate 0.153846
+Best Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.050000
+First Model has False Positive Rate 0.834077, False Negative Rate 0.164835
+Best Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.060000
+First Model has False Positive Rate 0.834077, False Negative Rate 0.164835
+Best Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.070000
+First Model has False Positive Rate 0.735950, False Negative Rate 0.212454
+Best Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.080000
+First Model has False Positive Rate 0.726137, False Negative Rate 0.216117
+Best Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.090000
+First Model has False Positive Rate 0.292596, False Negative Rate 0.410256
+Best Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.100000
+First Model has False Positive Rate 0.281891, False Negative Rate 0.424908
+Best Model has False Positive Rate 0.936664, False Negative Rate 0.032967
+At threshold 0.110000
+First Model has False Positive Rate 0.206066, False Negative Rate 0.443223
+Best Model has False Positive Rate 0.871543, False Negative Rate 0.047619
+At threshold 0.120000
+First Model has False Positive Rate 0.148082, False Negative Rate 0.472527
+Best Model has False Positive Rate 0.801963, False Negative Rate 0.073260
+At threshold 0.130000
+First Model has False Positive Rate 0.142730, False Negative Rate 0.476190
+Best Model has False Positive Rate 0.713649, False Negative Rate 0.109890
+At threshold 0.140000
+First Model has False Positive Rate 0.134701, False Negative Rate 0.476190
+Best Model has False Positive Rate 0.662801, False Negative Rate 0.139194
+At threshold 0.150000
+First Model has False Positive Rate 0.132917, False Negative Rate 0.476190
+Best Model has False Positive Rate 0.542373, False Negative Rate 0.194139
+At threshold 0.160000
+First Model has False Positive Rate 0.132917, False Negative Rate 0.476190
+Best Model has False Positive Rate 0.490633, False Negative Rate 0.212454
+At threshold 0.170000
+First Model has False Positive Rate 0.093666, False Negative Rate 0.490842
+Best Model has False Positive Rate 0.381802, False Negative Rate 0.245421
+At threshold 0.180000
+First Model has False Positive Rate 0.093666, False Negative Rate 0.490842
+Best Model has False Positive Rate 0.347012, False Negative Rate 0.256410
+At threshold 0.190000
+First Model has False Positive Rate 0.093666, False Negative Rate 0.490842
+Best Model has False Positive Rate 0.279215, False Negative Rate 0.293040
+At threshold 0.200000
+First Model has False Positive Rate 0.093666, False Negative Rate 0.490842
+Best Model has False Positive Rate 0.265834, False Negative Rate 0.293040
+At threshold 0.210000
+First Model has False Positive Rate 0.082962, False Negative Rate 0.494505
+Best Model has False Positive Rate 0.213202, False Negative Rate 0.307692
+At threshold 0.220000
+First Model has False Positive Rate 0.082962, False Negative Rate 0.494505
+Best Model has False Positive Rate 0.200714, False Negative Rate 0.311355
+At threshold 0.230000
+First Model has False Positive Rate 0.082962, False Negative Rate 0.494505
+Best Model has False Positive Rate 0.157895, False Negative Rate 0.318681
+At threshold 0.240000
+First Model has False Positive Rate 0.082962, False Negative Rate 0.494505
+Best Model has False Positive Rate 0.145406, False Negative Rate 0.322344
+At threshold 0.250000
+First Model has False Positive Rate 0.082962, False Negative Rate 0.494505
+Best Model has False Positive Rate 0.127565, False Negative Rate 0.326007
+At threshold 0.260000
+First Model has False Positive Rate 0.077609, False Negative Rate 0.494505
+Best Model has False Positive Rate 0.114184, False Negative Rate 0.329670
+At threshold 0.270000
+First Model has False Positive Rate 0.077609, False Negative Rate 0.494505
+Best Model has False Positive Rate 0.094558, False Negative Rate 0.333333
+At threshold 0.280000
+First Model has False Positive Rate 0.074041, False Negative Rate 0.498168
+Best Model has False Positive Rate 0.090990, False Negative Rate 0.333333
+At threshold 0.290000
+First Model has False Positive Rate 0.070473, False Negative Rate 0.498168
+Best Model has False Positive Rate 0.076717, False Negative Rate 0.336996
+At threshold 0.300000
+First Model has False Positive Rate 0.059768, False Negative Rate 0.501832
+Best Model has False Positive Rate 0.062444, False Negative Rate 0.340659
+At threshold 0.310000
+First Model has False Positive Rate 0.059768, False Negative Rate 0.501832
+Best Model has False Positive Rate 0.059768, False Negative Rate 0.340659
+At threshold 0.320000
+First Model has False Positive Rate 0.059768, False Negative Rate 0.501832
+Best Model has False Positive Rate 0.058876, False Negative Rate 0.344322
+At threshold 0.330000
+First Model has False Positive Rate 0.059768, False Negative Rate 0.501832
+Best Model has False Positive Rate 0.052632, False Negative Rate 0.351648
+At threshold 0.340000
+First Model has False Positive Rate 0.044603, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.050847, False Negative Rate 0.358974
+At threshold 0.350000
+First Model has False Positive Rate 0.044603, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.042819, False Negative Rate 0.369963
+At threshold 0.360000
+First Model has False Positive Rate 0.044603, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.040143, False Negative Rate 0.369963
+At threshold 0.370000
+First Model has False Positive Rate 0.044603, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.033898, False Negative Rate 0.373626
+At threshold 0.380000
+First Model has False Positive Rate 0.044603, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.031222, False Negative Rate 0.380952
+At threshold 0.390000
+First Model has False Positive Rate 0.044603, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.030330, False Negative Rate 0.380952
+At threshold 0.400000
+First Model has False Positive Rate 0.044603, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.029438, False Negative Rate 0.380952
+At threshold 0.410000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.025870, False Negative Rate 0.384615
+At threshold 0.420000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.024978, False Negative Rate 0.384615
+At threshold 0.430000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.024086, False Negative Rate 0.384615
+At threshold 0.440000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.024086, False Negative Rate 0.388278
+At threshold 0.450000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.021409, False Negative Rate 0.402930
+At threshold 0.460000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.021409, False Negative Rate 0.406593
+At threshold 0.470000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.020517, False Negative Rate 0.417582
+At threshold 0.480000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.017841, False Negative Rate 0.432234
+At threshold 0.490000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.017841, False Negative Rate 0.435897
+At threshold 0.500000
+First Model has False Positive Rate 0.042819, False Negative Rate 0.509158
+Best Model has False Positive Rate 0.017841, False Negative Rate 0.435897
+At threshold 0.510000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.016949, False Negative Rate 0.461538
+At threshold 0.520000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.016949, False Negative Rate 0.465201
+At threshold 0.530000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.016949, False Negative Rate 0.483516
+At threshold 0.540000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.016057, False Negative Rate 0.483516
+At threshold 0.550000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.016057, False Negative Rate 0.490842
+At threshold 0.560000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.015165, False Negative Rate 0.494505
+At threshold 0.570000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.015165, False Negative Rate 0.498168
+At threshold 0.580000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.015165, False Negative Rate 0.498168
+At threshold 0.590000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.015165, False Negative Rate 0.501832
+At threshold 0.600000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.015165, False Negative Rate 0.505495
+At threshold 0.610000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.012489, False Negative Rate 0.542125
+At threshold 0.620000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.012489, False Negative Rate 0.545788
+At threshold 0.630000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.011597, False Negative Rate 0.553114
+At threshold 0.640000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.011597, False Negative Rate 0.553114
+At threshold 0.650000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.011597, False Negative Rate 0.556777
+At threshold 0.660000
+First Model has False Positive Rate 0.033006, False Negative Rate 0.523810
+Best Model has False Positive Rate 0.010705, False Negative Rate 0.560440
+At threshold 0.670000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.527473
+Best Model has False Positive Rate 0.008921, False Negative Rate 0.608059
+At threshold 0.680000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.527473
+Best Model has False Positive Rate 0.008921, False Negative Rate 0.608059
+At threshold 0.690000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.527473
+Best Model has False Positive Rate 0.008921, False Negative Rate 0.611722
+At threshold 0.700000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.527473
+Best Model has False Positive Rate 0.008921, False Negative Rate 0.626374
+At threshold 0.710000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.527473
+Best Model has False Positive Rate 0.008029, False Negative Rate 0.630037
+At threshold 0.720000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.527473
+Best Model has False Positive Rate 0.007136, False Negative Rate 0.688645
+At threshold 0.730000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.527473
+Best Model has False Positive Rate 0.007136, False Negative Rate 0.706960
+At threshold 0.740000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.527473
+Best Model has False Positive Rate 0.007136, False Negative Rate 0.725275
+At threshold 0.750000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.534799
+Best Model has False Positive Rate 0.004460, False Negative Rate 0.758242
+At threshold 0.760000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.534799
+Best Model has False Positive Rate 0.004460, False Negative Rate 0.765568
+At threshold 0.770000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.534799
+Best Model has False Positive Rate 0.003568, False Negative Rate 0.798535
+At threshold 0.780000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.534799
+Best Model has False Positive Rate 0.003568, False Negative Rate 0.831502
+At threshold 0.790000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.534799
+Best Model has False Positive Rate 0.001784, False Negative Rate 0.868132
+At threshold 0.800000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.534799
+Best Model has False Positive Rate 0.001784, False Negative Rate 0.875458
+At threshold 0.810000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.001784, False Negative Rate 0.897436
+At threshold 0.820000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.001784, False Negative Rate 0.901099
+At threshold 0.830000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000892, False Negative Rate 0.937729
+At threshold 0.840000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000892, False Negative Rate 0.948718
+At threshold 0.850000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000892, False Negative Rate 0.959707
+At threshold 0.860000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000892, False Negative Rate 0.974359
+At threshold 0.870000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000892, False Negative Rate 0.978022
+At threshold 0.880000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000892, False Negative Rate 0.978022
+At threshold 0.890000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 0.981685
+At threshold 0.900000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 0.985348
+At threshold 0.910000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+At threshold 0.920000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+At threshold 0.930000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+At threshold 0.940000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+At threshold 0.950000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+At threshold 0.960000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+At threshold 0.970000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+At threshold 0.980000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+At threshold 0.990000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+At threshold 1.000000
+First Model has False Positive Rate 0.031222, False Negative Rate 0.545788
+Best Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+
+### Plot Precision vs Recall.
+Close the plot diagram to continue program
