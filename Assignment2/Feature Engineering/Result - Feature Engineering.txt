@@ -1,0 +1,50 @@
+Train is 0.130383 percent spam.
+Test is 0.144907 percent spam.
+### One Feature vs 5 Features
+Train without '> 40' feature
+Test Set Accuracy is 0.897418
+Train without 'Has Number' feature
+Test Set Accuracy is 0.865136
+Train without 'Contains 'Call'' feature
+Test Set Accuracy is 0.917504
+Train without 'Contains 'To'' feature
+Test Set Accuracy is 0.898852
+Train without 'Contains 'Your'' feature
+Test Set Accuracy is 0.926112
+Train with all 5 features
+Test Set Accuracy is 0.926112
+### Get the Frequency Table
+Top 10
+('to', 1589)
+('you', 1193)
+('I', 1099)
+('a', 993)
+('the', 891)
+('and', 629)
+('is', 598)
+('in', 588)
+('i', 559)
+('u', 548)
+### Get the Mutual Information Table
+Top 10
+('Call', 0.055583095208748545)
+('call', 0.04082678814666367)
+('to', 0.040562554227327415)
+('or', 0.0386240614546583)
+('FREE', 0.03725764939428906)
+('claim', 0.037018802820206385)
+('To', 0.03435510748449917)
+('mobile', 0.03394198720672953)
+('Txt', 0.0326531762058599)
+('&', 0.03239959210513288)
+### Run Gradient Descent with the Top 10 Words by Frequency
+['to', 'you', 'I', 'a', 'the', 'and', 'is', 'in', 'i', 'u']
+Test Set Accuracy is 0.857245
+### Run Gradient Descent with the Top 10 Words by Mutual Information
+['Call', 'call', 'to', 'or', 'FREE', 'claim', 'To', 'mobile', 'Txt', '&']
+Test Set Accuracy is 0.921808
+Mutual Information is better
+### Run Gradient Descent with the Top 10 Words by Mutual Information PLUS the Hand Crafted Features
+Test Set Accuracy is 0.943329
+### Run Gradient Descent with the Top 100 Words by Mutual Information PLUS the Hand Crafted Features
+Test Set Accuracy is 0.968436
