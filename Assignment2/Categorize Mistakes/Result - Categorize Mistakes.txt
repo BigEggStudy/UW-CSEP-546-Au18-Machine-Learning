@@ -1,0 +1,69 @@
+﻿Train is 0.130383 percent spam.
+Test is 0.144907 percent spam.
+### Get the Mutual Information Table
+### Get the Confusion Matrix
+['Call', 'to', 'or', 'FREE', 'claim', 'call', '&', 'To', 'mobile', 'Txt']
+                 |  Predict True  |  Predict False
+---------------- | -------------- | ---------------
+ Actually True   |             96 |             106
+ Actually False  |              3 |            1189
+None
+Accuracy: 0.9218077474892395
+Precision: 0.9696969696969697
+Recall: 0.4752475247524752
+FPR: 0.0025167785234899327
+FNR: 0.5247524752475248
+### Run Gradient Descent with the Top 10 Words by Mutual Information
+###### Get the Worst False Positives ######
+("Book which lesson? then you msg me... I will call up after work or sth... I'm going to get specs. My membership is PX3748\n", 0.837580924077343)
+('Hi its Kate how is your evening? I hope i can see you tomorrow for a bit but i have to bloody babyjontet! Txt back if u can. :) xxx\n', 0.601930504132108)
+('hi baby im cruisin with my girl friend what r u up 2? give me a call in and hour at home if thats alright or fone me on this fone now love jenny xxx\n', 0.6014897976094946)
+Only 3 sentence, are in False Positives
+From the 3 sentence, there have 3 sentence length is than 150 but greater than 60
+Get more (17) sentences to analyze
+('I am waiting machan. Call me once you free.\n', 0.49620634597000035)
+('U calling me right? Call my hand phone...\n', 0.49620634597000035)
+("Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts\n", 0.49620634597000035)
+('Call me da, i am waiting for your call.\n', 0.49620634597000035)
+('Hmmm.. Thk sure got time to hop ard... Ya, can go 4 free abt... Muz call u to discuss liao... \n', 0.4912067475800296)
+('Would really appreciate if you call me. Just need someone to talk to.\n', 0.4912067475800296)
+('I asked you to call him now ok\n', 0.4912067475800296)
+('My life Means a lot to me, Not because I love my life, But because I love the people in my life, The world calls them friends, I call them my World:-).. Ge:-)..\n', 0.4912067475800296)
+("Missed your call cause I was yelling at scrappy. Miss u. Can't wait for u to come home. I'm so lonely today.\n", 0.4912067475800296)
+('The world is running and i am still.maybe all are feeling the same,so be it.or i have to admit,i am mad.then where is the correction?or let me call this is life.and keep running with the world,may be u r also running.lets run.\n', 0.4912067475800296)
+('Well am officially in a philosophical hole, so if u wanna call am at home ready to be saved!\n', 0.4912067475800296)
+('What do u want when i come back?.a beautiful necklace as a token of my heart for you.thats what i will give but ONLY to MY WIFE OF MY LIKING.BE THAT AND SEE..NO ONE can give you that.dont call me.i will wait till i come.\n', 0.4912067475800296)
+("Can you call me plz. Your number shows out of coveragd area. I have urgnt call in vasai &amp; have to reach before 4'o clock so call me plz\n", 0.4912067475800296)
+("Wait that's still not all that clear, were you not sure about me being sarcastic or that that's why x doesn't want to live with us\n", 0.4088429013999828)
+("Hello! How's you and how did saturday go? I was just texting to see if you'd decided to do anything tomo. Not that i'm trying to invite myself or anything!\n", 0.4088429013999828)
+("Hi! You just spoke to MANEESHA V. We'd like to know if you were satisfied with the experience. Reply Toll Free with Yes or No.\n", 0.4088429013999828)
+("Any chance you might have had with me evaporated as soon as you violated my privacy by stealing my phone number from your employer's paperwork. Not cool at all. Please do not contact me again or I will report you to your supervisor.\n", 0.4088429013999828)
+From the 17 sentence, there have 4 sentence length is less than 60
+From the 17 sentence, there have 5 sentence length is larger than 150
+From the 17 sentence, there have 12 sentence use upper case
+From the 17 sentence, there have 12 sentence use uncommon punctuation (! / : @ ;)
+###### Get the Worst False Negative ######
+('Did you hear about the new "Divorce Barbie"? It comes with all of Ken\'s stuff!\n', 0.036511721094453886)
+('Are you unique enough? Find out from 30th August. www.areyouunique.co.uk\n', 0.036511721094453886)
+('Will u meet ur dream partner soon? Is ur career off 2 a flyng start? 2 find out free, txt HORO followed by ur star sign, e. g. HORO ARIES\n', 0.036511721094453886)
+('U 447801259231 have a secret admirer who is looking 2 make contact with U-find out who they R*reveal who thinks UR so special-call on 09058094597\n', 0.036511721094453886)
+('SMS. ac Blind Date 4U!: Rodds1 is 21/m from Aberdeen, United Kingdom. Check Him out http://img. sms. ac/W/icmb3cktz8r7!-4 no Blind Dates send HIDE\n', 0.036511721094453886)
+('Thanks for your Ringtone Order, Reference T91. You will be charged GBP 4 per week. You can unsubscribe at anytime by calling customer services on 09057039994\n', 0.036511721094453886)
+('100 dating service cal;l 09064012103 box334sk38ch\n', 0.036511721094453886)
+('Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz\n', 0.036511721094453886)
+('You will recieve your tone within the next 24hrs. For Terms and conditions please see Channel U Teletext Pg 750\n', 0.036511721094453886)
+('from www.Applausestore.com MonthlySubscription@50p/msg max6/month T&CsC web age16 2stop txt stop\n', 0.036511721094453886)
+('XCLUSIVE@CLUBSAISAI 2MOROW 28/5 SOIREE SPECIALE ZOUK WITH NICHOLS FROM PARIS.FREE ROSES 2 ALL LADIES !!! info: 07946746291/07880867867 \n', 0.036511721094453886)
+('<Forwarded from 448712404000>Please CALL 08712404000 immediately as there is an urgent message waiting for you.\n', 0.036511721094453886)
+('08714712388 between 10am-7pm Cost 10p\n', 0.036511721094453886)
+("Do you realize that in about 40 years, we'll have thousands of old ladies running around with tattoos?\n", 0.036511721094453886)
+('You have an important customer service announcement from PREMIER.\n', 0.036511721094453886)
+('U were outbid by simonwatson5120 on the Shinco DVD Plyr. 2 bid again, visit sms. ac/smsrewards 2 end bid notifications, reply END OUT\n', 0.036511721094453886)
+('SMSSERVICES. for yourinclusive text credits, pls goto www.comuk.net login= 3qxj9 unsubscribe with STOP, no extra charge. help 08702840625.COMUK. 220-CM2 9AE\n', 0.036511721094453886)
+('U have a secret admirer who is looking 2 make contact with U-find out who they R*reveal who thinks UR so special-call on 09058094565\n', 0.036511721094453886)
+('U have a Secret Admirer who is looking 2 make contact with U-find out who they R*reveal who thinks UR so special-call on 09065171142-stopsms-08\n', 0.036511721094453886)
+('Filthy stories and GIRLS waiting for your\n', 0.036511721094453886)
+From the 20 sentence, there have 5 sentence has URL
+From the 20 sentence, there have 12 sentence has digit word
+From the 20 sentence, there have 16 sentence use upper case
+From the 20 sentence, there have 16 sentence use uncommon punctuation (! / : @ ;)
