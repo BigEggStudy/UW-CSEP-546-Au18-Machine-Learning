@@ -1,0 +1,14 @@
+Finish implementing the EvaluationsStub methods.
+
+Precision, Recall.
+False positive rate, false negative rate.
+
+And visualizing the confusion matrix.
+
+You can find the definitions in the reading from Hulten chapter 19.
+
+ANSWER:
+
+Hand in your code. Keep it clear! If the TA can’t easily follow it they will have to deduct credit.
+
+Hand in the output of all of these evaluation methods for the spam domain with the most common model and the spam heuristic model.

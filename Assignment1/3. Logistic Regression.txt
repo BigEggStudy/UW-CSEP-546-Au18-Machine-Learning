@@ -1,0 +1,27 @@
+Take the heuristic spam model as a starting point (that is, match the general API) and implement logistic regression.
+
+Recall, loss is sum over samples of:
+
+(-y[i] * math.log(yPredicted[i])) - ((1 - y[i]) * (math.log(1.0-yPredicted[i])))
+
+Recall, yPredicted is: 
+/ (1.0 + math.exp(-z))
+Where z is:
+self.weight0 + sum([exampleFeatures[i] * self.weights[i] for i in range(len(exampleFeatures))])
+
+Use a threshold of 0.5 for classification (if score for a sample after the sigmoid is > 0.5 it is classified as spam).
+
+Use gradient descent for optimization.
+Recall the gradient for weight j is sum over samples of:  ((yPredicted[i] - y[i]) * x[i][j])
+[ divide this by the number of samples then multiply by step size for update. ]
+
+HAND IN:
+Run on the training/test data in the framework.
+Run for 50,000 iterations with step size 0.01 and plot the training set loss vs iteration every 1000 iterations.
+Plot the test set loss, test set accuracy, and value of weight[1] after every 10,000 iterations.
+Calculate all the statistics from the evaluation framework on the 50,000 iteration run, including the confusion matrix, precision, recall, etc.
+Answer in no more than 150 words (plus the plots and tables mentioned above):
+
+* What do these measurements tell you about your logistic regression model compared to the straw-men?
+* How did the gradient descent converge?
+* What makes you think your model is correct?

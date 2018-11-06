@@ -1,0 +1,34 @@
+
+Get familiar with python 3.x: https://www.learnpython.org/
+
+No way Python!?!?
+
+Python is widely used in machine learning and data science:
+To process, prepare, & explore data.
+To stitch together ML tools into experiments/work flows.
+
+Keep in mind that we are only going to be programming very basic versions of the various algorithms, and there will be very little need for optimization. 
+
+Most of my machine learning algorithm solutions were under 100 lines of code, max was ~180.
+
+The code to stitch these together and loop over parameters was longer, but very simple.
+
+I provide python framework code to get you started on the assignments, deal with data loading, etc.
+
+[ If you really think python will be a problem for you, let me know. ]
+
+
+Install visual studio community: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted#
+
+Install the with the python option (as described here: https://docs.microsoft.com/en-us/visualstudio/python/installing-python-support-in-visual-studio?view=vs-2017)
+
+Execute the assignment 1 framework:
+
+Download it from the web page: (if you have this file you already have it)
+
+Execute StartingPoint1.py in your python environment. Make sure you get accuracy reports for the strawman models. Spend some time reading through the code. Over the next several weeks we’ll rewrite and expand most of it.
+
+
+Hand in:
+
+This assignment is ungraded. There is nothing to hand in. But if you don’t complete it you’re going to have a hard time doing the next assignment.
