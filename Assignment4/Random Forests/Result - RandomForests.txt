@@ -1,0 +1,80 @@
+### Load the data and add the noise
+### Get the Mutual Information features
+### Merge the features
+========== Building one Model and output the accuracy ==========
+### Training with Random Forest
+### Predicting with Random Forest
+Test Set Accuracy is 0.840029, with lower bound 0.820785 and upper bound 0.859273
+For Individual Trees:
+Test Set Accuracy is 0.837159, with lower bound 0.817777 and upper bound 0.856542
+Test Set Accuracy is 0.832855, with lower bound 0.813269 and upper bound 0.852442
+Test Set Accuracy is 0.832138, with lower bound 0.812518 and upper bound 0.851758
+Test Set Accuracy is 0.819943, with lower bound 0.799772 and upper bound 0.840113
+Test Set Accuracy is 0.835007, with lower bound 0.815522 and upper bound 0.854492
+Test Set Accuracy is 0.833572, with lower bound 0.814020 and upper bound 0.853125
+Test Set Accuracy is 0.825681, with lower bound 0.805765 and upper bound 0.845598
+Test Set Accuracy is 0.841463, with lower bound 0.822290 and upper bound 0.860637
+Test Set Accuracy is 0.845050, with lower bound 0.826054 and upper bound 0.864046
+Test Set Accuracy is 0.844333, with lower bound 0.825301 and upper bound 0.863365
+========== Build multiple Models and plot the accuracy ==========
+### Training with Random Forest with tree num as 1, min to split as 2, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.828551, with lower bound 0.808765 and upper bound 0.848337
+### Training with Random Forest with tree num as 1, min to split as 50, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.837877, with lower bound 0.818529 and upper bound 0.857225
+### Training with Random Forest with tree num as 1, min to split as 2, use bagging as False, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.847920, with lower bound 0.829068 and upper bound 0.866771
+### Training with Random Forest with tree num as 1, min to split as 2, use bagging as True, restrict features as 0
+### Predicting with Random Forest
+Test Set Accuracy is 0.837159, with lower bound 0.817777 and upper bound 0.856542
+### Training with Random Forest with tree num as 20, min to split as 2, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.824964, with lower bound 0.805016 and upper bound 0.844912
+### Training with Random Forest with tree num as 20, min to split as 50, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.839311, with lower bound 0.820033 and upper bound 0.858590
+### Training with Random Forest with tree num as 20, min to split as 2, use bagging as False, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.829268, with lower bound 0.809515 and upper bound 0.849021
+### Training with Random Forest with tree num as 20, min to split as 2, use bagging as True, restrict features as 0
+### Predicting with Random Forest
+Test Set Accuracy is 0.870875, with lower bound 0.853271 and upper bound 0.888479
+### Training with Random Forest with tree num as 40, min to split as 2, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.824247, with lower bound 0.804266 and upper bound 0.844227
+### Training with Random Forest with tree num as 40, min to split as 50, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.822812, with lower bound 0.802768 and upper bound 0.842856
+### Training with Random Forest with tree num as 40, min to split as 2, use bagging as False, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.828551, with lower bound 0.808765 and upper bound 0.848337
+### Training with Random Forest with tree num as 40, min to split as 2, use bagging as True, restrict features as 0
+### Predicting with Random Forest
+Test Set Accuracy is 0.870875, with lower bound 0.853271 and upper bound 0.888479
+### Training with Random Forest with tree num as 60, min to split as 2, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.824247, with lower bound 0.804266 and upper bound 0.844227
+### Training with Random Forest with tree num as 60, min to split as 50, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.824247, with lower bound 0.804266 and upper bound 0.844227
+### Training with Random Forest with tree num as 60, min to split as 2, use bagging as False, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.824247, with lower bound 0.804266 and upper bound 0.844227
+### Training with Random Forest with tree num as 60, min to split as 2, use bagging as True, restrict features as 0
+### Predicting with Random Forest
+Test Set Accuracy is 0.876614, with lower bound 0.859349 and upper bound 0.893879
+### Training with Random Forest with tree num as 80, min to split as 2, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.817073, with lower bound 0.796778 and upper bound 0.837368
+### Training with Random Forest with tree num as 80, min to split as 50, use bagging as True, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.824964, with lower bound 0.805016 and upper bound 0.844912
+### Training with Random Forest with tree num as 80, min to split as 2, use bagging as False, restrict features as 20
+### Predicting with Random Forest
+Test Set Accuracy is 0.828551, with lower bound 0.808765 and upper bound 0.848337
+### Training with Random Forest with tree num as 80, min to split as 2, use bagging as True, restrict features as 0
+### Predicting with Random Forest
+Test Set Accuracy is 0.875897, with lower bound 0.858589 and upper bound 0.893205
+Close the plot diagram to continue program
