@@ -1,0 +1,1390 @@
+Train is 0.491469 percent closed.
+Test is 0.493399 percent closed.
+========== Use Random Forest for Y-Gradient ==========
+### Calculating features ###
+### Parameter Sweeping for Random Forests ###
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.834158, with lower bound 0.813218 and upper bound 0.855098
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.820132, with lower bound 0.798509 and upper bound 0.841755
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.841584, with lower bound 0.821027 and upper bound 0.862141
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.824257, with lower bound 0.802830 and upper bound 0.845685
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.822607, with lower bound 0.801101 and upper bound 0.844114
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.830858, with lower bound 0.809753 and upper bound 0.851963
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.823432, with lower bound 0.801965 and upper bound 0.844899
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.834983, with lower bound 0.814085 and upper bound 0.855882
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.815182, with lower bound 0.793329 and upper bound 0.837034
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.810231, with lower bound 0.788155 and upper bound 0.832307
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.812706, with lower bound 0.790741 and upper bound 0.834671
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.807756, with lower bound 0.785570 and upper bound 0.829941
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.809406, with lower bound 0.787293 and upper bound 0.831519
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.804455, with lower bound 0.782126 and upper bound 0.826785
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.817657, with lower bound 0.795918 and upper bound 0.839396
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.799505, with lower bound 0.776964 and upper bound 0.822046
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.819307, with lower bound 0.797645 and upper bound 0.840969
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.801980, with lower bound 0.779544 and upper bound 0.824416
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.833333, with lower bound 0.812352 and upper bound 0.854315
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.850660, with lower bound 0.830594 and upper bound 0.870727
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.837459, with lower bound 0.816687 and upper bound 0.858230
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.830033, with lower bound 0.808887 and upper bound 0.851179
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.830858, with lower bound 0.809753 and upper bound 0.851963
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.832508, with lower bound 0.811485 and upper bound 0.853531
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.813531, with lower bound 0.791604 and upper bound 0.835459
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.823432, with lower bound 0.801965 and upper bound 0.844899
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.827558, with lower bound 0.806290 and upper bound 0.848826
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.809406, with lower bound 0.787293 and upper bound 0.831519
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.824257, with lower bound 0.802830 and upper bound 0.845685
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.822607, with lower bound 0.801101 and upper bound 0.844114
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.801155, with lower bound 0.778684 and upper bound 0.823626
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.821782, with lower bound 0.800237 and upper bound 0.843328
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.804455, with lower bound 0.782126 and upper bound 0.826785
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.792079, with lower bound 0.769232 and upper bound 0.814927
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.812706, with lower bound 0.790741 and upper bound 0.834671
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.803630, with lower bound 0.781265 and upper bound 0.825995
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.836634, with lower bound 0.815820 and upper bound 0.857448
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.822607, with lower bound 0.801101 and upper bound 0.844114
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.850660, with lower bound 0.830594 and upper bound 0.870727
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.827558, with lower bound 0.806290 and upper bound 0.848826
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.832508, with lower bound 0.811485 and upper bound 0.853531
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.837459, with lower bound 0.816687 and upper bound 0.858230
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.817657, with lower bound 0.795918 and upper bound 0.839396
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.830033, with lower bound 0.808887 and upper bound 0.851179
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.822607, with lower bound 0.801101 and upper bound 0.844114
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.814356, with lower bound 0.792466 and upper bound 0.836247
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.816832, with lower bound 0.795055 and upper bound 0.838609
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.818482, with lower bound 0.796781 and upper bound 0.840182
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.806106, with lower bound 0.783848 and upper bound 0.828363
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.830033, with lower bound 0.808887 and upper bound 0.851179
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.811056, with lower bound 0.789017 and upper bound 0.833095
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.800330, with lower bound 0.777824 and upper bound 0.822836
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.817657, with lower bound 0.795918 and upper bound 0.839396
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.817657, with lower bound 0.795918 and upper bound 0.839396
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.845710, with lower bound 0.825373 and upper bound 0.866046
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.832508, with lower bound 0.811485 and upper bound 0.853531
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.842409, with lower bound 0.821896 and upper bound 0.862922
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.834158, with lower bound 0.813218 and upper bound 0.855098
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.840759, with lower bound 0.820159 and upper bound 0.861359
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.839109, with lower bound 0.818423 and upper bound 0.859795
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.816007, with lower bound 0.794192 and upper bound 0.837821
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.828383, with lower bound 0.807155 and upper bound 0.849610
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.837459, with lower bound 0.816687 and upper bound 0.858230
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.812706, with lower bound 0.790741 and upper bound 0.834671
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.818482, with lower bound 0.796781 and upper bound 0.840182
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.823432, with lower bound 0.801965 and upper bound 0.844899
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.811056, with lower bound 0.789017 and upper bound 0.833095
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.821782, with lower bound 0.800237 and upper bound 0.843328
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.811056, with lower bound 0.789017 and upper bound 0.833095
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.806931, with lower bound 0.784709 and upper bound 0.829153
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.825083, with lower bound 0.803695 and upper bound 0.846471
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.820957, with lower bound 0.799373 and upper bound 0.842542
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.843234, with lower bound 0.822765 and upper bound 0.863704
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.837459, with lower bound 0.816687 and upper bound 0.858230
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.838284, with lower bound 0.817555 and upper bound 0.859013
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.829208, with lower bound 0.808021 and upper bound 0.850395
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.830033, with lower bound 0.808887 and upper bound 0.851179
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.833333, with lower bound 0.812352 and upper bound 0.854315
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.815182, with lower bound 0.793329 and upper bound 0.837034
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.827558, with lower bound 0.806290 and upper bound 0.848826
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.841584, with lower bound 0.821027 and upper bound 0.862141
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.815182, with lower bound 0.793329 and upper bound 0.837034
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.831683, with lower bound 0.810619 and upper bound 0.852747
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.817657, with lower bound 0.795918 and upper bound 0.839396
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.805281, with lower bound 0.782987 and upper bound 0.827574
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.819307, with lower bound 0.797645 and upper bound 0.840969
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.811881, with lower bound 0.789879 and upper bound 0.833883
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.799505, with lower bound 0.776964 and upper bound 0.822046
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.811881, with lower bound 0.789879 and upper bound 0.833883
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.813531, with lower bound 0.791604 and upper bound 0.835459
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.847360, with lower bound 0.827112 and upper bound 0.867607
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.846535, with lower bound 0.826242 and upper bound 0.866827
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.855611, with lower bound 0.835822 and upper bound 0.875399
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.824257, with lower bound 0.802830 and upper bound 0.845685
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.832508, with lower bound 0.811485 and upper bound 0.853531
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.839934, with lower bound 0.819291 and upper bound 0.860577
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.820957, with lower bound 0.799373 and upper bound 0.842542
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.831683, with lower bound 0.810619 and upper bound 0.852747
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.830033, with lower bound 0.808887 and upper bound 0.851179
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.812706, with lower bound 0.790741 and upper bound 0.834671
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.828383, with lower bound 0.807155 and upper bound 0.849610
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.826733, with lower bound 0.805425 and upper bound 0.848041
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.807756, with lower bound 0.785570 and upper bound 0.829941
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.815182, with lower bound 0.793329 and upper bound 0.837034
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.814356, with lower bound 0.792466 and upper bound 0.836247
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.809406, with lower bound 0.787293 and upper bound 0.831519
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.813531, with lower bound 0.791604 and upper bound 0.835459
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.809406, with lower bound 0.787293 and upper bound 0.831519
+When parameter with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 20
+Random Forests has best accuracy 0.855611
+========== Use Random Forest for X-Gradient ==========
+### Calculating features ###
+### Parameter Sweeping for Random Forests ###
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.843234, with lower bound 0.822765 and upper bound 0.863704
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.834158, with lower bound 0.813218 and upper bound 0.855098
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.840759, with lower bound 0.820159 and upper bound 0.861359
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.825908, with lower bound 0.804559 and upper bound 0.847256
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.839934, with lower bound 0.819291 and upper bound 0.860577
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.831683, with lower bound 0.810619 and upper bound 0.852747
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.825083, with lower bound 0.803695 and upper bound 0.846471
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.826733, with lower bound 0.805425 and upper bound 0.848041
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.825908, with lower bound 0.804559 and upper bound 0.847256
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.825908, with lower bound 0.804559 and upper bound 0.847256
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.838284, with lower bound 0.817555 and upper bound 0.859013
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.841584, with lower bound 0.821027 and upper bound 0.862141
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.824257, with lower bound 0.802830 and upper bound 0.845685
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.825908, with lower bound 0.804559 and upper bound 0.847256
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.824257, with lower bound 0.802830 and upper bound 0.845685
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.817657, with lower bound 0.795918 and upper bound 0.839396
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.825908, with lower bound 0.804559 and upper bound 0.847256
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.827558, with lower bound 0.806290 and upper bound 0.848826
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.849010, with lower bound 0.828852 and upper bound 0.869167
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.846535, with lower bound 0.826242 and upper bound 0.866827
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.852310, with lower bound 0.832336 and upper bound 0.872285
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.839934, with lower bound 0.819291 and upper bound 0.860577
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.839934, with lower bound 0.819291 and upper bound 0.860577
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.836634, with lower bound 0.815820 and upper bound 0.857448
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.824257, with lower bound 0.802830 and upper bound 0.845685
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.838284, with lower bound 0.817555 and upper bound 0.859013
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.849835, with lower bound 0.829723 and upper bound 0.869947
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.826733, with lower bound 0.805425 and upper bound 0.848041
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.830033, with lower bound 0.808887 and upper bound 0.851179
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.838284, with lower bound 0.817555 and upper bound 0.859013
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.826733, with lower bound 0.805425 and upper bound 0.848041
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.841584, with lower bound 0.821027 and upper bound 0.862141
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.834158, with lower bound 0.813218 and upper bound 0.855098
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.816832, with lower bound 0.795055 and upper bound 0.838609
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.828383, with lower bound 0.807155 and upper bound 0.849610
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.809406, with lower bound 0.787293 and upper bound 0.831519
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.839109, with lower bound 0.818423 and upper bound 0.859795
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.859736, with lower bound 0.840185 and upper bound 0.879287
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.842409, with lower bound 0.821896 and upper bound 0.862922
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.830033, with lower bound 0.808887 and upper bound 0.851179
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.843234, with lower bound 0.822765 and upper bound 0.863704
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.844059, with lower bound 0.823634 and upper bound 0.864485
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.834983, with lower bound 0.814085 and upper bound 0.855882
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.843234, with lower bound 0.822765 and upper bound 0.863704
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.836634, with lower bound 0.815820 and upper bound 0.857448
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.830033, with lower bound 0.808887 and upper bound 0.851179
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.839109, with lower bound 0.818423 and upper bound 0.859795
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.830858, with lower bound 0.809753 and upper bound 0.851963
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.818482, with lower bound 0.796781 and upper bound 0.840182
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.839109, with lower bound 0.818423 and upper bound 0.859795
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.825083, with lower bound 0.803695 and upper bound 0.846471
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.821782, with lower bound 0.800237 and upper bound 0.843328
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.837459, with lower bound 0.816687 and upper bound 0.858230
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.827558, with lower bound 0.806290 and upper bound 0.848826
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.844059, with lower bound 0.823634 and upper bound 0.864485
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.850660, with lower bound 0.830594 and upper bound 0.870727
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.855611, with lower bound 0.835822 and upper bound 0.875399
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.839109, with lower bound 0.818423 and upper bound 0.859795
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.849835, with lower bound 0.829723 and upper bound 0.869947
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.851485, with lower bound 0.831464 and upper bound 0.871506
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.830858, with lower bound 0.809753 and upper bound 0.851963
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.839934, with lower bound 0.819291 and upper bound 0.860577
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.838284, with lower bound 0.817555 and upper bound 0.859013
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.822607, with lower bound 0.801101 and upper bound 0.844114
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.844884, with lower bound 0.824503 and upper bound 0.865266
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.829208, with lower bound 0.808021 and upper bound 0.850395
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.820957, with lower bound 0.799373 and upper bound 0.842542
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.840759, with lower bound 0.820159 and upper bound 0.861359
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.825908, with lower bound 0.804559 and upper bound 0.847256
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.817657, with lower bound 0.795918 and upper bound 0.839396
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.834158, with lower bound 0.813218 and upper bound 0.855098
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.830033, with lower bound 0.808887 and upper bound 0.851179
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.844059, with lower bound 0.823634 and upper bound 0.864485
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.852310, with lower bound 0.832336 and upper bound 0.872285
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.853135, with lower bound 0.833207 and upper bound 0.873064
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.842409, with lower bound 0.821896 and upper bound 0.862922
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.846535, with lower bound 0.826242 and upper bound 0.866827
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.844884, with lower bound 0.824503 and upper bound 0.865266
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.828383, with lower bound 0.807155 and upper bound 0.849610
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.846535, with lower bound 0.826242 and upper bound 0.866827
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.834983, with lower bound 0.814085 and upper bound 0.855882
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.825083, with lower bound 0.803695 and upper bound 0.846471
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.840759, with lower bound 0.820159 and upper bound 0.861359
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.836634, with lower bound 0.815820 and upper bound 0.857448
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.820132, with lower bound 0.798509 and upper bound 0.841755
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.835809, with lower bound 0.814952 and upper bound 0.856665
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.836634, with lower bound 0.815820 and upper bound 0.857448
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.810231, with lower bound 0.788155 and upper bound 0.832307
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.834983, with lower bound 0.814085 and upper bound 0.855882
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.829208, with lower bound 0.808021 and upper bound 0.850395
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.835809, with lower bound 0.814952 and upper bound 0.856665
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.857261, with lower bound 0.837567 and upper bound 0.876955
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.852310, with lower bound 0.832336 and upper bound 0.872285
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.839109, with lower bound 0.818423 and upper bound 0.859795
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.853135, with lower bound 0.833207 and upper bound 0.873064
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.844059, with lower bound 0.823634 and upper bound 0.864485
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.838284, with lower bound 0.817555 and upper bound 0.859013
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.848185, with lower bound 0.827982 and upper bound 0.868387
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.836634, with lower bound 0.815820 and upper bound 0.857448
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.827558, with lower bound 0.806290 and upper bound 0.848826
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.840759, with lower bound 0.820159 and upper bound 0.861359
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.832508, with lower bound 0.811485 and upper bound 0.853531
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.824257, with lower bound 0.802830 and upper bound 0.845685
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.839109, with lower bound 0.818423 and upper bound 0.859795
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.834983, with lower bound 0.814085 and upper bound 0.855882
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.815182, with lower bound 0.793329 and upper bound 0.837034
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 10
+Test Set Accuracy is 0.834983, with lower bound 0.814085 and upper bound 0.855882
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 20
+Test Set Accuracy is 0.825908, with lower bound 0.804559 and upper bound 0.847256
+When parameter with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 10
+Random Forests has best accuracy 0.859736
+========== Use Random Forest for Y-Gradient Histogram ==========
+### Calculating features ###
+### Parameter Sweeping for Random Forests ###
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.539604, with lower bound 0.511543 and upper bound 0.567665
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.527228, with lower bound 0.499120 and upper bound 0.555336
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.522277, with lower bound 0.494155 and upper bound 0.550399
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.526403, with lower bound 0.498292 and upper bound 0.554513
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.526403, with lower bound 0.498292 and upper bound 0.554513
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.542079, with lower bound 0.514029 and upper bound 0.570129
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.551155, with lower bound 0.523153 and upper bound 0.579157
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.538779, with lower bound 0.510714 and upper bound 0.566844
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.551155, with lower bound 0.523153 and upper bound 0.579157
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.551155, with lower bound 0.523153 and upper bound 0.579157
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.561056, with lower bound 0.533117 and upper bound 0.588995
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.553630, with lower bound 0.525643 and upper bound 0.581618
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.570132, with lower bound 0.542261 and upper bound 0.598003
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.539604, with lower bound 0.511543 and upper bound 0.567665
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.542079, with lower bound 0.514029 and upper bound 0.570129
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.556106, with lower bound 0.528134 and upper bound 0.584078
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.546205, with lower bound 0.518175 and upper bound 0.574234
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.549505, with lower bound 0.521494 and upper bound 0.577516
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.535479, with lower bound 0.507400 and upper bound 0.563557
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.524752, with lower bound 0.496637 and upper bound 0.552868
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.530528, with lower bound 0.502431 and upper bound 0.558625
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.555281, with lower bound 0.527303 and upper bound 0.583258
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.525578, with lower bound 0.497465 and upper bound 0.553690
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.552805, with lower bound 0.524813 and upper bound 0.580798
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.545380, with lower bound 0.517346 and upper bound 0.573413
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.522277, with lower bound 0.494155 and upper bound 0.550399
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.542079, with lower bound 0.514029 and upper bound 0.570129
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.554455, with lower bound 0.526473 and upper bound 0.582438
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.534653, with lower bound 0.506571 and upper bound 0.562736
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.551980, with lower bound 0.523983 and upper bound 0.579977
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.559406, with lower bound 0.531456 and upper bound 0.587356
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.545380, with lower bound 0.517346 and upper bound 0.573413
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.554455, with lower bound 0.526473 and upper bound 0.582438
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.566007, with lower bound 0.538103 and upper bound 0.593910
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.543729, with lower bound 0.515687 and upper bound 0.571771
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.565182, with lower bound 0.537272 and upper bound 0.593091
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.554455, with lower bound 0.526473 and upper bound 0.582438
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.529703, with lower bound 0.501603 and upper bound 0.557803
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.540429, with lower bound 0.512371 and upper bound 0.568487
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.544554, with lower bound 0.516517 and upper bound 0.572592
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.532178, with lower bound 0.504087 and upper bound 0.560270
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.551980, with lower bound 0.523983 and upper bound 0.579977
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.536304, with lower bound 0.508228 and upper bound 0.564379
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.539604, with lower bound 0.511543 and upper bound 0.567665
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.556106, with lower bound 0.528134 and upper bound 0.584078
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.554455, with lower bound 0.526473 and upper bound 0.582438
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.553630, with lower bound 0.525643 and upper bound 0.581618
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.566832, with lower bound 0.538935 and upper bound 0.594729
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.554455, with lower bound 0.526473 and upper bound 0.582438
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.547030, with lower bound 0.519005 and upper bound 0.575055
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.542079, with lower bound 0.514029 and upper bound 0.570129
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.554455, with lower bound 0.526473 and upper bound 0.582438
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.546205, with lower bound 0.518175 and upper bound 0.574234
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.561056, with lower bound 0.533117 and upper bound 0.588995
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.543729, with lower bound 0.515687 and upper bound 0.571771
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.518977, with lower bound 0.490847 and upper bound 0.547106
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.526403, with lower bound 0.498292 and upper bound 0.554513
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.542079, with lower bound 0.514029 and upper bound 0.570129
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.531353, with lower bound 0.503259 and upper bound 0.559448
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.545380, with lower bound 0.517346 and upper bound 0.573413
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.557756, with lower bound 0.529794 and upper bound 0.585717
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.530528, with lower bound 0.502431 and upper bound 0.558625
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.561056, with lower bound 0.533117 and upper bound 0.588995
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.557756, with lower bound 0.529794 and upper bound 0.585717
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.555281, with lower bound 0.527303 and upper bound 0.583258
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.546205, with lower bound 0.518175 and upper bound 0.574234
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.550330, with lower bound 0.522323 and upper bound 0.578337
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.539604, with lower bound 0.511543 and upper bound 0.567665
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.551980, with lower bound 0.523983 and upper bound 0.579977
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.557756, with lower bound 0.529794 and upper bound 0.585717
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.538779, with lower bound 0.510714 and upper bound 0.566844
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.550330, with lower bound 0.522323 and upper bound 0.578337
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.537129, with lower bound 0.509057 and upper bound 0.565201
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.533003, with lower bound 0.504915 and upper bound 0.561092
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.548680, with lower bound 0.520664 and upper bound 0.576696
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.554455, with lower bound 0.526473 and upper bound 0.582438
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.538779, with lower bound 0.510714 and upper bound 0.566844
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.540429, with lower bound 0.512371 and upper bound 0.568487
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.548680, with lower bound 0.520664 and upper bound 0.576696
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.535479, with lower bound 0.507400 and upper bound 0.563557
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.544554, with lower bound 0.516517 and upper bound 0.572592
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.547855, with lower bound 0.519834 and upper bound 0.575875
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.543729, with lower bound 0.515687 and upper bound 0.571771
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.561056, with lower bound 0.533117 and upper bound 0.588995
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.565182, with lower bound 0.537272 and upper bound 0.593091
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.546205, with lower bound 0.518175 and upper bound 0.574234
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.543729, with lower bound 0.515687 and upper bound 0.571771
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.561056, with lower bound 0.533117 and upper bound 0.588995
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.554455, with lower bound 0.526473 and upper bound 0.582438
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.561056, with lower bound 0.533117 and upper bound 0.588995
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.534653, with lower bound 0.506571 and upper bound 0.562736
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.514851, with lower bound 0.486714 and upper bound 0.542989
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.529703, with lower bound 0.501603 and upper bound 0.557803
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.554455, with lower bound 0.526473 and upper bound 0.582438
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.542079, with lower bound 0.514029 and upper bound 0.570129
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.541254, with lower bound 0.513200 and upper bound 0.569308
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.552805, with lower bound 0.524813 and upper bound 0.580798
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.538779, with lower bound 0.510714 and upper bound 0.566844
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.555281, with lower bound 0.527303 and upper bound 0.583258
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.556106, with lower bound 0.528134 and upper bound 0.584078
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.545380, with lower bound 0.517346 and upper bound 0.573413
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.557756, with lower bound 0.529794 and upper bound 0.585717
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.553630, with lower bound 0.525643 and upper bound 0.581618
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.537954, with lower bound 0.509885 and upper bound 0.566022
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.560231, with lower bound 0.532286 and upper bound 0.588176
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.555281, with lower bound 0.527303 and upper bound 0.583258
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.556931, with lower bound 0.528964 and upper bound 0.584897
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.567657, with lower bound 0.539766 and upper bound 0.595548
+When parameter with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 0
+Random Forests has best accuracy 0.570132
+========== Use Random Forest for X-Gradient Histogram ==========
+### Calculating features ###
+### Parameter Sweeping for Random Forests ###
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.755776, with lower bound 0.731588 and upper bound 0.779963
+Build Random Forests with num_trees = 25, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.780528, with lower bound 0.757226 and upper bound 0.803830
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.781353, with lower bound 0.758083 and upper bound 0.804623
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.765677, with lower bound 0.741829 and upper bound 0.789524
+Build Random Forests with num_trees = 25, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.778878, with lower bound 0.755513 and upper bound 0.802242
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.781353, with lower bound 0.758083 and upper bound 0.804623
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.773927, with lower bound 0.750378 and upper bound 0.797477
+Build Random Forests with num_trees = 25, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.775578, with lower bound 0.752089 and upper bound 0.799066
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.783003, with lower bound 0.759797 and upper bound 0.806210
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.773927, with lower bound 0.750378 and upper bound 0.797477
+Build Random Forests with num_trees = 25, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.774752, with lower bound 0.751234 and upper bound 0.798271
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.781353, with lower bound 0.758083 and upper bound 0.804623
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.765677, with lower bound 0.741829 and upper bound 0.789524
+Build Random Forests with num_trees = 25, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.765677, with lower bound 0.741829 and upper bound 0.789524
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.774752, with lower bound 0.751234 and upper bound 0.798271
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.764851, with lower bound 0.740975 and upper bound 0.788728
+Build Random Forests with num_trees = 25, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.778053, with lower bound 0.754657 and upper bound 0.801448
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.778053, with lower bound 0.754657 and upper bound 0.801448
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.761551, with lower bound 0.737560 and upper bound 0.785542
+Build Random Forests with num_trees = 50, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.772277, with lower bound 0.748667 and upper bound 0.795887
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.783003, with lower bound 0.759797 and upper bound 0.806210
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 50, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.783003, with lower bound 0.759797 and upper bound 0.806210
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.763201, with lower bound 0.739267 and upper bound 0.787135
+Build Random Forests with num_trees = 50, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.773927, with lower bound 0.750378 and upper bound 0.797477
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.770627, with lower bound 0.746957 and upper bound 0.794297
+Build Random Forests with num_trees = 50, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.776403, with lower bound 0.752945 and upper bound 0.799860
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.769802, with lower bound 0.746102 and upper bound 0.793502
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.773927, with lower bound 0.750378 and upper bound 0.797477
+Build Random Forests with num_trees = 50, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.778878, with lower bound 0.755513 and upper bound 0.802242
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.774752, with lower bound 0.751234 and upper bound 0.798271
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.771452, with lower bound 0.747812 and upper bound 0.795092
+Build Random Forests with num_trees = 50, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.773927, with lower bound 0.750378 and upper bound 0.797477
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.782178, with lower bound 0.758940 and upper bound 0.805417
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.758251, with lower bound 0.734147 and upper bound 0.782355
+Build Random Forests with num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.774752, with lower bound 0.751234 and upper bound 0.798271
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.781353, with lower bound 0.758083 and upper bound 0.804623
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.765677, with lower bound 0.741829 and upper bound 0.789524
+Build Random Forests with num_trees = 75, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.774752, with lower bound 0.751234 and upper bound 0.798271
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.782178, with lower bound 0.758940 and upper bound 0.805417
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.774752, with lower bound 0.751234 and upper bound 0.798271
+Build Random Forests with num_trees = 75, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.761551, with lower bound 0.737560 and upper bound 0.785542
+Build Random Forests with num_trees = 75, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.773927, with lower bound 0.750378 and upper bound 0.797477
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.777228, with lower bound 0.753801 and upper bound 0.800654
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.763201, with lower bound 0.739267 and upper bound 0.787135
+Build Random Forests with num_trees = 75, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.780528, with lower bound 0.757226 and upper bound 0.803830
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.770627, with lower bound 0.746957 and upper bound 0.794297
+Build Random Forests with num_trees = 75, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.776403, with lower bound 0.752945 and upper bound 0.799860
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.785479, with lower bound 0.762368 and upper bound 0.808589
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.768977, with lower bound 0.745247 and upper bound 0.792706
+Build Random Forests with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.778878, with lower bound 0.755513 and upper bound 0.802242
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.781353, with lower bound 0.758083 and upper bound 0.804623
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.778878, with lower bound 0.755513 and upper bound 0.802242
+Build Random Forests with num_trees = 100, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.785479, with lower bound 0.762368 and upper bound 0.808589
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.769802, with lower bound 0.746102 and upper bound 0.793502
+Build Random Forests with num_trees = 100, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.781353, with lower bound 0.758083 and upper bound 0.804623
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.782178, with lower bound 0.758940 and upper bound 0.805417
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.765677, with lower bound 0.741829 and upper bound 0.789524
+Build Random Forests with num_trees = 100, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.783003, with lower bound 0.759797 and upper bound 0.806210
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.768977, with lower bound 0.745247 and upper bound 0.792706
+Build Random Forests with num_trees = 100, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.775578, with lower bound 0.752089 and upper bound 0.799066
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.778878, with lower bound 0.755513 and upper bound 0.802242
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.762376, with lower bound 0.738414 and upper bound 0.786339
+Build Random Forests with num_trees = 100, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.773102, with lower bound 0.749523 and upper bound 0.796682
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.780528, with lower bound 0.757226 and upper bound 0.803830
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.765677, with lower bound 0.741829 and upper bound 0.789524
+Build Random Forests with num_trees = 125, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.778053, with lower bound 0.754657 and upper bound 0.801448
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.778053, with lower bound 0.754657 and upper bound 0.801448
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.773102, with lower bound 0.749523 and upper bound 0.796682
+Build Random Forests with num_trees = 125, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.780528, with lower bound 0.757226 and upper bound 0.803830
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.770627, with lower bound 0.746957 and upper bound 0.794297
+Build Random Forests with num_trees = 125, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.780528, with lower bound 0.757226 and upper bound 0.803830
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.783003, with lower bound 0.759797 and upper bound 0.806210
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.770627, with lower bound 0.746957 and upper bound 0.794297
+Build Random Forests with num_trees = 125, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.780528, with lower bound 0.757226 and upper bound 0.803830
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.778878, with lower bound 0.755513 and upper bound 0.802242
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.764851, with lower bound 0.740975 and upper bound 0.788728
+Build Random Forests with num_trees = 125, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.776403, with lower bound 0.752945 and upper bound 0.799860
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.765677, with lower bound 0.741829 and upper bound 0.789524
+Build Random Forests with num_trees = 125, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.772277, with lower bound 0.748667 and upper bound 0.795887
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.773927, with lower bound 0.750378 and upper bound 0.797477
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.766502, with lower bound 0.742684 and upper bound 0.790320
+Build Random Forests with num_trees = 150, min_to_split = 25, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.780528, with lower bound 0.757226 and upper bound 0.803830
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.769802, with lower bound 0.746102 and upper bound 0.793502
+Build Random Forests with num_trees = 150, min_to_split = 50, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.779703, with lower bound 0.756370 and upper bound 0.803036
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.780528, with lower bound 0.757226 and upper bound 0.803830
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.773102, with lower bound 0.749523 and upper bound 0.796682
+Build Random Forests with num_trees = 150, min_to_split = 75, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.778878, with lower bound 0.755513 and upper bound 0.802242
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.783003, with lower bound 0.759797 and upper bound 0.806210
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.769802, with lower bound 0.746102 and upper bound 0.793502
+Build Random Forests with num_trees = 150, min_to_split = 100, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.781353, with lower bound 0.758083 and upper bound 0.804623
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.778878, with lower bound 0.755513 and upper bound 0.802242
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.767327, with lower bound 0.743538 and upper bound 0.791115
+Build Random Forests with num_trees = 150, min_to_split = 125, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.776403, with lower bound 0.752945 and upper bound 0.799860
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 0
+Test Set Accuracy is 0.774752, with lower bound 0.751234 and upper bound 0.798271
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 2
+Test Set Accuracy is 0.763201, with lower bound 0.739267 and upper bound 0.787135
+Build Random Forests with num_trees = 150, min_to_split = 150, use_bagging = True, restrict_features = 4
+Test Set Accuracy is 0.778878, with lower bound 0.755513 and upper bound 0.802242
+When parameter with num_trees = 100, min_to_split = 25, use_bagging = True, restrict_features = 0
+Random Forests has best accuracy 0.785479
+========== Compare Models ==========
+At threshold 0.010000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.020000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.030000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.040000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.050000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.060000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.070000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.080000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.090000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.100000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.110000
+Y-Gradient Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.998371, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.120000
+Y-Gradient Model has False Positive Rate 0.998371, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.998371, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.130000
+Y-Gradient Model has False Positive Rate 0.995114, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.998371, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+At threshold 0.140000
+Y-Gradient Model has False Positive Rate 0.991857, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.995114, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.001672
+At threshold 0.150000
+Y-Gradient Model has False Positive Rate 0.983713, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.986971, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.993485, False Negative Rate 0.003344
+At threshold 0.160000
+Y-Gradient Model has False Positive Rate 0.977199, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.986971, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.993485, False Negative Rate 0.003344
+At threshold 0.170000
+Y-Gradient Model has False Positive Rate 0.964169, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.982085, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.985342, False Negative Rate 0.003344
+At threshold 0.180000
+Y-Gradient Model has False Positive Rate 0.964169, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.973941, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.973941, False Negative Rate 0.003344
+At threshold 0.190000
+Y-Gradient Model has False Positive Rate 0.951140, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.962541, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.967427, False Negative Rate 0.003344
+At threshold 0.200000
+Y-Gradient Model has False Positive Rate 0.942997, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.959283, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.960912, False Negative Rate 0.003344
+At threshold 0.210000
+Y-Gradient Model has False Positive Rate 0.920195, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.942997, False Negative Rate 0.000000
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.944625, False Negative Rate 0.010033
+At threshold 0.220000
+Y-Gradient Model has False Positive Rate 0.902280, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.920195, False Negative Rate 0.003344
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.936482, False Negative Rate 0.013378
+At threshold 0.230000
+Y-Gradient Model has False Positive Rate 0.882736, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.902280, False Negative Rate 0.003344
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.921824, False Negative Rate 0.016722
+At threshold 0.240000
+Y-Gradient Model has False Positive Rate 0.858306, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.892508, False Negative Rate 0.003344
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.890879, False Negative Rate 0.020067
+At threshold 0.250000
+Y-Gradient Model has False Positive Rate 0.828990, False Negative Rate 0.000000
+X-Gradient Model has False Positive Rate 0.879479, False Negative Rate 0.003344
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.877850, False Negative Rate 0.021739
+At threshold 0.260000
+Y-Gradient Model has False Positive Rate 0.802932, False Negative Rate 0.001672
+X-Gradient Model has False Positive Rate 0.827362, False Negative Rate 0.003344
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.840391, False Negative Rate 0.031773
+At threshold 0.270000
+Y-Gradient Model has False Positive Rate 0.762215, False Negative Rate 0.003344
+X-Gradient Model has False Positive Rate 0.806189, False Negative Rate 0.006689
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.807818, False Negative Rate 0.038462
+At threshold 0.280000
+Y-Gradient Model has False Positive Rate 0.734528, False Negative Rate 0.005017
+X-Gradient Model has False Positive Rate 0.783388, False Negative Rate 0.006689
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.778502, False Negative Rate 0.048495
+At threshold 0.290000
+Y-Gradient Model has False Positive Rate 0.679153, False Negative Rate 0.005017
+X-Gradient Model has False Positive Rate 0.747557, False Negative Rate 0.008361
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.739414, False Negative Rate 0.060201
+At threshold 0.300000
+Y-Gradient Model has False Positive Rate 0.641694, False Negative Rate 0.006689
+X-Gradient Model has False Positive Rate 0.701954, False Negative Rate 0.010033
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.675896, False Negative Rate 0.075251
+At threshold 0.310000
+Y-Gradient Model has False Positive Rate 0.618893, False Negative Rate 0.006689
+X-Gradient Model has False Positive Rate 0.671010, False Negative Rate 0.011706
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.661238, False Negative Rate 0.076923
+At threshold 0.320000
+Y-Gradient Model has False Positive Rate 0.599349, False Negative Rate 0.006689
+X-Gradient Model has False Positive Rate 0.641694, False Negative Rate 0.011706
+Y-Gradient Histogram Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.605863, False Negative Rate 0.096990
+At threshold 0.330000
+Y-Gradient Model has False Positive Rate 0.574919, False Negative Rate 0.008361
+X-Gradient Model has False Positive Rate 0.617264, False Negative Rate 0.013378
+Y-Gradient Histogram Model has False Positive Rate 0.996743, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.597720, False Negative Rate 0.103679
+At threshold 0.340000
+Y-Gradient Model has False Positive Rate 0.529316, False Negative Rate 0.008361
+X-Gradient Model has False Positive Rate 0.563518, False Negative Rate 0.016722
+Y-Gradient Histogram Model has False Positive Rate 0.996743, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.537459, False Negative Rate 0.113712
+At threshold 0.350000
+Y-Gradient Model has False Positive Rate 0.503257, False Negative Rate 0.010033
+X-Gradient Model has False Positive Rate 0.527687, False Negative Rate 0.018395
+Y-Gradient Histogram Model has False Positive Rate 0.995114, False Negative Rate 0.000000
+X-Gradient Histogram Model has False Positive Rate 0.516287, False Negative Rate 0.118729
+At threshold 0.360000
+Y-Gradient Model has False Positive Rate 0.464169, False Negative Rate 0.010033
+X-Gradient Model has False Positive Rate 0.503257, False Negative Rate 0.020067
+Y-Gradient Histogram Model has False Positive Rate 0.982085, False Negative Rate 0.005017
+X-Gradient Histogram Model has False Positive Rate 0.467427, False Negative Rate 0.140468
+At threshold 0.370000
+Y-Gradient Model has False Positive Rate 0.434853, False Negative Rate 0.015050
+X-Gradient Model has False Positive Rate 0.464169, False Negative Rate 0.026756
+Y-Gradient Histogram Model has False Positive Rate 0.959283, False Negative Rate 0.011706
+X-Gradient Histogram Model has False Positive Rate 0.429967, False Negative Rate 0.150502
+At threshold 0.380000
+Y-Gradient Model has False Positive Rate 0.400651, False Negative Rate 0.016722
+X-Gradient Model has False Positive Rate 0.415309, False Negative Rate 0.033445
+Y-Gradient Histogram Model has False Positive Rate 0.951140, False Negative Rate 0.021739
+X-Gradient Histogram Model has False Positive Rate 0.392508, False Negative Rate 0.170569
+At threshold 0.390000
+Y-Gradient Model has False Positive Rate 0.381107, False Negative Rate 0.021739
+X-Gradient Model has False Positive Rate 0.392508, False Negative Rate 0.038462
+Y-Gradient Histogram Model has False Positive Rate 0.933225, False Negative Rate 0.033445
+X-Gradient Histogram Model has False Positive Rate 0.379479, False Negative Rate 0.175585
+At threshold 0.400000
+Y-Gradient Model has False Positive Rate 0.364821, False Negative Rate 0.023411
+X-Gradient Model has False Positive Rate 0.389251, False Negative Rate 0.040134
+Y-Gradient Histogram Model has False Positive Rate 0.926710, False Negative Rate 0.036789
+X-Gradient Histogram Model has False Positive Rate 0.363192, False Negative Rate 0.187291
+At threshold 0.410000
+Y-Gradient Model has False Positive Rate 0.335505, False Negative Rate 0.038462
+X-Gradient Model has False Positive Rate 0.346906, False Negative Rate 0.043478
+Y-Gradient Histogram Model has False Positive Rate 0.858306, False Negative Rate 0.071906
+X-Gradient Histogram Model has False Positive Rate 0.301303, False Negative Rate 0.202341
+At threshold 0.420000
+Y-Gradient Model has False Positive Rate 0.317590, False Negative Rate 0.045151
+X-Gradient Model has False Positive Rate 0.315961, False Negative Rate 0.058528
+Y-Gradient Histogram Model has False Positive Rate 0.835505, False Negative Rate 0.102007
+X-Gradient Histogram Model has False Positive Rate 0.278502, False Negative Rate 0.205686
+At threshold 0.430000
+Y-Gradient Model has False Positive Rate 0.275244, False Negative Rate 0.056856
+X-Gradient Model has False Positive Rate 0.280130, False Negative Rate 0.063545
+Y-Gradient Histogram Model has False Positive Rate 0.793160, False Negative Rate 0.142140
+X-Gradient Histogram Model has False Positive Rate 0.254072, False Negative Rate 0.219064
+At threshold 0.440000
+Y-Gradient Model has False Positive Rate 0.260586, False Negative Rate 0.065217
+X-Gradient Model has False Positive Rate 0.267101, False Negative Rate 0.065217
+Y-Gradient Histogram Model has False Positive Rate 0.752443, False Negative Rate 0.168896
+X-Gradient Histogram Model has False Positive Rate 0.241042, False Negative Rate 0.230769
+At threshold 0.450000
+Y-Gradient Model has False Positive Rate 0.231270, False Negative Rate 0.081940
+X-Gradient Model has False Positive Rate 0.242671, False Negative Rate 0.075251
+Y-Gradient Histogram Model has False Positive Rate 0.664495, False Negative Rate 0.244147
+X-Gradient Histogram Model has False Positive Rate 0.224756, False Negative Rate 0.242475
+At threshold 0.460000
+Y-Gradient Model has False Positive Rate 0.198697, False Negative Rate 0.098662
+X-Gradient Model has False Positive Rate 0.216612, False Negative Rate 0.088629
+Y-Gradient Histogram Model has False Positive Rate 0.612378, False Negative Rate 0.290970
+X-Gradient Histogram Model has False Positive Rate 0.200326, False Negative Rate 0.255853
+At threshold 0.470000
+Y-Gradient Model has False Positive Rate 0.182410, False Negative Rate 0.122074
+X-Gradient Model has False Positive Rate 0.184039, False Negative Rate 0.102007
+Y-Gradient Histogram Model has False Positive Rate 0.547231, False Negative Rate 0.359532
+X-Gradient Histogram Model has False Positive Rate 0.184039, False Negative Rate 0.260870
+At threshold 0.480000
+Y-Gradient Model has False Positive Rate 0.164495, False Negative Rate 0.143813
+X-Gradient Model has False Positive Rate 0.167752, False Negative Rate 0.125418
+Y-Gradient Histogram Model has False Positive Rate 0.415309, False Negative Rate 0.474916
+X-Gradient Histogram Model has False Positive Rate 0.156352, False Negative Rate 0.285953
+At threshold 0.490000
+Y-Gradient Model has False Positive Rate 0.159609, False Negative Rate 0.145485
+X-Gradient Model has False Positive Rate 0.167752, False Negative Rate 0.125418
+Y-Gradient Histogram Model has False Positive Rate 0.372964, False Negative Rate 0.526756
+X-Gradient Histogram Model has False Positive Rate 0.156352, False Negative Rate 0.285953
+At threshold 0.500000
+Y-Gradient Model has False Positive Rate 0.153094, False Negative Rate 0.150502
+X-Gradient Model has False Positive Rate 0.157980, False Negative Rate 0.133779
+Y-Gradient Histogram Model has False Positive Rate 0.328990, False Negative Rate 0.560201
+X-Gradient Histogram Model has False Positive Rate 0.153094, False Negative Rate 0.287625
+At threshold 0.510000
+Y-Gradient Model has False Positive Rate 0.122150, False Negative Rate 0.188963
+X-Gradient Model has False Positive Rate 0.127036, False Negative Rate 0.182274
+Y-Gradient Histogram Model has False Positive Rate 0.280130, False Negative Rate 0.615385
+X-Gradient Histogram Model has False Positive Rate 0.133550, False Negative Rate 0.306020
+At threshold 0.520000
+Y-Gradient Model has False Positive Rate 0.118893, False Negative Rate 0.197324
+X-Gradient Model has False Positive Rate 0.127036, False Negative Rate 0.182274
+Y-Gradient Histogram Model has False Positive Rate 0.232899, False Negative Rate 0.658863
+X-Gradient Histogram Model has False Positive Rate 0.131922, False Negative Rate 0.306020
+At threshold 0.530000
+Y-Gradient Model has False Positive Rate 0.109121, False Negative Rate 0.219064
+X-Gradient Model has False Positive Rate 0.109121, False Negative Rate 0.219064
+Y-Gradient Histogram Model has False Positive Rate 0.166124, False Negative Rate 0.739130
+X-Gradient Histogram Model has False Positive Rate 0.123779, False Negative Rate 0.324415
+At threshold 0.540000
+Y-Gradient Model has False Positive Rate 0.097720, False Negative Rate 0.234114
+X-Gradient Model has False Positive Rate 0.096091, False Negative Rate 0.237458
+Y-Gradient Histogram Model has False Positive Rate 0.151466, False Negative Rate 0.772575
+X-Gradient Histogram Model has False Positive Rate 0.118893, False Negative Rate 0.329431
+At threshold 0.550000
+Y-Gradient Model has False Positive Rate 0.084691, False Negative Rate 0.254181
+X-Gradient Model has False Positive Rate 0.078176, False Negative Rate 0.267559
+Y-Gradient Histogram Model has False Positive Rate 0.141694, False Negative Rate 0.777592
+X-Gradient Histogram Model has False Positive Rate 0.104235, False Negative Rate 0.339465
+At threshold 0.560000
+Y-Gradient Model has False Positive Rate 0.074919, False Negative Rate 0.282609
+X-Gradient Model has False Positive Rate 0.073290, False Negative Rate 0.277592
+Y-Gradient Histogram Model has False Positive Rate 0.125407, False Negative Rate 0.794314
+X-Gradient Histogram Model has False Positive Rate 0.094463, False Negative Rate 0.356187
+At threshold 0.570000
+Y-Gradient Model has False Positive Rate 0.066775, False Negative Rate 0.311037
+X-Gradient Model has False Positive Rate 0.063518, False Negative Rate 0.302676
+Y-Gradient Histogram Model has False Positive Rate 0.092834, False Negative Rate 0.824415
+X-Gradient Histogram Model has False Positive Rate 0.087948, False Negative Rate 0.372910
+At threshold 0.580000
+Y-Gradient Model has False Positive Rate 0.058632, False Negative Rate 0.331104
+X-Gradient Model has False Positive Rate 0.050489, False Negative Rate 0.334448
+Y-Gradient Histogram Model has False Positive Rate 0.076547, False Negative Rate 0.837793
+X-Gradient Histogram Model has False Positive Rate 0.078176, False Negative Rate 0.391304
+At threshold 0.590000
+Y-Gradient Model has False Positive Rate 0.047231, False Negative Rate 0.366221
+X-Gradient Model has False Positive Rate 0.037459, False Negative Rate 0.374582
+Y-Gradient Histogram Model has False Positive Rate 0.055375, False Negative Rate 0.859532
+X-Gradient Histogram Model has False Positive Rate 0.070033, False Negative Rate 0.411371
+At threshold 0.600000
+Y-Gradient Model has False Positive Rate 0.042345, False Negative Rate 0.392977
+X-Gradient Model has False Positive Rate 0.035831, False Negative Rate 0.381271
+Y-Gradient Histogram Model has False Positive Rate 0.053746, False Negative Rate 0.869565
+X-Gradient Histogram Model has False Positive Rate 0.070033, False Negative Rate 0.414716
+At threshold 0.610000
+Y-Gradient Model has False Positive Rate 0.040717, False Negative Rate 0.436455
+X-Gradient Model has False Positive Rate 0.027687, False Negative Rate 0.416388
+Y-Gradient Histogram Model has False Positive Rate 0.037459, False Negative Rate 0.899666
+X-Gradient Histogram Model has False Positive Rate 0.063518, False Negative Rate 0.434783
+At threshold 0.620000
+Y-Gradient Model has False Positive Rate 0.030945, False Negative Rate 0.469900
+X-Gradient Model has False Positive Rate 0.016287, False Negative Rate 0.454849
+Y-Gradient Histogram Model has False Positive Rate 0.032573, False Negative Rate 0.916388
+X-Gradient Histogram Model has False Positive Rate 0.058632, False Negative Rate 0.446488
+At threshold 0.630000
+Y-Gradient Model has False Positive Rate 0.027687, False Negative Rate 0.518395
+X-Gradient Model has False Positive Rate 0.013029, False Negative Rate 0.483278
+Y-Gradient Histogram Model has False Positive Rate 0.017915, False Negative Rate 0.933110
+X-Gradient Histogram Model has False Positive Rate 0.055375, False Negative Rate 0.461538
+At threshold 0.640000
+Y-Gradient Model has False Positive Rate 0.022801, False Negative Rate 0.551839
+X-Gradient Model has False Positive Rate 0.011401, False Negative Rate 0.503344
+Y-Gradient Histogram Model has False Positive Rate 0.017915, False Negative Rate 0.944816
+X-Gradient Histogram Model has False Positive Rate 0.053746, False Negative Rate 0.469900
+At threshold 0.650000
+Y-Gradient Model has False Positive Rate 0.019544, False Negative Rate 0.595318
+X-Gradient Model has False Positive Rate 0.011401, False Negative Rate 0.530100
+Y-Gradient Histogram Model has False Positive Rate 0.013029, False Negative Rate 0.963211
+X-Gradient Histogram Model has False Positive Rate 0.043974, False Negative Rate 0.479933
+At threshold 0.660000
+Y-Gradient Model has False Positive Rate 0.017915, False Negative Rate 0.622074
+X-Gradient Model has False Positive Rate 0.009772, False Negative Rate 0.550167
+Y-Gradient Histogram Model has False Positive Rate 0.008143, False Negative Rate 0.971572
+X-Gradient Histogram Model has False Positive Rate 0.037459, False Negative Rate 0.494983
+At threshold 0.670000
+Y-Gradient Model has False Positive Rate 0.016287, False Negative Rate 0.678930
+X-Gradient Model has False Positive Rate 0.006515, False Negative Rate 0.615385
+Y-Gradient Histogram Model has False Positive Rate 0.003257, False Negative Rate 0.984950
+X-Gradient Histogram Model has False Positive Rate 0.026059, False Negative Rate 0.516722
+At threshold 0.680000
+Y-Gradient Model has False Positive Rate 0.014658, False Negative Rate 0.687291
+X-Gradient Model has False Positive Rate 0.006515, False Negative Rate 0.615385
+Y-Gradient Histogram Model has False Positive Rate 0.003257, False Negative Rate 0.984950
+X-Gradient Histogram Model has False Positive Rate 0.022801, False Negative Rate 0.523411
+At threshold 0.690000
+Y-Gradient Model has False Positive Rate 0.011401, False Negative Rate 0.734114
+X-Gradient Model has False Positive Rate 0.004886, False Negative Rate 0.653846
+Y-Gradient Histogram Model has False Positive Rate 0.003257, False Negative Rate 0.993311
+X-Gradient Histogram Model has False Positive Rate 0.021173, False Negative Rate 0.531773
+At threshold 0.700000
+Y-Gradient Model has False Positive Rate 0.009772, False Negative Rate 0.770903
+X-Gradient Model has False Positive Rate 0.004886, False Negative Rate 0.682274
+Y-Gradient Histogram Model has False Positive Rate 0.003257, False Negative Rate 0.994983
+X-Gradient Histogram Model has False Positive Rate 0.019544, False Negative Rate 0.541806
+At threshold 0.710000
+Y-Gradient Model has False Positive Rate 0.009772, False Negative Rate 0.801003
+X-Gradient Model has False Positive Rate 0.004886, False Negative Rate 0.712375
+Y-Gradient Histogram Model has False Positive Rate 0.003257, False Negative Rate 0.994983
+X-Gradient Histogram Model has False Positive Rate 0.019544, False Negative Rate 0.546823
+At threshold 0.720000
+Y-Gradient Model has False Positive Rate 0.009772, False Negative Rate 0.841137
+X-Gradient Model has False Positive Rate 0.004886, False Negative Rate 0.750836
+Y-Gradient Histogram Model has False Positive Rate 0.001629, False Negative Rate 0.998328
+X-Gradient Histogram Model has False Positive Rate 0.017915, False Negative Rate 0.560201
+At threshold 0.730000
+Y-Gradient Model has False Positive Rate 0.006515, False Negative Rate 0.862876
+X-Gradient Model has False Positive Rate 0.001629, False Negative Rate 0.769231
+Y-Gradient Histogram Model has False Positive Rate 0.001629, False Negative Rate 0.998328
+X-Gradient Histogram Model has False Positive Rate 0.016287, False Negative Rate 0.566890
+At threshold 0.740000
+Y-Gradient Model has False Positive Rate 0.004886, False Negative Rate 0.892977
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.806020
+Y-Gradient Histogram Model has False Positive Rate 0.001629, False Negative Rate 0.998328
+X-Gradient Histogram Model has False Positive Rate 0.016287, False Negative Rate 0.580268
+At threshold 0.750000
+Y-Gradient Model has False Positive Rate 0.003257, False Negative Rate 0.921405
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.841137
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.016287, False Negative Rate 0.607023
+At threshold 0.760000
+Y-Gradient Model has False Positive Rate 0.003257, False Negative Rate 0.926421
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.841137
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.016287, False Negative Rate 0.607023
+At threshold 0.770000
+Y-Gradient Model has False Positive Rate 0.003257, False Negative Rate 0.941472
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.871237
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.014658, False Negative Rate 0.623746
+At threshold 0.780000
+Y-Gradient Model has False Positive Rate 0.001629, False Negative Rate 0.956522
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.894649
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.014658, False Negative Rate 0.635452
+At threshold 0.790000
+Y-Gradient Model has False Positive Rate 0.001629, False Negative Rate 0.966555
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.914716
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.011401, False Negative Rate 0.647157
+At threshold 0.800000
+Y-Gradient Model has False Positive Rate 0.001629, False Negative Rate 0.968227
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.918060
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.009772, False Negative Rate 0.648829
+At threshold 0.810000
+Y-Gradient Model has False Positive Rate 0.001629, False Negative Rate 0.981605
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.934783
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.009772, False Negative Rate 0.663880
+At threshold 0.820000
+Y-Gradient Model has False Positive Rate 0.001629, False Negative Rate 0.988294
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.948161
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.008143, False Negative Rate 0.675585
+At threshold 0.830000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.989967
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.956522
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.006515, False Negative Rate 0.683946
+At threshold 0.840000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.996656
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.963211
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.006515, False Negative Rate 0.704013
+At threshold 0.850000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.998328
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.968227
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.006515, False Negative Rate 0.710702
+At threshold 0.860000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.998328
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.973244
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.004886, False Negative Rate 0.739130
+At threshold 0.870000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.998328
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.984950
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.004886, False Negative Rate 0.740803
+At threshold 0.880000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.988294
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.004886, False Negative Rate 0.757525
+At threshold 0.890000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.988294
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.004886, False Negative Rate 0.764214
+At threshold 0.900000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.993311
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.004886, False Negative Rate 0.770903
+At threshold 0.910000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.996656
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.004886, False Negative Rate 0.782609
+At threshold 0.920000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 0.996656
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.004886, False Negative Rate 0.795987
+At threshold 0.930000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.003257, False Negative Rate 0.799331
+At threshold 0.940000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.001629, False Negative Rate 0.806020
+At threshold 0.950000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.001629, False Negative Rate 0.837793
+At threshold 0.960000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.001629, False Negative Rate 0.849498
+At threshold 0.970000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.001629, False Negative Rate 0.857860
+At threshold 0.980000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.001629, False Negative Rate 0.874582
+At threshold 0.990000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 0.887960
+At threshold 1.000000
+Y-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Y-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+X-Gradient Histogram Model has False Positive Rate 0.000000, False Negative Rate 0.916388
+
+### Plot Precision vs Recall.
+Close the plot diagram to continue program
