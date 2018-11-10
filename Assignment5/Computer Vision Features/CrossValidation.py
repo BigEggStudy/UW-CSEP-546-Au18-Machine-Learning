@@ -2,8 +2,6 @@ import math
 import numpy as np
 from joblib import Parallel, delayed
 
-import FeatureSelection
-
 class CrossValidation(object):
     def __init__(self, k):
         self.k = round(k)
@@ -41,41 +39,6 @@ class CrossValidation(object):
             return self.__countCorrect(model.predict(foldValidationX), foldValidationY)
 
         totalCorrects = Parallel(n_jobs=6)(delayed(validation_core)(i, x, y, model) for i in range(self.k))
-
-        accuracy = sum(totalCorrects) / len(x)
-        return accuracy
-
-    def validateByFrequency(self, x, y, model):
-        totalCorrect = 0
-
-        for i in range(self.k):
-            (foldTrainX, foldTrainY, foldValidationX, foldValidationY) = self.__splitDataFold(x, y, i)
-
-            frequencyTable = FeatureSelection.byFrequency(foldTrainX)
-            words = [word for word,_ in frequencyTable[:10]]
-            print('For fold %d/%d, choose words:' % (i + 1, self.k))
-            print(words)
-            (xNewTrain, xNewValidation) = FeatureSelection.Featurize(foldTrainX, foldValidationX, words)
-
-            model.fit(xNewTrain, foldTrainY)
-            totalCorrect += self.__countCorrect(model.predict(xNewValidation), foldValidationY)
-
-        accuracy = totalCorrect / len(x)
-
-        return accuracy
-
-    def validateByMutualInformation(self, x, y, model, feature_count = 10):
-        def validation_core(i, x, y, model, feature_count):
-            (foldTrainX, foldTrainY, foldValidationX, foldValidationY) = self.__splitDataFold(x, y, i)
-
-            mutualInformationTable = FeatureSelection.byMutualInformation(foldTrainX, foldTrainY)
-            words = [word for word,_ in mutualInformationTable[:feature_count]]
-            (xNewTrain, xNewValidation) = FeatureSelection.Featurize(foldTrainX, foldValidationX, words)
-
-            model.fit(xNewTrain, foldTrainY)
-            return self.__countCorrect(model.predict(xNewValidation), foldValidationY)
-
-        totalCorrects = Parallel(n_jobs=6)(delayed(validation_core)(i, x, y, model, feature_count) for i in range(self.k))
 
         accuracy = sum(totalCorrects) / len(x)
         return accuracy
