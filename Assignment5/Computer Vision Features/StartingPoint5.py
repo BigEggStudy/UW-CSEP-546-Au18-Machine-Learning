@@ -6,15 +6,10 @@
 
 import Assignment5Support
 
-## NOTE update this with your equivalent code..
-import TrainTestSplit
-
-kDataPath = "..\\..\\..\\Datasets\\FaceData\\dataset_B_Eye_Images"
+kDataPath = "..\\dataset_B_Eye_Images"
 
 (xRaw, yRaw) = Assignment5Support.LoadRawData(kDataPath, includeLeftEye = True, includeRightEye = True)
-
-(xTrainRaw, yTrainRaw, xTestRaw, yTestRaw) = TrainTestSplit.TrainTestSplit(xRaw, yRaw, percentTest = .25)
-
+(xTrainRaw, yTrainRaw, xTestRaw, yTestRaw) = Assignment5Support.TrainTestSplit(xRaw, yRaw, percentTest = .25)
 print("Train is %f percent closed." % (sum(yTrainRaw)/len(yTrainRaw)))
 print("Test is %f percent closed." % (sum(yTestRaw)/len(yTestRaw)))
 
@@ -24,35 +19,11 @@ yTrain = yTrainRaw
 yTest = yTestRaw
 
 
-import Evaluations
-import ErrorBounds
-
-######
-import MostCommonModel
-model = MostCommonModel.MostCommonModel()
-model.fit(xTrain, yTrain)
-yTestPredicted = model.predict(xTest)
-print("Most Common Accuracy:", Evaluations.Accuracy(yTest, yTestPredicted), ErrorBounds.Get95LowerAndUpperBounds(Evaluations.Accuracy(yTest, yTestPredicted), len(yTest)))
-
-######
-import DecisionTreeModel
-model = DecisionTreeModel.DecisionTree()
-model.fit(xTrain, yTrain, minToSplit=50)
-yTestPredicted = model.predict(xTest)
-print("Decision Tree Accuracy:", Evaluations.Accuracy(yTest, yTestPredicted), ErrorBounds.Get95LowerAndUpperBounds(Evaluations.Accuracy(yTest, yTestPredicted), len(yTest)))
-
-
-##### for visualizing in 2d
-#for i in range(500):
-#    print("%f, %f, %d" % (xTrain[i][0], xTrain[i][1], yTrain[i]))
-
-##### sample image debugging output
-
 import PIL
 from PIL import Image
 
 i = Image.open(xTrainRaw[1])
-#i.save("..\\..\\..\\Datasets\\FaceData\\test.jpg")
+#i.save("..\\test.jpg")
 
 print(i.format, i.size)
 
