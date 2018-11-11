@@ -5,65 +5,60 @@
 ## Remember to install the Pillow library (which is required to execute 'import PIL')
 
 import Assignment5Support
+import Featurize
+import EvaluationsStub
+import matplotlib.pyplot as plt
 
-## NOTE update this with your equivalent code..
-import TrainTestSplit
+if __name__=="__main__":
+    kDataPath = "..\\dataset_B_Eye_Images"
 
-kDataPath = "..\\..\\..\\Datasets\\FaceData\\dataset_B_Eye_Images"
+    (xRaw, yRaw) = Assignment5Support.LoadRawData(kDataPath, includeLeftEye = True, includeRightEye = True)
+    (xTrainRaw, yTrainRaw, xTestRaw, yTestRaw) = Assignment5Support.TrainTestSplit(xRaw, yRaw, percentTest = .25)
+    print("Train is %f percent closed." % (sum(yTrainRaw)/len(yTrainRaw)))
+    print("Test is %f percent closed." % (sum(yTestRaw)/len(yTestRaw)))
 
-(xRaw, yRaw) = Assignment5Support.LoadRawData(kDataPath, includeLeftEye = True, includeRightEye = True)
+    print('Featurize the Samples')
+    xTrain = Featurize.Featurize(xTrainRaw)
+    xTest = Featurize.Featurize(xTestRaw)
+    yTrain = yTrainRaw
+    yTest = yTestRaw
 
-(xTrainRaw, yTrainRaw, xTestRaw, yTestRaw) = TrainTestSplit.TrainTestSplit(xRaw, yRaw, percentTest = .25)
+    ############################
 
-print("Train is %f percent closed." % (sum(yTrainRaw)/len(yTrainRaw)))
-print("Test is %f percent closed." % (sum(yTestRaw)/len(yTestRaw)))
+    import KNearestNeighbors
+    model = KNearestNeighbors.KNearestNeighbors()
+    model.fit(xTrain, yTrain)
 
-print("Calculating features...")
-(xTrain, xTest) = Assignment5Support.Featurize(xTrainRaw, xTestRaw, includeGradients=True, includeRawPixels=False, includeIntensities=False)
-yTrain = yTrainRaw
-yTest = yTestRaw
+    print('========== Compare Models ==========')
+    fig, ax = plt.subplots()
+    ax.grid(True)
+    ax.invert_yaxis()
+    ax.xaxis.tick_top()
+    ax.xaxis.set_label_position('top')
 
+    for k in [1,3,5,10,20,50,100]:
+        print('### For K = %d ###' % k)
 
-import Evaluations
-import ErrorBounds
+        false_positives = []
+        false_negatives = []
 
-######
-import MostCommonModel
-model = MostCommonModel.MostCommonModel()
-model.fit(xTrain, yTrain)
-yTestPredicted = model.predict(xTest)
-print("Most Common Accuracy:", Evaluations.Accuracy(yTest, yTestPredicted), ErrorBounds.Get95LowerAndUpperBounds(Evaluations.Accuracy(yTest, yTestPredicted), len(yTest)))
+        for i in range(100):
+            threshold = 0.01 + 0.99 * i / 99
+            print('At threshold %f' % threshold)
 
-######
-import DecisionTreeModel
-model = DecisionTreeModel.DecisionTree()
-model.fit(xTrain, yTrain, minToSplit=50)
-yTestPredicted = model.predict(xTest)
-print("Decision Tree Accuracy:", Evaluations.Accuracy(yTest, yTestPredicted), ErrorBounds.Get95LowerAndUpperBounds(Evaluations.Accuracy(yTest, yTestPredicted), len(yTest)))
+            yTestPredicted = model.predict(xTest, k, threshold=threshold)
+            false_positive = EvaluationsStub.FalsePositiveRate(yTest, yTestPredicted)
+            false_negative = EvaluationsStub.FalseNegativeRate(yTest, yTestPredicted)
+            false_positives.append(false_positive)
+            false_negatives.append(false_negative)
+            print('K Nearest Neighbors Model has False Positive Rate %f, False Negative Rate %f' % (false_positive, false_negative))
 
+        plt.plot(false_positives, false_negatives, label = ('Model with K = %d' % k))
 
-##### for visualizing in 2d
-#for i in range(500):
-#    print("%f, %f, %d" % (xTrain[i][0], xTrain[i][1], yTrain[i]))
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('False Negative Rate')
+    plt.title('Test Set ROC Curve')
+    plt.legend()
 
-##### sample image debugging output
-
-import PIL
-from PIL import Image
-
-i = Image.open(xTrainRaw[1])
-#i.save("..\\..\\..\\Datasets\\FaceData\\test.jpg")
-
-print(i.format, i.size)
-
-# Sobel operator
-xEdges = Assignment5Support.Convolution3x3(i, [[1, 2, 1],[0,0,0],[-1,-2,-1]])
-yEdges = Assignment5Support.Convolution3x3(i, [[1, 0, -1],[2,0,-2],[1,0,-1]])
-
-pixels = i.load()
-
-for x in range(i.size[0]):
-    for y in range(i.size[1]):
-        pixels[x,y] = abs(xEdges[x][y])
-
-#i.save("c:\\Users\\ghult\\Desktop\\testEdgesY.jpg")
+    print("Close the plot diagram to continue program")
+    plt.show()

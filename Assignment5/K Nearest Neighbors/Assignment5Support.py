@@ -5,7 +5,7 @@ import random
 def LoadRawData(kDataPath, includeLeftEye = True, includeRightEye = True, shuffle=True):
     xRaw = []
     yRaw = []
-    
+
     if includeLeftEye:
         closedEyeDir = os.path.join(kDataPath, "closedLeftEyes")
         for fileName in os.listdir(closedEyeDir):
@@ -127,7 +127,7 @@ def Featurize(xTrainRaw, xTestRaw, includeGradients=True, includeRawPixels=False
     xTest = []
     for sample in xTestRaw:
         features = []
-        
+
         image = Image.open(sample)
 
         xSize = image.size[0]
@@ -187,3 +187,20 @@ def VisualizeWeights(weightArray, outputPath):
             pixels[x,y] = int(abs(weightArray[(x*size) + y]) * 255)
 
     image.save(outputPath)
+
+
+def TrainTestSplit(x, y, percentTest = .25):
+    if(len(x) != len(y)):
+        raise UserWarning("Attempting to split into training and testing set.\n\tArrays do not have the same size. Check your work and try again.")
+
+    numTest = round(len(x) * percentTest)
+
+    if numTest == 0 or numTest > len(y):
+        raise UserWarning("Attempting to split into training and testing set.\n\tSome problem with the percentTest or data set size. Check your work and try again.")
+
+    xTest = x[:numTest]
+    xTrain = x[numTest:]
+    yTest = y[:numTest]
+    yTrain = y[numTest:]
+
+    return (xTrain, yTrain, xTest, yTest)
