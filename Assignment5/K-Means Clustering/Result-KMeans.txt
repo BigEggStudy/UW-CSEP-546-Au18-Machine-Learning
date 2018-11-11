@@ -1,0 +1,16 @@
+Train is 0.491469 percent closed.
+Test is 0.493399 percent closed.
+Calculating features...
+========== Use K-Means Cluster ==========
+Let K = 4
+For centroid 0, it position is 87.648034, 157.417381
+The Closest Sample to the Cluster center is [87.784722, 156.593750]
+For centroid 1, it position is 37.069545, 47.683058
+The Closest Sample to the Cluster center is [36.935764, 47.911458]
+For centroid 2, it position is 56.475492, 75.671486
+The Closest Sample to the Cluster center is [56.446181, 75.526042]
+For centroid 3, it position is 70.449837, 107.687520
+The Closest Sample to the Cluster center is [70.149306, 107.979167]
+
+### Plot Clusters
+Close the plot diagram to continue program

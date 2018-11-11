@@ -5,65 +5,71 @@
 ## Remember to install the Pillow library (which is required to execute 'import PIL')
 
 import Assignment5Support
+import matplotlib.pyplot as plt
+import numpy as np
 
-## NOTE update this with your equivalent code..
-import TrainTestSplit
+if __name__=="__main__":
+    kDataPath = "..\\dataset_B_Eye_Images"
 
-kDataPath = "..\\..\\..\\Datasets\\FaceData\\dataset_B_Eye_Images"
+    (xRaw, yRaw) = Assignment5Support.LoadRawData(kDataPath, includeLeftEye = True, includeRightEye = True)
 
-(xRaw, yRaw) = Assignment5Support.LoadRawData(kDataPath, includeLeftEye = True, includeRightEye = True)
+    (xTrainRaw, yTrainRaw, xTestRaw, yTestRaw) = Assignment5Support.TrainTestSplit(xRaw, yRaw, percentTest = .25)
 
-(xTrainRaw, yTrainRaw, xTestRaw, yTestRaw) = TrainTestSplit.TrainTestSplit(xRaw, yRaw, percentTest = .25)
+    print("Train is %f percent closed." % (sum(yTrainRaw)/len(yTrainRaw)))
+    print("Test is %f percent closed." % (sum(yTestRaw)/len(yTestRaw)))
 
-print("Train is %f percent closed." % (sum(yTrainRaw)/len(yTrainRaw)))
-print("Test is %f percent closed." % (sum(yTestRaw)/len(yTestRaw)))
+    print("Calculating features...")
+    (xTrain, xTest) = Assignment5Support.Featurize(xTrainRaw, xTestRaw, includeGradients=True, includeRawPixels=False, includeIntensities=False)
+    yTrain = yTrainRaw
+    yTest = yTestRaw
 
-print("Calculating features...")
-(xTrain, xTest) = Assignment5Support.Featurize(xTrainRaw, xTestRaw, includeGradients=True, includeRawPixels=False, includeIntensities=False)
-yTrain = yTrainRaw
-yTest = yTestRaw
+    ############################
 
+    import KMeansCluster
+    print("========== Use K-Means Cluster ==========")
+    k = 4
+    print("Let K = %d" % k)
+    cluster = KMeansCluster.KMeansCluster()
 
-import Evaluations
-import ErrorBounds
+    (centroids, assignments, path) = cluster.find_clusters(xTrain, k, 10)
+    colmap = ['r', 'g', 'b', 'm']
 
-######
-import MostCommonModel
-model = MostCommonModel.MostCommonModel()
-model.fit(xTrain, yTrain)
-yTestPredicted = model.predict(xTest)
-print("Most Common Accuracy:", Evaluations.Accuracy(yTest, yTestPredicted), ErrorBounds.Get95LowerAndUpperBounds(Evaluations.Accuracy(yTest, yTestPredicted), len(yTest)))
+    fig = plt.figure(figsize=(5, 5))
+    ax = plt.axes()
 
-######
-import DecisionTreeModel
-model = DecisionTreeModel.DecisionTree()
-model.fit(xTrain, yTrain, minToSplit=50)
-yTestPredicted = model.predict(xTest)
-print("Decision Tree Accuracy:", Evaluations.Accuracy(yTest, yTestPredicted), ErrorBounds.Get95LowerAndUpperBounds(Evaluations.Accuracy(yTest, yTestPredicted), len(yTest)))
+    for i in range(k):
+        print("For centroid %d, it position is %f, %f" % (i, centroids[i][0], centroids[i][1]))
+        samples = np.array(assignments[i])
+        samples_x = samples[:,0]
+        samples_y = samples[:,1]
+        plt.scatter(samples_x, samples_y, color=colmap[i], alpha=0.25, edgecolor='k')
 
+        nearest_distance = 1000000
+        nearest_sample = [0, 0]
+        for sample in samples:
+            distance = cluster.euclidean_distance(sample, centroids[i])
+            if distance < nearest_distance:
+                nearest_distance = distance
+                nearest_sample = sample
+        plt.scatter(nearest_sample[0], nearest_sample[1], color='c', edgecolor='k')
+        print("The Closest Sample to the Cluster center is [%f, %f]" % (nearest_sample[0], nearest_sample[1]))
 
-##### for visualizing in 2d
-#for i in range(500):
-#    print("%f, %f, %d" % (xTrain[i][0], xTrain[i][1], yTrain[i]))
+    print("")
+    print("### Plot Clusters")
+    old_centroids = path[0]
+    for i in range(k):
+        plt.scatter(*old_centroids[i], color=colmap[i], alpha=0.5, edgecolor='k')
 
-##### sample image debugging output
+    for i in range(1, len(path)):
+        for j in range(k):
+            plt.scatter(*path[i][j], color=colmap[j], alpha=0.5, edgecolor='k')
+            old_x = old_centroids[j][0]
+            old_y = old_centroids[j][1]
+            dx = (path[i][j][0] - old_centroids[j][0]) * 0.95
+            dy = (path[i][j][1] - old_centroids[j][1]) * 0.95
+            ax.arrow(old_x, old_y, dx, dy, head_width=0.1, head_length=0.1, fc=colmap[j], ec=colmap[j])
 
-import PIL
-from PIL import Image
+        old_centroids = path[i]
 
-i = Image.open(xTrainRaw[1])
-#i.save("..\\..\\..\\Datasets\\FaceData\\test.jpg")
-
-print(i.format, i.size)
-
-# Sobel operator
-xEdges = Assignment5Support.Convolution3x3(i, [[1, 2, 1],[0,0,0],[-1,-2,-1]])
-yEdges = Assignment5Support.Convolution3x3(i, [[1, 0, -1],[2,0,-2],[1,0,-1]])
-
-pixels = i.load()
-
-for x in range(i.size[0]):
-    for y in range(i.size[1]):
-        pixels[x,y] = abs(xEdges[x][y])
-
-#i.save("c:\\Users\\ghult\\Desktop\\testEdgesY.jpg")
+    print("Close the plot diagram to continue program")
+    plt.show()
