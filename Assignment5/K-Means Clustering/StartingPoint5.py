@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 if __name__=="__main__":
-    kDataPath = "..\\dataset_B_Eye_Images"
+    kDataPath = "..\\..\\dataset_B_Eye_Images"
 
     (xRaw, yRaw) = Assignment5Support.LoadRawData(kDataPath, includeLeftEye = True, includeRightEye = True)
 
