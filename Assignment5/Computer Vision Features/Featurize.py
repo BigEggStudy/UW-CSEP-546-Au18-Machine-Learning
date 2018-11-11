@@ -76,7 +76,7 @@ def CalculateHistogramFeatures(gradients):
 def Featurize_Y_Histogram(x_raw):
     x = []
     for sample in x_raw:
-        # y-gradient 9 grids of 8x8 pixels
+        # y-gradient histogram
         image = Image.open(sample)
         yGradients = Assignment5Support.Convolution3x3(image, [[1, 2, 1],[0, 0, 0],[-1, -2, -1]])
         yFeatures = CalculateHistogramFeatures(yGradients)
@@ -87,7 +87,7 @@ def Featurize_Y_Histogram(x_raw):
 def Featurize_X_Histogram(x_raw):
     x = []
     for sample in x_raw:
-        # x-gradient 9 grids of 8x8 pixels
+        # x-gradient histogram
         image = Image.open(sample)
         xGradients = Assignment5Support.Convolution3x3(image, [[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
         xFeatures = CalculateHistogramFeatures(xGradients)
