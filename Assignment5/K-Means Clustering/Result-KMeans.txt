@@ -1,0 +1,56 @@
+Train is 0.491469 percent closed.
+Test is 0.493399 percent closed.
+Calculating features...
+========== Use K-Means Cluster ==========
+Let K = 4
+For centroid 0, it position is 58.170153, 88.071845
+The Closest Sample to the Cluster center is:
+The file name is ..\..\dataset_B_Eye_Images\closedLeftEyes\closed_eye_0427.jpg_face_1_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedLeftEyes\closed_eye_2234.jpg_face_3_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Javier_Solana_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Jules_Asner_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Ira_Einhorn_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Tian_Liang_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Felicity_Huffman_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Dennis_Kucinich_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Melissa_Stark_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedLeftEyes\closed_eye_0711.jpg_face_1_L.jpg:
+For centroid 1, it position is 41.573942, 61.726335
+The Closest Sample to the Cluster center is:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Bill_Simon_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Rick_Barnes_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Muhammad_Ibrahim_Bilal_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedRightEyes\closed_eye_0397.jpg_face_3_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Saeed_Mortazavi_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Sasha_Cohen_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Lisa_Gottsegen_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedRightEyes\closed_eye_2445.jpg_face_1_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Phil_Mickelson_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Bobby_Kielty_0001_L.jpg:
+For centroid 2, it position is 20.570045, 26.003195
+The Closest Sample to the Cluster center is:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Raymond_Arthurs_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedRightEyes\closed_eye_2507.jpg_face_1_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedLeftEyes\closed_eye_2557.jpg_face_1_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedLeftEyes\closed_eye_2090.jpg_face_1_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedRightEyes\closed_eye_0894.jpg_face_1_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedRightEyes\closed_eye_1282.jpg_face_1_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedLeftEyes\closed_eye_1265.jpg_face_2_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedRightEyes\closed_eye_1761.jpg_face_1_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\John_Rigas_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedLeftEyes\closed_eye_2241.jpg_face_3_L.jpg:
+For centroid 3, it position is 30.627886, 42.633633
+The Closest Sample to the Cluster center is:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Zinedine_Zidane_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Gary_Williams_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedLeftEyes\closed_eye_0059.jpg_face_2_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedRightEyes\closed_eye_0902.jpg_face_1_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Fred_Rogers_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\John_Garamendi_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openLeftEyes\Juergen_Schrempp_0001_L.jpg:
+The file name is ..\..\dataset_B_Eye_Images\closedRightEyes\closed_eye_0032.jpg_face_1_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Perry_Compton_0001_R.jpg:
+The file name is ..\..\dataset_B_Eye_Images\openRightEyes\Bob_Melvin_0001_R.jpg:
+
+### Plot Clusters
+Close the plot diagram to continue program

@@ -1,0 +1,1412 @@
+Train is 0.491469 percent closed.
+Test is 0.493399 percent closed.
+Featurize the Samples
+========== Compare Models ==========
+### For K = 1 ###
+At threshold 0.010000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.020000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.030000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.040000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.050000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.060000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.070000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.080000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.090000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.100000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.110000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.120000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.130000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.140000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.150000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.160000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.170000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.180000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.190000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.200000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.210000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.220000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.230000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.240000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.250000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.260000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.270000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.280000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.290000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.300000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.310000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.320000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.330000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.340000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.350000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.360000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.370000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.380000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.390000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.400000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.410000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.420000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.430000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.440000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.450000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.460000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.470000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.480000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.490000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.500000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.510000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.520000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.530000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.540000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.550000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.560000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.570000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.580000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.590000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.600000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.610000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.620000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.630000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.640000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.650000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.660000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.670000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.680000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.690000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.700000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.710000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.720000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.730000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.740000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.750000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.760000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.770000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.780000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.790000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.800000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.810000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.820000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.830000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.840000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.850000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.860000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.870000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.880000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.890000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.900000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.910000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.920000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.930000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.940000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.950000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.960000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.970000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.980000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 0.990000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+At threshold 1.000000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.167224
+### For K = 3 ###
+At threshold 0.010000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.020000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.030000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.040000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.050000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.060000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.070000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.080000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.090000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.100000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.110000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.120000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.130000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.140000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.150000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.160000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.170000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.180000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.190000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.200000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.210000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.220000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.230000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.240000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.250000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.260000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.270000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.280000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.290000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.300000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.310000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.320000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.330000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.051839
+At threshold 0.340000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.350000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.360000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.370000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.380000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.390000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.400000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.410000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.420000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.430000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.440000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.450000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.460000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.470000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.480000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.490000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.500000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.510000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.520000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.530000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.540000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.550000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.560000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.570000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.580000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.590000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.600000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.610000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.620000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.630000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.640000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.650000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.660000
+K Nearest Neighbors Model has False Positive Rate 0.063518, False Negative Rate 0.173913
+At threshold 0.670000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.680000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.690000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.700000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.710000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.720000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.730000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.740000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.750000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.760000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.770000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.780000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.790000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.800000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.810000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.820000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.830000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.840000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.850000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.860000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.870000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.880000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.890000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.900000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.910000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.920000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.930000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.940000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.950000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.960000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.970000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.980000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 0.990000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+At threshold 1.000000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.356187
+### For K = 5 ###
+At threshold 0.010000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.020000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.030000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.040000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.050000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.060000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.070000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.080000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.090000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.100000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.110000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.120000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.130000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.140000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.150000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.160000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.170000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.180000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.190000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.200000
+K Nearest Neighbors Model has False Positive Rate 0.327362, False Negative Rate 0.028428
+At threshold 0.210000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.220000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.230000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.240000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.250000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.260000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.270000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.280000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.290000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.300000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.310000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.320000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.330000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.340000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.350000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.360000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.370000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.380000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.390000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.400000
+K Nearest Neighbors Model has False Positive Rate 0.149837, False Negative Rate 0.063545
+At threshold 0.410000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.420000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.430000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.440000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.450000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.460000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.470000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.480000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.490000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.500000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.510000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.520000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.530000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.540000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.550000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.560000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.570000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.580000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.590000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.600000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.152174
+At threshold 0.610000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.620000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.630000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.640000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.650000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.660000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.670000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.680000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.690000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.700000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.710000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.720000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.730000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.740000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.750000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.760000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.770000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.780000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.790000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.800000
+K Nearest Neighbors Model has False Positive Rate 0.027687, False Negative Rate 0.274247
+At threshold 0.810000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.820000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.830000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.840000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.850000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.860000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.870000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.880000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.890000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.900000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.910000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.920000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.930000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.940000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.950000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.960000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.970000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.980000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 0.990000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+At threshold 1.000000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.464883
+### For K = 10 ###
+At threshold 0.010000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.020000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.030000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.040000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.050000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.060000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.070000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.080000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.090000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.100000
+K Nearest Neighbors Model has False Positive Rate 0.465798, False Negative Rate 0.013378
+At threshold 0.110000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.120000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.130000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.140000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.150000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.160000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.170000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.180000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.190000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.200000
+K Nearest Neighbors Model has False Positive Rate 0.276873, False Negative Rate 0.028428
+At threshold 0.210000
+K Nearest Neighbors Model has False Positive Rate 0.180782, False Negative Rate 0.048495
+At threshold 0.220000
+K Nearest Neighbors Model has False Positive Rate 0.180782, False Negative Rate 0.048495
+At threshold 0.230000
+K Nearest Neighbors Model has False Positive Rate 0.180782, False Negative Rate 0.048495
+At threshold 0.240000
+K Nearest Neighbors Model has False Positive Rate 0.180782, False Negative Rate 0.048495
+At threshold 0.250000
+K Nearest Neighbors Model has False Positive Rate 0.180782, False Negative Rate 0.048495
+At threshold 0.260000
+K Nearest Neighbors Model has False Positive Rate 0.180782, False Negative Rate 0.048495
+At threshold 0.270000
+K Nearest Neighbors Model has False Positive Rate 0.180782, False Negative Rate 0.048495
+At threshold 0.280000
+K Nearest Neighbors Model has False Positive Rate 0.180782, False Negative Rate 0.048495
+At threshold 0.290000
+K Nearest Neighbors Model has False Positive Rate 0.180782, False Negative Rate 0.048495
+At threshold 0.300000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.310000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.320000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.330000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.340000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.350000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.360000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.370000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.380000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.390000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.400000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.083612
+At threshold 0.410000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.420000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.430000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.440000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.450000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.460000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.470000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.480000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.490000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.500000
+K Nearest Neighbors Model has False Positive Rate 0.087948, False Negative Rate 0.117057
+At threshold 0.510000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.520000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.530000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.540000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.550000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.560000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.570000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.580000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.590000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.600000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.177258
+At threshold 0.610000
+K Nearest Neighbors Model has False Positive Rate 0.035831, False Negative Rate 0.252508
+At threshold 0.620000
+K Nearest Neighbors Model has False Positive Rate 0.035831, False Negative Rate 0.252508
+At threshold 0.630000
+K Nearest Neighbors Model has False Positive Rate 0.035831, False Negative Rate 0.252508
+At threshold 0.640000
+K Nearest Neighbors Model has False Positive Rate 0.035831, False Negative Rate 0.252508
+At threshold 0.650000
+K Nearest Neighbors Model has False Positive Rate 0.035831, False Negative Rate 0.252508
+At threshold 0.660000
+K Nearest Neighbors Model has False Positive Rate 0.035831, False Negative Rate 0.252508
+At threshold 0.670000
+K Nearest Neighbors Model has False Positive Rate 0.035831, False Negative Rate 0.252508
+At threshold 0.680000
+K Nearest Neighbors Model has False Positive Rate 0.035831, False Negative Rate 0.252508
+At threshold 0.690000
+K Nearest Neighbors Model has False Positive Rate 0.035831, False Negative Rate 0.252508
+At threshold 0.700000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.710000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.720000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.730000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.740000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.750000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.760000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.770000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.780000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.790000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.800000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.352843
+At threshold 0.810000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.820000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.830000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.840000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.850000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.860000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.870000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.880000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.890000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.900000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.446488
+At threshold 0.910000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+At threshold 0.920000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+At threshold 0.930000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+At threshold 0.940000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+At threshold 0.950000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+At threshold 0.960000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+At threshold 0.970000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+At threshold 0.980000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+At threshold 0.990000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+At threshold 1.000000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.608696
+### For K = 20 ###
+At threshold 0.010000
+K Nearest Neighbors Model has False Positive Rate 0.633550, False Negative Rate 0.000000
+At threshold 0.020000
+K Nearest Neighbors Model has False Positive Rate 0.633550, False Negative Rate 0.000000
+At threshold 0.030000
+K Nearest Neighbors Model has False Positive Rate 0.633550, False Negative Rate 0.000000
+At threshold 0.040000
+K Nearest Neighbors Model has False Positive Rate 0.633550, False Negative Rate 0.000000
+At threshold 0.050000
+K Nearest Neighbors Model has False Positive Rate 0.633550, False Negative Rate 0.000000
+At threshold 0.060000
+K Nearest Neighbors Model has False Positive Rate 0.446254, False Negative Rate 0.006689
+At threshold 0.070000
+K Nearest Neighbors Model has False Positive Rate 0.446254, False Negative Rate 0.006689
+At threshold 0.080000
+K Nearest Neighbors Model has False Positive Rate 0.446254, False Negative Rate 0.006689
+At threshold 0.090000
+K Nearest Neighbors Model has False Positive Rate 0.446254, False Negative Rate 0.006689
+At threshold 0.100000
+K Nearest Neighbors Model has False Positive Rate 0.446254, False Negative Rate 0.006689
+At threshold 0.110000
+K Nearest Neighbors Model has False Positive Rate 0.342020, False Negative Rate 0.016722
+At threshold 0.120000
+K Nearest Neighbors Model has False Positive Rate 0.342020, False Negative Rate 0.016722
+At threshold 0.130000
+K Nearest Neighbors Model has False Positive Rate 0.342020, False Negative Rate 0.016722
+At threshold 0.140000
+K Nearest Neighbors Model has False Positive Rate 0.342020, False Negative Rate 0.016722
+At threshold 0.150000
+K Nearest Neighbors Model has False Positive Rate 0.342020, False Negative Rate 0.016722
+At threshold 0.160000
+K Nearest Neighbors Model has False Positive Rate 0.265472, False Negative Rate 0.031773
+At threshold 0.170000
+K Nearest Neighbors Model has False Positive Rate 0.265472, False Negative Rate 0.031773
+At threshold 0.180000
+K Nearest Neighbors Model has False Positive Rate 0.265472, False Negative Rate 0.031773
+At threshold 0.190000
+K Nearest Neighbors Model has False Positive Rate 0.265472, False Negative Rate 0.031773
+At threshold 0.200000
+K Nearest Neighbors Model has False Positive Rate 0.265472, False Negative Rate 0.031773
+At threshold 0.210000
+K Nearest Neighbors Model has False Positive Rate 0.218241, False Negative Rate 0.048495
+At threshold 0.220000
+K Nearest Neighbors Model has False Positive Rate 0.218241, False Negative Rate 0.048495
+At threshold 0.230000
+K Nearest Neighbors Model has False Positive Rate 0.218241, False Negative Rate 0.048495
+At threshold 0.240000
+K Nearest Neighbors Model has False Positive Rate 0.218241, False Negative Rate 0.048495
+At threshold 0.250000
+K Nearest Neighbors Model has False Positive Rate 0.218241, False Negative Rate 0.048495
+At threshold 0.260000
+K Nearest Neighbors Model has False Positive Rate 0.172638, False Negative Rate 0.060201
+At threshold 0.270000
+K Nearest Neighbors Model has False Positive Rate 0.172638, False Negative Rate 0.060201
+At threshold 0.280000
+K Nearest Neighbors Model has False Positive Rate 0.172638, False Negative Rate 0.060201
+At threshold 0.290000
+K Nearest Neighbors Model has False Positive Rate 0.172638, False Negative Rate 0.060201
+At threshold 0.300000
+K Nearest Neighbors Model has False Positive Rate 0.143322, False Negative Rate 0.076923
+At threshold 0.310000
+K Nearest Neighbors Model has False Positive Rate 0.143322, False Negative Rate 0.076923
+At threshold 0.320000
+K Nearest Neighbors Model has False Positive Rate 0.143322, False Negative Rate 0.076923
+At threshold 0.330000
+K Nearest Neighbors Model has False Positive Rate 0.143322, False Negative Rate 0.076923
+At threshold 0.340000
+K Nearest Neighbors Model has False Positive Rate 0.143322, False Negative Rate 0.076923
+At threshold 0.350000
+K Nearest Neighbors Model has False Positive Rate 0.143322, False Negative Rate 0.076923
+At threshold 0.360000
+K Nearest Neighbors Model has False Positive Rate 0.112378, False Negative Rate 0.103679
+At threshold 0.370000
+K Nearest Neighbors Model has False Positive Rate 0.112378, False Negative Rate 0.103679
+At threshold 0.380000
+K Nearest Neighbors Model has False Positive Rate 0.112378, False Negative Rate 0.103679
+At threshold 0.390000
+K Nearest Neighbors Model has False Positive Rate 0.112378, False Negative Rate 0.103679
+At threshold 0.400000
+K Nearest Neighbors Model has False Positive Rate 0.112378, False Negative Rate 0.103679
+At threshold 0.410000
+K Nearest Neighbors Model has False Positive Rate 0.084691, False Negative Rate 0.125418
+At threshold 0.420000
+K Nearest Neighbors Model has False Positive Rate 0.084691, False Negative Rate 0.125418
+At threshold 0.430000
+K Nearest Neighbors Model has False Positive Rate 0.084691, False Negative Rate 0.125418
+At threshold 0.440000
+K Nearest Neighbors Model has False Positive Rate 0.084691, False Negative Rate 0.125418
+At threshold 0.450000
+K Nearest Neighbors Model has False Positive Rate 0.084691, False Negative Rate 0.125418
+At threshold 0.460000
+K Nearest Neighbors Model has False Positive Rate 0.071661, False Negative Rate 0.142140
+At threshold 0.470000
+K Nearest Neighbors Model has False Positive Rate 0.071661, False Negative Rate 0.142140
+At threshold 0.480000
+K Nearest Neighbors Model has False Positive Rate 0.071661, False Negative Rate 0.142140
+At threshold 0.490000
+K Nearest Neighbors Model has False Positive Rate 0.071661, False Negative Rate 0.142140
+At threshold 0.500000
+K Nearest Neighbors Model has False Positive Rate 0.071661, False Negative Rate 0.142140
+At threshold 0.510000
+K Nearest Neighbors Model has False Positive Rate 0.058632, False Negative Rate 0.168896
+At threshold 0.520000
+K Nearest Neighbors Model has False Positive Rate 0.058632, False Negative Rate 0.168896
+At threshold 0.530000
+K Nearest Neighbors Model has False Positive Rate 0.058632, False Negative Rate 0.168896
+At threshold 0.540000
+K Nearest Neighbors Model has False Positive Rate 0.058632, False Negative Rate 0.168896
+At threshold 0.550000
+K Nearest Neighbors Model has False Positive Rate 0.058632, False Negative Rate 0.168896
+At threshold 0.560000
+K Nearest Neighbors Model has False Positive Rate 0.048860, False Negative Rate 0.209030
+At threshold 0.570000
+K Nearest Neighbors Model has False Positive Rate 0.048860, False Negative Rate 0.209030
+At threshold 0.580000
+K Nearest Neighbors Model has False Positive Rate 0.048860, False Negative Rate 0.209030
+At threshold 0.590000
+K Nearest Neighbors Model has False Positive Rate 0.048860, False Negative Rate 0.209030
+At threshold 0.600000
+K Nearest Neighbors Model has False Positive Rate 0.048860, False Negative Rate 0.209030
+At threshold 0.610000
+K Nearest Neighbors Model has False Positive Rate 0.040717, False Negative Rate 0.247492
+At threshold 0.620000
+K Nearest Neighbors Model has False Positive Rate 0.040717, False Negative Rate 0.247492
+At threshold 0.630000
+K Nearest Neighbors Model has False Positive Rate 0.040717, False Negative Rate 0.247492
+At threshold 0.640000
+K Nearest Neighbors Model has False Positive Rate 0.040717, False Negative Rate 0.247492
+At threshold 0.650000
+K Nearest Neighbors Model has False Positive Rate 0.040717, False Negative Rate 0.247492
+At threshold 0.660000
+K Nearest Neighbors Model has False Positive Rate 0.029316, False Negative Rate 0.289298
+At threshold 0.670000
+K Nearest Neighbors Model has False Positive Rate 0.029316, False Negative Rate 0.289298
+At threshold 0.680000
+K Nearest Neighbors Model has False Positive Rate 0.029316, False Negative Rate 0.289298
+At threshold 0.690000
+K Nearest Neighbors Model has False Positive Rate 0.029316, False Negative Rate 0.289298
+At threshold 0.700000
+K Nearest Neighbors Model has False Positive Rate 0.019544, False Negative Rate 0.334448
+At threshold 0.710000
+K Nearest Neighbors Model has False Positive Rate 0.019544, False Negative Rate 0.334448
+At threshold 0.720000
+K Nearest Neighbors Model has False Positive Rate 0.019544, False Negative Rate 0.334448
+At threshold 0.730000
+K Nearest Neighbors Model has False Positive Rate 0.019544, False Negative Rate 0.334448
+At threshold 0.740000
+K Nearest Neighbors Model has False Positive Rate 0.019544, False Negative Rate 0.334448
+At threshold 0.750000
+K Nearest Neighbors Model has False Positive Rate 0.016287, False Negative Rate 0.413043
+At threshold 0.760000
+K Nearest Neighbors Model has False Positive Rate 0.016287, False Negative Rate 0.413043
+At threshold 0.770000
+K Nearest Neighbors Model has False Positive Rate 0.016287, False Negative Rate 0.413043
+At threshold 0.780000
+K Nearest Neighbors Model has False Positive Rate 0.016287, False Negative Rate 0.413043
+At threshold 0.790000
+K Nearest Neighbors Model has False Positive Rate 0.016287, False Negative Rate 0.413043
+At threshold 0.800000
+K Nearest Neighbors Model has False Positive Rate 0.016287, False Negative Rate 0.413043
+At threshold 0.810000
+K Nearest Neighbors Model has False Positive Rate 0.011401, False Negative Rate 0.463211
+At threshold 0.820000
+K Nearest Neighbors Model has False Positive Rate 0.011401, False Negative Rate 0.463211
+At threshold 0.830000
+K Nearest Neighbors Model has False Positive Rate 0.011401, False Negative Rate 0.463211
+At threshold 0.840000
+K Nearest Neighbors Model has False Positive Rate 0.011401, False Negative Rate 0.463211
+At threshold 0.850000
+K Nearest Neighbors Model has False Positive Rate 0.011401, False Negative Rate 0.463211
+At threshold 0.860000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.526756
+At threshold 0.870000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.526756
+At threshold 0.880000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.526756
+At threshold 0.890000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.526756
+At threshold 0.900000
+K Nearest Neighbors Model has False Positive Rate 0.006515, False Negative Rate 0.526756
+At threshold 0.910000
+K Nearest Neighbors Model has False Positive Rate 0.001629, False Negative Rate 0.607023
+At threshold 0.920000
+K Nearest Neighbors Model has False Positive Rate 0.001629, False Negative Rate 0.607023
+At threshold 0.930000
+K Nearest Neighbors Model has False Positive Rate 0.001629, False Negative Rate 0.607023
+At threshold 0.940000
+K Nearest Neighbors Model has False Positive Rate 0.001629, False Negative Rate 0.607023
+At threshold 0.950000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.764214
+At threshold 0.960000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.764214
+At threshold 0.970000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.764214
+At threshold 0.980000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.764214
+At threshold 0.990000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.764214
+At threshold 1.000000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.764214
+### For K = 50 ###
+At threshold 0.010000
+K Nearest Neighbors Model has False Positive Rate 0.804560, False Negative Rate 0.000000
+At threshold 0.020000
+K Nearest Neighbors Model has False Positive Rate 0.804560, False Negative Rate 0.000000
+At threshold 0.030000
+K Nearest Neighbors Model has False Positive Rate 0.714984, False Negative Rate 0.000000
+At threshold 0.040000
+K Nearest Neighbors Model has False Positive Rate 0.714984, False Negative Rate 0.000000
+At threshold 0.050000
+K Nearest Neighbors Model has False Positive Rate 0.620521, False Negative Rate 0.003344
+At threshold 0.060000
+K Nearest Neighbors Model has False Positive Rate 0.535831, False Negative Rate 0.008361
+At threshold 0.070000
+K Nearest Neighbors Model has False Positive Rate 0.535831, False Negative Rate 0.008361
+At threshold 0.080000
+K Nearest Neighbors Model has False Positive Rate 0.535831, False Negative Rate 0.008361
+At threshold 0.090000
+K Nearest Neighbors Model has False Positive Rate 0.482085, False Negative Rate 0.010033
+At threshold 0.100000
+K Nearest Neighbors Model has False Positive Rate 0.482085, False Negative Rate 0.010033
+At threshold 0.110000
+K Nearest Neighbors Model has False Positive Rate 0.438111, False Negative Rate 0.013378
+At threshold 0.120000
+K Nearest Neighbors Model has False Positive Rate 0.438111, False Negative Rate 0.013378
+At threshold 0.130000
+K Nearest Neighbors Model has False Positive Rate 0.400651, False Negative Rate 0.016722
+At threshold 0.140000
+K Nearest Neighbors Model has False Positive Rate 0.400651, False Negative Rate 0.016722
+At threshold 0.150000
+K Nearest Neighbors Model has False Positive Rate 0.376221, False Negative Rate 0.018395
+At threshold 0.160000
+K Nearest Neighbors Model has False Positive Rate 0.376221, False Negative Rate 0.018395
+At threshold 0.170000
+K Nearest Neighbors Model has False Positive Rate 0.333876, False Negative Rate 0.023411
+At threshold 0.180000
+K Nearest Neighbors Model has False Positive Rate 0.333876, False Negative Rate 0.023411
+At threshold 0.190000
+K Nearest Neighbors Model has False Positive Rate 0.301303, False Negative Rate 0.028428
+At threshold 0.200000
+K Nearest Neighbors Model has False Positive Rate 0.301303, False Negative Rate 0.028428
+At threshold 0.210000
+K Nearest Neighbors Model has False Positive Rate 0.268730, False Negative Rate 0.035117
+At threshold 0.220000
+K Nearest Neighbors Model has False Positive Rate 0.268730, False Negative Rate 0.035117
+At threshold 0.230000
+K Nearest Neighbors Model has False Positive Rate 0.249186, False Negative Rate 0.041806
+At threshold 0.240000
+K Nearest Neighbors Model has False Positive Rate 0.249186, False Negative Rate 0.041806
+At threshold 0.250000
+K Nearest Neighbors Model has False Positive Rate 0.229642, False Negative Rate 0.051839
+At threshold 0.260000
+K Nearest Neighbors Model has False Positive Rate 0.229642, False Negative Rate 0.051839
+At threshold 0.270000
+K Nearest Neighbors Model has False Positive Rate 0.214984, False Negative Rate 0.053512
+At threshold 0.280000
+K Nearest Neighbors Model has False Positive Rate 0.214984, False Negative Rate 0.053512
+At threshold 0.290000
+K Nearest Neighbors Model has False Positive Rate 0.188925, False Negative Rate 0.063545
+At threshold 0.300000
+K Nearest Neighbors Model has False Positive Rate 0.169381, False Negative Rate 0.071906
+At threshold 0.310000
+K Nearest Neighbors Model has False Positive Rate 0.169381, False Negative Rate 0.071906
+At threshold 0.320000
+K Nearest Neighbors Model has False Positive Rate 0.169381, False Negative Rate 0.071906
+At threshold 0.330000
+K Nearest Neighbors Model has False Positive Rate 0.157980, False Negative Rate 0.081940
+At threshold 0.340000
+K Nearest Neighbors Model has False Positive Rate 0.157980, False Negative Rate 0.081940
+At threshold 0.350000
+K Nearest Neighbors Model has False Positive Rate 0.141694, False Negative Rate 0.085284
+At threshold 0.360000
+K Nearest Neighbors Model has False Positive Rate 0.141694, False Negative Rate 0.085284
+At threshold 0.370000
+K Nearest Neighbors Model has False Positive Rate 0.131922, False Negative Rate 0.095318
+At threshold 0.380000
+K Nearest Neighbors Model has False Positive Rate 0.115635, False Negative Rate 0.105351
+At threshold 0.390000
+K Nearest Neighbors Model has False Positive Rate 0.115635, False Negative Rate 0.105351
+At threshold 0.400000
+K Nearest Neighbors Model has False Positive Rate 0.115635, False Negative Rate 0.105351
+At threshold 0.410000
+K Nearest Neighbors Model has False Positive Rate 0.099349, False Negative Rate 0.110368
+At threshold 0.420000
+K Nearest Neighbors Model has False Positive Rate 0.099349, False Negative Rate 0.110368
+At threshold 0.430000
+K Nearest Neighbors Model has False Positive Rate 0.094463, False Negative Rate 0.115385
+At threshold 0.440000
+K Nearest Neighbors Model has False Positive Rate 0.094463, False Negative Rate 0.115385
+At threshold 0.450000
+K Nearest Neighbors Model has False Positive Rate 0.081433, False Negative Rate 0.132107
+At threshold 0.460000
+K Nearest Neighbors Model has False Positive Rate 0.081433, False Negative Rate 0.132107
+At threshold 0.470000
+K Nearest Neighbors Model has False Positive Rate 0.076547, False Negative Rate 0.145485
+At threshold 0.480000
+K Nearest Neighbors Model has False Positive Rate 0.068404, False Negative Rate 0.157191
+At threshold 0.490000
+K Nearest Neighbors Model has False Positive Rate 0.068404, False Negative Rate 0.157191
+At threshold 0.500000
+K Nearest Neighbors Model has False Positive Rate 0.068404, False Negative Rate 0.157191
+At threshold 0.510000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.167224
+At threshold 0.520000
+K Nearest Neighbors Model has False Positive Rate 0.065147, False Negative Rate 0.167224
+At threshold 0.530000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.188963
+At threshold 0.540000
+K Nearest Neighbors Model has False Positive Rate 0.060261, False Negative Rate 0.188963
+At threshold 0.550000
+K Nearest Neighbors Model has False Positive Rate 0.055375, False Negative Rate 0.212375
+At threshold 0.560000
+K Nearest Neighbors Model has False Positive Rate 0.055375, False Negative Rate 0.212375
+At threshold 0.570000
+K Nearest Neighbors Model has False Positive Rate 0.048860, False Negative Rate 0.232441
+At threshold 0.580000
+K Nearest Neighbors Model has False Positive Rate 0.048860, False Negative Rate 0.232441
+At threshold 0.590000
+K Nearest Neighbors Model has False Positive Rate 0.045603, False Negative Rate 0.249164
+At threshold 0.600000
+K Nearest Neighbors Model has False Positive Rate 0.045603, False Negative Rate 0.249164
+At threshold 0.610000
+K Nearest Neighbors Model has False Positive Rate 0.037459, False Negative Rate 0.260870
+At threshold 0.620000
+K Nearest Neighbors Model has False Positive Rate 0.037459, False Negative Rate 0.260870
+At threshold 0.630000
+K Nearest Neighbors Model has False Positive Rate 0.032573, False Negative Rate 0.279264
+At threshold 0.640000
+K Nearest Neighbors Model has False Positive Rate 0.032573, False Negative Rate 0.279264
+At threshold 0.650000
+K Nearest Neighbors Model has False Positive Rate 0.030945, False Negative Rate 0.295987
+At threshold 0.660000
+K Nearest Neighbors Model has False Positive Rate 0.030945, False Negative Rate 0.295987
+At threshold 0.670000
+K Nearest Neighbors Model has False Positive Rate 0.029316, False Negative Rate 0.307692
+At threshold 0.680000
+K Nearest Neighbors Model has False Positive Rate 0.029316, False Negative Rate 0.307692
+At threshold 0.690000
+K Nearest Neighbors Model has False Positive Rate 0.024430, False Negative Rate 0.337793
+At threshold 0.700000
+K Nearest Neighbors Model has False Positive Rate 0.024430, False Negative Rate 0.366221
+At threshold 0.710000
+K Nearest Neighbors Model has False Positive Rate 0.024430, False Negative Rate 0.366221
+At threshold 0.720000
+K Nearest Neighbors Model has False Positive Rate 0.024430, False Negative Rate 0.392977
+At threshold 0.730000
+K Nearest Neighbors Model has False Positive Rate 0.024430, False Negative Rate 0.392977
+At threshold 0.740000
+K Nearest Neighbors Model has False Positive Rate 0.024430, False Negative Rate 0.392977
+At threshold 0.750000
+K Nearest Neighbors Model has False Positive Rate 0.021173, False Negative Rate 0.429766
+At threshold 0.760000
+K Nearest Neighbors Model has False Positive Rate 0.021173, False Negative Rate 0.429766
+At threshold 0.770000
+K Nearest Neighbors Model has False Positive Rate 0.017915, False Negative Rate 0.451505
+At threshold 0.780000
+K Nearest Neighbors Model has False Positive Rate 0.017915, False Negative Rate 0.451505
+At threshold 0.790000
+K Nearest Neighbors Model has False Positive Rate 0.013029, False Negative Rate 0.486622
+At threshold 0.800000
+K Nearest Neighbors Model has False Positive Rate 0.013029, False Negative Rate 0.486622
+At threshold 0.810000
+K Nearest Neighbors Model has False Positive Rate 0.011401, False Negative Rate 0.505017
+At threshold 0.820000
+K Nearest Neighbors Model has False Positive Rate 0.011401, False Negative Rate 0.505017
+At threshold 0.830000
+K Nearest Neighbors Model has False Positive Rate 0.009772, False Negative Rate 0.528428
+At threshold 0.840000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.553512
+At threshold 0.850000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.553512
+At threshold 0.860000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.583612
+At threshold 0.870000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.583612
+At threshold 0.880000
+K Nearest Neighbors Model has False Positive Rate 0.008143, False Negative Rate 0.583612
+At threshold 0.890000
+K Nearest Neighbors Model has False Positive Rate 0.003257, False Negative Rate 0.633779
+At threshold 0.900000
+K Nearest Neighbors Model has False Positive Rate 0.003257, False Negative Rate 0.633779
+At threshold 0.910000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.683946
+At threshold 0.920000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.683946
+At threshold 0.930000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.729097
+At threshold 0.940000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.729097
+At threshold 0.950000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.792642
+At threshold 0.960000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.792642
+At threshold 0.970000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.854515
+At threshold 0.980000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.854515
+At threshold 0.990000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.909699
+At threshold 1.000000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.909699
+### For K = 100 ###
+At threshold 0.010000
+K Nearest Neighbors Model has False Positive Rate 0.931596, False Negative Rate 0.000000
+At threshold 0.020000
+K Nearest Neighbors Model has False Positive Rate 0.884365, False Negative Rate 0.000000
+At threshold 0.030000
+K Nearest Neighbors Model has False Positive Rate 0.807818, False Negative Rate 0.000000
+At threshold 0.040000
+K Nearest Neighbors Model has False Positive Rate 0.749186, False Negative Rate 0.000000
+At threshold 0.050000
+K Nearest Neighbors Model has False Positive Rate 0.716612, False Negative Rate 0.001672
+At threshold 0.060000
+K Nearest Neighbors Model has False Positive Rate 0.635179, False Negative Rate 0.003344
+At threshold 0.070000
+K Nearest Neighbors Model has False Positive Rate 0.635179, False Negative Rate 0.003344
+At threshold 0.080000
+K Nearest Neighbors Model has False Positive Rate 0.596091, False Negative Rate 0.003344
+At threshold 0.090000
+K Nearest Neighbors Model has False Positive Rate 0.561889, False Negative Rate 0.003344
+At threshold 0.100000
+K Nearest Neighbors Model has False Positive Rate 0.534202, False Negative Rate 0.005017
+At threshold 0.110000
+K Nearest Neighbors Model has False Positive Rate 0.514658, False Negative Rate 0.005017
+At threshold 0.120000
+K Nearest Neighbors Model has False Positive Rate 0.498371, False Negative Rate 0.008361
+At threshold 0.130000
+K Nearest Neighbors Model has False Positive Rate 0.483713, False Negative Rate 0.010033
+At threshold 0.140000
+K Nearest Neighbors Model has False Positive Rate 0.459283, False Negative Rate 0.011706
+At threshold 0.150000
+K Nearest Neighbors Model has False Positive Rate 0.439739, False Negative Rate 0.015050
+At threshold 0.160000
+K Nearest Neighbors Model has False Positive Rate 0.428339, False Negative Rate 0.020067
+At threshold 0.170000
+K Nearest Neighbors Model has False Positive Rate 0.412052, False Negative Rate 0.021739
+At threshold 0.180000
+K Nearest Neighbors Model has False Positive Rate 0.384365, False Negative Rate 0.025084
+At threshold 0.190000
+K Nearest Neighbors Model has False Positive Rate 0.369707, False Negative Rate 0.026756
+At threshold 0.200000
+K Nearest Neighbors Model has False Positive Rate 0.350163, False Negative Rate 0.030100
+At threshold 0.210000
+K Nearest Neighbors Model has False Positive Rate 0.317590, False Negative Rate 0.031773
+At threshold 0.220000
+K Nearest Neighbors Model has False Positive Rate 0.317590, False Negative Rate 0.031773
+At threshold 0.230000
+K Nearest Neighbors Model has False Positive Rate 0.309446, False Negative Rate 0.035117
+At threshold 0.240000
+K Nearest Neighbors Model has False Positive Rate 0.285016, False Negative Rate 0.038462
+At threshold 0.250000
+K Nearest Neighbors Model has False Positive Rate 0.268730, False Negative Rate 0.041806
+At threshold 0.260000
+K Nearest Neighbors Model has False Positive Rate 0.254072, False Negative Rate 0.048495
+At threshold 0.270000
+K Nearest Neighbors Model has False Positive Rate 0.239414, False Negative Rate 0.053512
+At threshold 0.280000
+K Nearest Neighbors Model has False Positive Rate 0.231270, False Negative Rate 0.056856
+At threshold 0.290000
+K Nearest Neighbors Model has False Positive Rate 0.223127, False Negative Rate 0.060201
+At threshold 0.300000
+K Nearest Neighbors Model has False Positive Rate 0.197068, False Negative Rate 0.066890
+At threshold 0.310000
+K Nearest Neighbors Model has False Positive Rate 0.197068, False Negative Rate 0.066890
+At threshold 0.320000
+K Nearest Neighbors Model has False Positive Rate 0.193811, False Negative Rate 0.071906
+At threshold 0.330000
+K Nearest Neighbors Model has False Positive Rate 0.182410, False Negative Rate 0.080268
+At threshold 0.340000
+K Nearest Neighbors Model has False Positive Rate 0.175896, False Negative Rate 0.086957
+At threshold 0.350000
+K Nearest Neighbors Model has False Positive Rate 0.167752, False Negative Rate 0.090301
+At threshold 0.360000
+K Nearest Neighbors Model has False Positive Rate 0.156352, False Negative Rate 0.091973
+At threshold 0.370000
+K Nearest Neighbors Model has False Positive Rate 0.143322, False Negative Rate 0.095318
+At threshold 0.380000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.108696
+At threshold 0.390000
+K Nearest Neighbors Model has False Positive Rate 0.127036, False Negative Rate 0.108696
+At threshold 0.400000
+K Nearest Neighbors Model has False Positive Rate 0.114007, False Negative Rate 0.112040
+At threshold 0.410000
+K Nearest Neighbors Model has False Positive Rate 0.097720, False Negative Rate 0.125418
+At threshold 0.420000
+K Nearest Neighbors Model has False Positive Rate 0.097720, False Negative Rate 0.125418
+At threshold 0.430000
+K Nearest Neighbors Model has False Positive Rate 0.096091, False Negative Rate 0.132107
+At threshold 0.440000
+K Nearest Neighbors Model has False Positive Rate 0.092834, False Negative Rate 0.138796
+At threshold 0.450000
+K Nearest Neighbors Model has False Positive Rate 0.089577, False Negative Rate 0.147157
+At threshold 0.460000
+K Nearest Neighbors Model has False Positive Rate 0.084691, False Negative Rate 0.153846
+At threshold 0.470000
+K Nearest Neighbors Model has False Positive Rate 0.076547, False Negative Rate 0.160535
+At threshold 0.480000
+K Nearest Neighbors Model has False Positive Rate 0.071661, False Negative Rate 0.170569
+At threshold 0.490000
+K Nearest Neighbors Model has False Positive Rate 0.071661, False Negative Rate 0.170569
+At threshold 0.500000
+K Nearest Neighbors Model has False Positive Rate 0.066775, False Negative Rate 0.178930
+At threshold 0.510000
+K Nearest Neighbors Model has False Positive Rate 0.066775, False Negative Rate 0.192308
+At threshold 0.520000
+K Nearest Neighbors Model has False Positive Rate 0.066775, False Negative Rate 0.197324
+At threshold 0.530000
+K Nearest Neighbors Model has False Positive Rate 0.066775, False Negative Rate 0.202341
+At threshold 0.540000
+K Nearest Neighbors Model has False Positive Rate 0.061889, False Negative Rate 0.215719
+At threshold 0.550000
+K Nearest Neighbors Model has False Positive Rate 0.058632, False Negative Rate 0.220736
+At threshold 0.560000
+K Nearest Neighbors Model has False Positive Rate 0.058632, False Negative Rate 0.229097
+At threshold 0.570000
+K Nearest Neighbors Model has False Positive Rate 0.057003, False Negative Rate 0.237458
+At threshold 0.580000
+K Nearest Neighbors Model has False Positive Rate 0.055375, False Negative Rate 0.244147
+At threshold 0.590000
+K Nearest Neighbors Model has False Positive Rate 0.048860, False Negative Rate 0.274247
+At threshold 0.600000
+K Nearest Neighbors Model has False Positive Rate 0.048860, False Negative Rate 0.274247
+At threshold 0.610000
+K Nearest Neighbors Model has False Positive Rate 0.045603, False Negative Rate 0.284281
+At threshold 0.620000
+K Nearest Neighbors Model has False Positive Rate 0.042345, False Negative Rate 0.294314
+At threshold 0.630000
+K Nearest Neighbors Model has False Positive Rate 0.042345, False Negative Rate 0.302676
+At threshold 0.640000
+K Nearest Neighbors Model has False Positive Rate 0.040717, False Negative Rate 0.314381
+At threshold 0.650000
+K Nearest Neighbors Model has False Positive Rate 0.034202, False Negative Rate 0.326087
+At threshold 0.660000
+K Nearest Neighbors Model has False Positive Rate 0.029316, False Negative Rate 0.334448
+At threshold 0.670000
+K Nearest Neighbors Model has False Positive Rate 0.029316, False Negative Rate 0.342809
+At threshold 0.680000
+K Nearest Neighbors Model has False Positive Rate 0.022801, False Negative Rate 0.361204
+At threshold 0.690000
+K Nearest Neighbors Model has False Positive Rate 0.022801, False Negative Rate 0.371237
+At threshold 0.700000
+K Nearest Neighbors Model has False Positive Rate 0.022801, False Negative Rate 0.387960
+At threshold 0.710000
+K Nearest Neighbors Model has False Positive Rate 0.022801, False Negative Rate 0.387960
+At threshold 0.720000
+K Nearest Neighbors Model has False Positive Rate 0.021173, False Negative Rate 0.416388
+At threshold 0.730000
+K Nearest Neighbors Model has False Positive Rate 0.021173, False Negative Rate 0.416388
+At threshold 0.740000
+K Nearest Neighbors Model has False Positive Rate 0.016287, False Negative Rate 0.434783
+At threshold 0.750000
+K Nearest Neighbors Model has False Positive Rate 0.016287, False Negative Rate 0.464883
+At threshold 0.760000
+K Nearest Neighbors Model has False Positive Rate 0.016287, False Negative Rate 0.464883
+At threshold 0.770000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.486622
+At threshold 0.780000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.510033
+At threshold 0.790000
+K Nearest Neighbors Model has False Positive Rate 0.014658, False Negative Rate 0.520067
+At threshold 0.800000
+K Nearest Neighbors Model has False Positive Rate 0.011401, False Negative Rate 0.543478
+At threshold 0.810000
+K Nearest Neighbors Model has False Positive Rate 0.009772, False Negative Rate 0.566890
+At threshold 0.820000
+K Nearest Neighbors Model has False Positive Rate 0.009772, False Negative Rate 0.578595
+At threshold 0.830000
+K Nearest Neighbors Model has False Positive Rate 0.009772, False Negative Rate 0.590301
+At threshold 0.840000
+K Nearest Neighbors Model has False Positive Rate 0.003257, False Negative Rate 0.630435
+At threshold 0.850000
+K Nearest Neighbors Model has False Positive Rate 0.003257, False Negative Rate 0.630435
+At threshold 0.860000
+K Nearest Neighbors Model has False Positive Rate 0.001629, False Negative Rate 0.675585
+At threshold 0.870000
+K Nearest Neighbors Model has False Positive Rate 0.001629, False Negative Rate 0.675585
+At threshold 0.880000
+K Nearest Neighbors Model has False Positive Rate 0.001629, False Negative Rate 0.705686
+At threshold 0.890000
+K Nearest Neighbors Model has False Positive Rate 0.001629, False Negative Rate 0.724080
+At threshold 0.900000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.745819
+At threshold 0.910000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.764214
+At threshold 0.920000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.787625
+At threshold 0.930000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.806020
+At threshold 0.940000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.836120
+At threshold 0.950000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.882943
+At threshold 0.960000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.882943
+At threshold 0.970000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.897993
+At threshold 0.980000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.919732
+At threshold 0.990000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.939799
+At threshold 1.000000
+K Nearest Neighbors Model has False Positive Rate 0.000000, False Negative Rate 0.973244
+Close the plot diagram to continue program
