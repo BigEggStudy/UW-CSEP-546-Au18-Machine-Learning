@@ -22,7 +22,7 @@ class KMeansCluster(object):
         for i in range(len(centroids)):
             assignments[i] = []
 
-        def assign_sample(sample, centroids):
+        def assign_sample(index, sample, centroids):
             nearest_distance = 1000000
             nearest_centroid = -1
             for i in range(len(centroids)):
@@ -31,23 +31,23 @@ class KMeansCluster(object):
                 if distance < nearest_distance:
                     nearest_distance = distance
                     nearest_centroid = i
-            return (nearest_centroid, sample)
+            return (nearest_centroid, sample, index)
 
-        assigns = Parallel(n_jobs=6)(delayed(assign_sample)(sample, centroids) for sample in x)
-        for (index, sample) in assigns:
-            assignments[index].append(sample)
+        assigns = Parallel(n_jobs=6)(delayed(assign_sample)(i, x[i], centroids) for i in range(len(x)))
+        for (nearest_centroid, sample, index) in assigns:
+            assignments[nearest_centroid].append((sample, index))
 
         return assignments
 
     def __update_centroid(self, assignments):
         def compute(assignment):
             centroid = []
-            dimension = len(assignment[0])
+            dimension = len(assignment[0][0])
 
             for j in range(dimension):
                 centroid.append(0)
 
-            for sample in assignment:
+            for (sample, index) in assignment:
                 for j in range(dimension):
                     centroid[j] += sample[j]
 

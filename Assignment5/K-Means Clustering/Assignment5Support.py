@@ -98,7 +98,7 @@ def Featurize(xTrainRaw, xTestRaw, includeGradients=True, includeRawPixels=False
 
         if includeGradients:
             # average Y gradient strength
-            yEdges = Convolution3x3(image, [[1, 0, -1],[2,0,-2],[1,0,-1]])
+            yEdges = Convolution3x3(image, [[1, 2, 1],[0, 0, 0],[-1, -2, -1]])
             sumGradient = sum([sum([abs(value) for value in row]) for row in yEdges])
             count = sum([len(row) for row in yEdges])
 
