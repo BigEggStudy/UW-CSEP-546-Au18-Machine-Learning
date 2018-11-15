@@ -26,6 +26,9 @@ if __name__=="__main__":
 
     import NeuralNetworks
     print('========== Compare Models ==========')
+    fig, ax = plt.subplots()
+    ax.grid(True)
+
     x = []
     y_test_loss = []
     for i in range(200):
@@ -34,14 +37,15 @@ if __name__=="__main__":
     for hidden_layer in [1, 2]:
         for hidden_nodes in [2, 5, 10, 15, 20]:
             print('Build Neural Network with %d hidden layer, and %s nodes for each layer' % (hidden_layer, hidden_nodes))
-            model = NeuralNetworks.NeuralNetworks(len(xTrain[0]), hidden_layer, hidden_nodes, 1)
+            hidden = [ hidden_nodes for i in range(hidden_layer) ]
+            model = NeuralNetworks.NeuralNetworks(len(xTrain[0]), hidden, 1)
 
             y = []
             y_test = []
             for i in range(200):
-                model.fit(xTrain, yTrain, 0.05)
                 y.append(model.loss(xTrain, yTrain))
                 y_test.append(model.loss(xTest, yTest))
+                model.fit_one(xTrain, yTrain, 10, 0.05)
 
             yPredicted = model.predict(xTest)
             testAccuracy = EvaluationsStub.Accuracy(yTest, yPredicted)
