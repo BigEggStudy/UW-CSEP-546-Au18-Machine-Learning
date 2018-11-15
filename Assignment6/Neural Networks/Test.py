@@ -9,16 +9,18 @@ y = np.array(([92], [86], [89]), dtype=float)
 X = X/np.amax(X, axis=0) # maximum of X array
 y = y/100 # max test score is 100
 
-NN = NeuralNetworks.NeuralNetworks(2, 1, 3, 1)
+NN = NeuralNetworks.NeuralNetworks(2, [ 5, 3 ], 1)
 iteration = []
 loss = []
-for i in range(1000): # trains the NN 1,000 times
+for i in range(1000):
     print('Input: %s' % X)
     print('Actual Output: %s' % y)
     print('Predicted Output: %s' % NN.predict_raw(X))
     print('Loss: %s' % NN.loss(X, y))
+    # print('Weights: %s' % NN.weights)
     print('')
-    NN.fit(X, y, 0.05)
+
+    NN.fit_one(X, y, 20, 0.05)
 
     iteration.append(i)
     loss.append(NN.loss(X, y))
