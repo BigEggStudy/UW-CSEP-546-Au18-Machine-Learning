@@ -22,9 +22,9 @@ if __name__=="__main__":
     yTrain = np.array(yTrainRaw)[np.newaxis].T
     yTest = np.array(yTestRaw)[np.newaxis].T
 
+    import NeuralNetworks
     ############################
 
-    import NeuralNetworks
     print('========== Compare Models ==========')
     fig, ax = plt.subplots()
     ax.grid(True)
@@ -32,7 +32,7 @@ if __name__=="__main__":
     x = []
     y_test_loss = []
     for i in range(200):
-        x.append(i)
+        x.append(i + 1)
 
     for hidden_layer in [1, 2]:
         for hidden_nodes in [2, 5, 10, 15, 20]:
@@ -43,9 +43,9 @@ if __name__=="__main__":
             y = []
             y_test = []
             for i in range(200):
+                model.fit_one(xTrain, yTrain, 10, 0.05)
                 y.append(model.loss(xTrain, yTrain))
                 y_test.append(model.loss(xTest, yTest))
-                model.fit_one(xTrain, yTrain, 10, 0.05)
 
             yPredicted = model.predict(xTest)
             testAccuracy = EvaluationsStub.Accuracy(yTest, yPredicted)
