@@ -4,9 +4,9 @@ import random
 class NeuralNetworks(object):
     def __init__(self, input_num, hidden_layer = [ 2 ], output_num = 1):
         self.num_layers = len(hidden_layer) + 2
-        self.biases = [np.random.randn(y, 1)
+        self.biases = [np.random.randn(y, 1) * 0.125
                        for y in np.hstack([hidden_layer, output_num])]
-        self.weights = [np.random.randn(y, x)
+        self.weights = [np.random.randn(y, x) * 0.125
                         for x, y in zip(np.hstack([input_num, hidden_layer]), np.hstack([hidden_layer, output_num]))]
 
 
