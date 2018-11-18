@@ -12,7 +12,7 @@ def CalculateGradientFeatures(gradients):
             average = 0
             for a in range(grid_length):
                 for b in range(grid_length):
-                    value = gradients[i * grid_length + a][j * grid_length + b]
+                    value = gradients[i * grid_length + a][j * grid_length + b] / 255
                     min_value = min(value, min_value)
                     max_value = max(value, max_value)
                     average += value
