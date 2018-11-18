@@ -44,3 +44,121 @@ if __name__=="__main__":
 
     print('When Intensities with step %d and momentum beta as %f,' % best_parameter)
     print('Neural Networks has best accuracy %f' % best_accuracy)
+
+    ############################
+
+    print('========== Parameter Tuning ==========')
+    print('Featurize the Data Set')
+    (xTrain, xTest) = Featurize.ByIntensities(xTrainRaw, xTestRaw, 1)
+
+    best_accuracy = 0
+    best_parameter = (150, 10, 0.05, 0.0)
+    for iteration in range(150, 251, 50):
+        for mini_batch_size in [10, 30, 50, 75, 100, 125, 150, 200]:
+            for eta in [0.01, 0.05, 0.1, 0.5, 1, 10]:
+                for momentum_beta in [0.25, 0.33, 0.5]:
+                    print("Training Model with %d iteration, mini batch size as %d, eta as %f, momentum beta as %f" % (iteration, mini_batch_size, eta, momentum_beta))
+                    accuracy = crossValidation.validate(xTrain, yTrain, iteration, mini_batch_size, eta, momentum_beta)
+                    (lower, upper) = EvaluationsStub.Bound(accuracy, len(xTrainRaw))
+                    print("Accuracy from Cross Validation is %f, with lower bound %f and upper bound %f" % (accuracy, lower, upper))
+                    if best_accuracy < accuracy:
+                        best_accuracy = accuracy
+                        best_parameter = (iteration, mini_batch_size, eta, momentum_beta)
+
+    print('When %d iteration, mini batch size as %d, eta as %f, momentum beta as %f,' % best_parameter)
+    print('Neural Networks has best accuracy %f' % best_accuracy)
+
+    ############################
+
+    print('========== Mistake Categorize ==========')
+    print('Build Neural Network with 1 hidden layer, and 20 nodes for each layer')
+    print('Use %d iteration, mini batch size as %d, eta as %f, momentum beta as %f to Train the Model' % best_parameter)
+    model = NeuralNetworks.NeuralNetworks(len(xTrain[0]), [ 20 ], 1)
+    for i in range(200):
+        model.fit_one(xTrain, yTrain, 10, 0.05, 0.33)
+    predicted = model.predict_raw(xTrain)
+
+    most_error = sorted(zip(predicted, yTrain, xTrainRaw), key=lambda data: data[0] - data[1])
+    print("### Find the Most False Negative ###")
+    print(most_error[:10])
+    print("### Find the Most False Positive ###")
+    print(most_error[-10:])
+
+    ############################
+
+
+
+
+
+
+
+    ############################
+
+    import RandomForest
+
+    print('========== Compare Models ==========')
+    print('Featurize the Data Set')
+    xTrain_X_Gradient = Featurize.Featurize_X_Gradient(xTrainRaw)
+    xTest_X_Gradient = Featurize.Featurize_X_Gradient(xTestRaw)
+    model_X_Gradient = RandomForest.RandomForest(num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 10)
+    model_X_Gradient.fit(xTrain_X_Gradient, yTrain)
+    false_positives_X_Gradient = []
+    false_negatives_X_Gradient = []
+
+    (xTrain_Init, xTest_Init) = Featurize.ByIntensities(xTrainRaw, xTestRaw, 2)
+    init_model = NeuralNetworks.NeuralNetworks(len(xTrain_Init[0]), [ 20 ], 1)
+    for i in range(200):
+        init_model.fit_one(xTrain_Init, yTrain, 10, 0.05, 0.25)
+    false_positives_init_NN = []
+    false_negatives_init_NN = []
+
+    (xTrain_Best, xTest_Best) = Featurize.ByIntensities(xTrainRaw, xTestRaw, 1)
+    best_model = NeuralNetworks.NeuralNetworks(len(xTrain_Best[0]), [ 20 ], 1)
+    for i in range(200):
+        best_model.fit_one(xTrain_Best, yTrain, 10, 0.05, 0.33)
+    false_positives_best_NN = []
+    false_negatives_best_NN = []
+
+    for i in range(100):
+        threshold = 0.01 + 0.99 * i / 99
+        print('At threshold %f' % threshold)
+
+        yTestPredicted = model_X_Gradient.predict(xTest_X_Gradient, threshold)
+        false_positive = EvaluationsStub.FalsePositiveRate(yTest, yTestPredicted)
+        false_negative = EvaluationsStub.FalseNegativeRate(yTest, yTestPredicted)
+        false_positives_X_Gradient.append(false_positive)
+        false_negatives_X_Gradient.append(false_negative)
+        print('X-Gradient Random Forests Model has False Positive Rate %f, False Negative Rate %f' % (false_positive, false_negative))
+
+        yTestPredicted = init_model.predict(xTest_Init, threshold)
+        false_positive = EvaluationsStub.FalsePositiveRate(yTest, yTestPredicted)
+        false_negative = EvaluationsStub.FalseNegativeRate(yTest, yTestPredicted)
+        false_positives_init_NN.append(false_positive)
+        false_negatives_init_NN.append(false_negative)
+        print('Initialize Neural Networks Model has False Positive Rate %f, False Negative Rate %f' % (false_positive, false_negative))
+
+        yTestPredicted = best_model.predict(xTest_Best, threshold)
+        false_positive = EvaluationsStub.FalsePositiveRate(yTest, yTestPredicted)
+        false_negative = EvaluationsStub.FalseNegativeRate(yTest, yTestPredicted)
+        false_positives_best_NN.append(false_positive)
+        false_negatives_best_NN.append(false_negative)
+        print('Best Neural Networks Model has False Positive Rate %f, False Negative Rate %f' % (false_positive, false_negative))
+
+    print("")
+    print("### Plot Precision vs Recall.")
+    fig, ax = plt.subplots()
+    ax.grid(True)
+    ax.invert_yaxis()
+    ax.xaxis.tick_top()
+    ax.xaxis.set_label_position('top')
+
+    plt.plot(false_positives_X_Gradient, false_negatives_X_Gradient, label = 'Random Forest Model use X-Gradient')
+    plt.plot(false_positives_init_NN, false_negatives_init_NN, label = 'Initialize Neural Network Model')
+    plt.plot(false_positives_best_NN, false_negatives_best_NN, label = 'Best Neural Network Model')
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('False Negative Rate')
+    plt.title('Test Set ROC Curve')
+    plt.legend()
+
+    print("Close the plot diagram to continue program")
+    plt.show()
