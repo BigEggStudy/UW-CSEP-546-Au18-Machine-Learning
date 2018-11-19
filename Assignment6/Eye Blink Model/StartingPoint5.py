@@ -70,12 +70,14 @@ if __name__=="__main__":
 
     ############################
 
+    # best_parameter = (150, 10, 1, 0.25)
+
     print('========== Mistake Categorize ==========')
     print('Build Neural Network with 1 hidden layer, and 20 nodes for each layer')
     print('Use %d iteration, mini batch size as %d, eta as %f, momentum beta as %f to Train the Model' % best_parameter)
     model = NeuralNetworks.NeuralNetworks(len(xTrain[0]), [ 20 ], 1)
-    for i in range(200):
-        model.fit_one(xTrain, yTrain, 10, 0.05, 0.33)
+    for i in range(best_parameter[0]):
+        model.fit_one(xTrain, yTrain, best_parameter[1], best_parameter[2], best_parameter[3])
     predicted = model.predict_raw(xTrain)
 
     most_error = sorted(zip(predicted, yTrain, xTrainRaw), key=lambda data: data[0] - data[1])
@@ -86,11 +88,34 @@ if __name__=="__main__":
 
     ############################
 
+    print('========== Evaluation on the Neural Networks ==========')
+    print('Add X-Gradient and Y-Gradient as the Features')
+    xTrain_X_Gradient = Featurize.Featurize_X_Gradient(xTrainRaw)
+    xTrain_Y_Gradient = Featurize.Featurize_Y_Gradient(xTrainRaw)
+    xTest_X_Gradient = Featurize.Featurize_X_Gradient(xTestRaw)
+    xTest_Y_Gradient = Featurize.Featurize_Y_Gradient(xTestRaw)
 
+    xTrain_Gradient = np.hstack((np.array(xTrain_X_Gradient), np.array(xTrain_Y_Gradient)))
+    xTest_Gradient = np.hstack((np.array(xTest_X_Gradient), np.array(xTest_Y_Gradient)))
 
+    xTrain_Best = np.hstack((np.array(xTrain), xTrain_Gradient))
+    xTest_Best = np.hstack((np.array(xTest), xTest_Gradient))
 
+    print('Build Neural Network with 1 hidden layer, and 20 nodes for each layer')
+    print('Use %d iteration, mini batch size as %d, eta as %f, momentum beta as %f to Train the Model' % best_parameter)
 
+    accuracy = crossValidation.validate(xTrain_Best, yTrain, best_parameter[0], best_parameter[1], best_parameter[2], best_parameter[3])
+    (lower, upper) = EvaluationsStub.Bound(accuracy, len(xTrainRaw))
+    print("Accuracy from Cross Validation is %f, with lower bound %f and upper bound %f" % (accuracy, lower, upper))
+    model = NeuralNetworks.NeuralNetworks(len(xTrain_Best[0]), [ 20 ], 1)
+    for i in range(best_parameter[0]):
+        model.fit_one(xTrain_Best, yTrain, best_parameter[1], best_parameter[2], best_parameter[3])
+    yPredicted = model.predict(xTest_Best)
+    testAccuracy = EvaluationsStub.Accuracy(yTest, yPredicted)
+    (lower, upper) = EvaluationsStub.Bound(testAccuracy, len(yPredicted))
+    print("Test Set Accuracy is %f, with lower bound %f and upper bound %f" % (testAccuracy, lower, upper))
 
+    EvaluationsStub.ExecuteAll(yTest, yPredicted)
 
     ############################
 
@@ -98,8 +123,6 @@ if __name__=="__main__":
 
     print('========== Compare Models ==========')
     print('Featurize the Data Set')
-    xTrain_X_Gradient = Featurize.Featurize_X_Gradient(xTrainRaw)
-    xTest_X_Gradient = Featurize.Featurize_X_Gradient(xTestRaw)
     model_X_Gradient = RandomForest.RandomForest(num_trees = 75, min_to_split = 25, use_bagging = True, restrict_features = 10)
     model_X_Gradient.fit(xTrain_X_Gradient, yTrain)
     false_positives_X_Gradient = []
@@ -112,7 +135,6 @@ if __name__=="__main__":
     false_positives_init_NN = []
     false_negatives_init_NN = []
 
-    (xTrain_Best, xTest_Best) = Featurize.ByIntensities(xTrainRaw, xTestRaw, 1)
     best_model = NeuralNetworks.NeuralNetworks(len(xTrain_Best[0]), [ 20 ], 1)
     for i in range(200):
         best_model.fit_one(xTrain_Best, yTrain, 10, 0.05, 0.33)
@@ -162,3 +184,18 @@ if __name__=="__main__":
 
     print("Close the plot diagram to continue program")
     plt.show()
+
+    ############################
+
+    print('========== Deep Learning Models ==========')
+    print('Use %d iteration, mini batch size as %d, eta as %f, momentum beta as %f to Train the Model' % best_parameter)
+
+    for node in [2, 5, 10, 15, 20]:
+        print('Build Neural Network with 2 hidden layer, and 20 nodes for first layer, %d for second layer' % node)
+        model = NeuralNetworks.NeuralNetworks(len(xTrain_Best[0]), [ 20, node ], 1)
+        for i in range(best_parameter[0]):
+            model.fit_one(xTrain_Best, yTrain, best_parameter[1], best_parameter[2], best_parameter[3])
+        yPredicted = model.predict(xTest_Best)
+        testAccuracy = EvaluationsStub.Accuracy(yTest, yPredicted)
+        (lower, upper) = EvaluationsStub.Bound(testAccuracy, len(yPredicted))
+        print("Test Set Accuracy is %f, with lower bound %f and upper bound %f" % (testAccuracy, lower, upper))
