@@ -1,0 +1,1367 @@
+Train is 0.491469 percent closed.
+Test is 0.493399 percent closed.
+========== Compare Features ==========
+Use Intensities with step 1
+Training Model with momentum beta as 0.000000
+Accuracy from Cross Validation is 0.891580, with lower bound 0.881471 and upper bound 0.901688
+Training Model with momentum beta as 0.250000
+Accuracy from Cross Validation is 0.897633, with lower bound 0.887778 and upper bound 0.907489
+Use Intensities with step 2
+Training Model with momentum beta as 0.000000
+Accuracy from Cross Validation is 0.876720, with lower bound 0.866031 and upper bound 0.887409
+Training Model with momentum beta as 0.250000
+Accuracy from Cross Validation is 0.874243, with lower bound 0.863463 and upper bound 0.885024
+Use Intensities with step 4
+Training Model with momentum beta as 0.000000
+Accuracy from Cross Validation is 0.799395, with lower bound 0.786374 and upper bound 0.812415
+Training Model with momentum beta as 0.250000
+Accuracy from Cross Validation is 0.801321, with lower bound 0.788348 and upper bound 0.814294
+When Intensities with step 1 and momentum beta as 0.250000,
+Neural Networks has best accuracy 0.897633
+========== Parameter Tuning ==========
+Featurize the Data Set
+Build Neural Network with 1 hidden layer, and 20 nodes for each layer
+
+Training Model with 150 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.100000
+Accuracy from Cross Validation is 0.846175, with lower bound 0.834445 and upper bound 0.857905
+Training Model with 150 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.150000
+Accuracy from Cross Validation is 0.853054, with lower bound 0.841543 and upper bound 0.864566
+Training Model with 150 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.200000
+Accuracy from Cross Validation is 0.858833, with lower bound 0.847512 and upper bound 0.870154
+Training Model with 150 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.100000
+Accuracy from Cross Validation is 0.888002, with lower bound 0.877749 and upper bound 0.898256
+Training Model with 150 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.150000
+Accuracy from Cross Validation is 0.889378, with lower bound 0.879180 and upper bound 0.899576
+Training Model with 150 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.200000
+Accuracy from Cross Validation is 0.889378, with lower bound 0.879180 and upper bound 0.899576
+Training Model with 150 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.100000
+Accuracy from Cross Validation is 0.906439, with lower bound 0.896971 and upper bound 0.915908
+Training Model with 150 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.150000
+Accuracy from Cross Validation is 0.904788, with lower bound 0.895245 and upper bound 0.914331
+Training Model with 150 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.200000
+Accuracy from Cross Validation is 0.908090, with lower bound 0.898697 and upper bound 0.917483
+Training Model with 150 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.100000
+Accuracy from Cross Validation is 0.902862, with lower bound 0.893233 and upper bound 0.912491
+Training Model with 150 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.150000
+Accuracy from Cross Validation is 0.900110, with lower bound 0.890361 and upper bound 0.909859
+Training Model with 150 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.200000
+Accuracy from Cross Validation is 0.902587, with lower bound 0.892946 and upper bound 0.912228
+Training Model with 150 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.100000
+Accuracy from Cross Validation is 0.906714, with lower bound 0.897258 and upper bound 0.916170
+Training Model with 150 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.150000
+Accuracy from Cross Validation is 0.906164, with lower bound 0.896683 and upper bound 0.915645
+Training Model with 150 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.200000
+Accuracy from Cross Validation is 0.900385, with lower bound 0.890648 and upper bound 0.910123
+
+Training Model with 150 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.854981, with lower bound 0.843532 and upper bound 0.866429
+Training Model with 150 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.861860, with lower bound 0.850642 and upper bound 0.873079
+Training Model with 150 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.864337, with lower bound 0.853203 and upper bound 0.875470
+Training Model with 150 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.885250, with lower bound 0.874888 and upper bound 0.895613
+Training Model with 150 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.891029, with lower bound 0.880898 and upper bound 0.901160
+Training Model with 150 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.895707, with lower bound 0.885770 and upper bound 0.905645
+Training Model with 150 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.906714, with lower bound 0.897258 and upper bound 0.916170
+Training Model with 150 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.904513, with lower bound 0.894958 and upper bound 0.914068
+Training Model with 150 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.910567, with lower bound 0.901289 and upper bound 0.919845
+Training Model with 150 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.902587, with lower bound 0.892946 and upper bound 0.912228
+Training Model with 150 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.903137, with lower bound 0.893520 and upper bound 0.912754
+Training Model with 150 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.904788, with lower bound 0.895245 and upper bound 0.914331
+Training Model with 150 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.914695, with lower bound 0.905612 and upper bound 0.923777
+Training Model with 150 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.901761, with lower bound 0.892084 and upper bound 0.911438
+Training Model with 150 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.902587, with lower bound 0.892946 and upper bound 0.912228
+Training Model with 150 iteration, mini batch size as 10, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.491469, with lower bound 0.475215 and upper bound 0.507724
+Training Model with 150 iteration, mini batch size as 10, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.540176, with lower bound 0.523972 and upper bound 0.556380
+Training Model with 150 iteration, mini batch size as 10, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.542378, with lower bound 0.526179 and upper bound 0.558576
+Training Model with 150 iteration, mini batch size as 30, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.756467, with lower bound 0.742511 and upper bound 0.770422
+Training Model with 150 iteration, mini batch size as 30, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.773253, with lower bound 0.759638 and upper bound 0.786867
+Training Model with 150 iteration, mini batch size as 30, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.783434, with lower bound 0.770042 and upper bound 0.796827
+Training Model with 150 iteration, mini batch size as 30, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.874243, with lower bound 0.863463 and upper bound 0.885024
+Training Model with 150 iteration, mini batch size as 30, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.876445, with lower bound 0.865745 and upper bound 0.887144
+Training Model with 150 iteration, mini batch size as 30, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.878096, with lower bound 0.867458 and upper bound 0.888733
+Training Model with 150 iteration, mini batch size as 30, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.883049, with lower bound 0.872600 and upper bound 0.893498
+Training Model with 150 iteration, mini batch size as 30, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.882223, with lower bound 0.871743 and upper bound 0.892704
+Training Model with 150 iteration, mini batch size as 30, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.881948, with lower bound 0.871457 and upper bound 0.892439
+Training Model with 150 iteration, mini batch size as 30, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.911943, with lower bound 0.902729 and upper bound 0.921156
+Training Model with 150 iteration, mini batch size as 30, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.903137, with lower bound 0.893520 and upper bound 0.912754
+Training Model with 150 iteration, mini batch size as 30, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.905889, with lower bound 0.896395 and upper bound 0.915382
+Training Model with 150 iteration, mini batch size as 30, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.907265, with lower bound 0.897834 and upper bound 0.916696
+Training Model with 150 iteration, mini batch size as 30, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.903687, with lower bound 0.894095 and upper bound 0.913280
+Training Model with 150 iteration, mini batch size as 30, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.903687, with lower bound 0.894095 and upper bound 0.913280
+Training Model with 150 iteration, mini batch size as 30, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.845625, with lower bound 0.833877 and upper bound 0.857372
+Training Model with 150 iteration, mini batch size as 30, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.874794, with lower bound 0.864033 and upper bound 0.885554
+Training Model with 150 iteration, mini batch size as 30, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.861860, with lower bound 0.850642 and upper bound 0.873079
+Training Model with 150 iteration, mini batch size as 50, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.744084, with lower bound 0.729896 and upper bound 0.758272
+Training Model with 150 iteration, mini batch size as 50, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.737479, with lower bound 0.723173 and upper bound 0.751785
+Training Model with 150 iteration, mini batch size as 50, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.751513, with lower bound 0.737463 and upper bound 0.765564
+Training Model with 150 iteration, mini batch size as 50, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.850853, with lower bound 0.839271 and upper bound 0.862435
+Training Model with 150 iteration, mini batch size as 50, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.854706, with lower bound 0.843248 and upper bound 0.866163
+Training Model with 150 iteration, mini batch size as 50, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.859934, with lower bound 0.848650 and upper bound 0.871218
+Training Model with 150 iteration, mini batch size as 50, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.859934, with lower bound 0.848650 and upper bound 0.871218
+Training Model with 150 iteration, mini batch size as 50, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.865162, with lower bound 0.854057 and upper bound 0.876267
+Training Model with 150 iteration, mini batch size as 50, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.863511, with lower bound 0.852349 and upper bound 0.874673
+Training Model with 150 iteration, mini batch size as 50, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.898459, with lower bound 0.888639 and upper bound 0.908279
+Training Model with 150 iteration, mini batch size as 50, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.906164, with lower bound 0.896683 and upper bound 0.915645
+Training Model with 150 iteration, mini batch size as 50, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.904788, with lower bound 0.895245 and upper bound 0.914331
+Training Model with 150 iteration, mini batch size as 50, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.907540, with lower bound 0.898122 and upper bound 0.916958
+Training Model with 150 iteration, mini batch size as 50, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.913594, with lower bound 0.904459 and upper bound 0.922729
+Training Model with 150 iteration, mini batch size as 50, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.909191, with lower bound 0.899849 and upper bound 0.918533
+Training Model with 150 iteration, mini batch size as 50, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.685746, with lower bound 0.670652 and upper bound 0.700839
+Training Model with 150 iteration, mini batch size as 50, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.689873, with lower bound 0.674834 and upper bound 0.704912
+Training Model with 150 iteration, mini batch size as 50, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.792240, with lower bound 0.779049 and upper bound 0.805431
+Training Model with 150 iteration, mini batch size as 75, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.722895, with lower bound 0.708343 and upper bound 0.737447
+Training Model with 150 iteration, mini batch size as 75, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.716566, with lower bound 0.701913 and upper bound 0.731218
+Training Model with 150 iteration, mini batch size as 75, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.734452, with lower bound 0.720094 and upper bound 0.748811
+Training Model with 150 iteration, mini batch size as 75, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.825261, with lower bound 0.812915 and upper bound 0.837608
+Training Model with 150 iteration, mini batch size as 75, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.838195, with lower bound 0.826221 and upper bound 0.850169
+Training Model with 150 iteration, mini batch size as 75, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.847001, with lower bound 0.835296 and upper bound 0.858705
+Training Model with 150 iteration, mini batch size as 75, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.866263, with lower bound 0.855196 and upper bound 0.877330
+Training Model with 150 iteration, mini batch size as 75, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.867639, with lower bound 0.856621 and upper bound 0.878657
+Training Model with 150 iteration, mini batch size as 75, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.870391, with lower bound 0.859470 and upper bound 0.881311
+Training Model with 150 iteration, mini batch size as 75, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.880848, with lower bound 0.870314 and upper bound 0.891381
+Training Model with 150 iteration, mini batch size as 75, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.887727, with lower bound 0.877462 and upper bound 0.897992
+Training Model with 150 iteration, mini batch size as 75, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.889653, with lower bound 0.879466 and upper bound 0.899840
+Training Model with 150 iteration, mini batch size as 75, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.900385, with lower bound 0.890648 and upper bound 0.910123
+Training Model with 150 iteration, mini batch size as 75, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.897633, with lower bound 0.887778 and upper bound 0.907489
+Training Model with 150 iteration, mini batch size as 75, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.895432, with lower bound 0.885483 and upper bound 0.905381
+Training Model with 150 iteration, mini batch size as 75, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.865162, with lower bound 0.854057 and upper bound 0.876267
+Training Model with 150 iteration, mini batch size as 75, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.876720, with lower bound 0.866031 and upper bound 0.887409
+Training Model with 150 iteration, mini batch size as 75, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.835993, with lower bound 0.823954 and upper bound 0.848033
+Training Model with 150 iteration, mini batch size as 100, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.700330, with lower bound 0.685435 and upper bound 0.715225
+Training Model with 150 iteration, mini batch size as 100, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.682719, with lower bound 0.667586 and upper bound 0.697851
+Training Model with 150 iteration, mini batch size as 100, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.708035, with lower bound 0.693252 and upper bound 0.722818
+Training Model with 150 iteration, mini batch size as 100, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.806274, with lower bound 0.793424 and upper bound 0.819124
+Training Model with 150 iteration, mini batch size as 100, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.810402, with lower bound 0.797657 and upper bound 0.823147
+Training Model with 150 iteration, mini batch size as 100, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.810402, with lower bound 0.797657 and upper bound 0.823147
+Training Model with 150 iteration, mini batch size as 100, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.842047, with lower bound 0.830190 and upper bound 0.853905
+Training Model with 150 iteration, mini batch size as 100, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.841772, with lower bound 0.829906 and upper bound 0.853638
+Training Model with 150 iteration, mini batch size as 100, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.841497, with lower bound 0.829623 and upper bound 0.853371
+Training Model with 150 iteration, mini batch size as 100, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.862411, with lower bound 0.851211 and upper bound 0.873610
+Training Model with 150 iteration, mini batch size as 100, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.870941, with lower bound 0.860040 and upper bound 0.881842
+Training Model with 150 iteration, mini batch size as 100, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.877545, with lower bound 0.866887 and upper bound 0.888204
+Training Model with 150 iteration, mini batch size as 100, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.882223, with lower bound 0.871743 and upper bound 0.892704
+Training Model with 150 iteration, mini batch size as 100, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.889378, with lower bound 0.879180 and upper bound 0.899576
+Training Model with 150 iteration, mini batch size as 100, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.892955, with lower bound 0.882903 and upper bound 0.903008
+Training Model with 150 iteration, mini batch size as 100, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.747386, with lower bound 0.733258 and upper bound 0.761513
+Training Model with 150 iteration, mini batch size as 100, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.835443, with lower bound 0.823388 and upper bound 0.847498
+Training Model with 150 iteration, mini batch size as 100, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.727573, with lower bound 0.713098 and upper bound 0.742048
+Training Model with 150 iteration, mini batch size as 125, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.669235, with lower bound 0.653938 and upper bound 0.684532
+Training Model with 150 iteration, mini batch size as 125, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.698129, with lower bound 0.683203 and upper bound 0.713055
+Training Model with 150 iteration, mini batch size as 125, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.704733, with lower bound 0.689902 and upper bound 0.719565
+Training Model with 150 iteration, mini batch size as 125, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.788112, with lower bound 0.774826 and upper bound 0.801399
+Training Model with 150 iteration, mini batch size as 125, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.795542, with lower bound 0.782429 and upper bound 0.808655
+Training Model with 150 iteration, mini batch size as 125, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.805449, with lower bound 0.792578 and upper bound 0.818319
+Training Model with 150 iteration, mini batch size as 125, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.845074, with lower bound 0.833310 and upper bound 0.856839
+Training Model with 150 iteration, mini batch size as 125, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.847826, with lower bound 0.836148 and upper bound 0.859505
+Training Model with 150 iteration, mini batch size as 125, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.856357, with lower bound 0.844953 and upper bound 0.867760
+Training Model with 150 iteration, mini batch size as 125, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.869290, with lower bound 0.858330 and upper bound 0.880250
+Training Model with 150 iteration, mini batch size as 125, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.865988, with lower bound 0.854912 and upper bound 0.877064
+Training Model with 150 iteration, mini batch size as 125, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.872592, with lower bound 0.861751 and upper bound 0.883433
+Training Model with 150 iteration, mini batch size as 125, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.872042, with lower bound 0.861181 and upper bound 0.882903
+Training Model with 150 iteration, mini batch size as 125, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.892130, with lower bound 0.882044 and upper bound 0.902216
+Training Model with 150 iteration, mini batch size as 125, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.890754, with lower bound 0.880611 and upper bound 0.900896
+Training Model with 150 iteration, mini batch size as 125, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.840671, with lower bound 0.828772 and upper bound 0.852571
+Training Model with 150 iteration, mini batch size as 125, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.835168, with lower bound 0.823104 and upper bound 0.847231
+Training Model with 150 iteration, mini batch size as 125, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.826912, with lower bound 0.814612 and upper bound 0.839213
+Training Model with 150 iteration, mini batch size as 150, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.671712, with lower bound 0.656444 and upper bound 0.686980
+Training Model with 150 iteration, mini batch size as 150, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.690699, with lower bound 0.675671 and upper bound 0.705727
+Training Model with 150 iteration, mini batch size as 150, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.700330, with lower bound 0.685435 and upper bound 0.715225
+Training Model with 150 iteration, mini batch size as 150, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.774629, with lower bound 0.761044 and upper bound 0.788214
+Training Model with 150 iteration, mini batch size as 150, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.780682, with lower bound 0.767229 and upper bound 0.794136
+Training Model with 150 iteration, mini batch size as 150, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.790039, with lower bound 0.776796 and upper bound 0.803281
+Training Model with 150 iteration, mini batch size as 150, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.825261, with lower bound 0.812915 and upper bound 0.837608
+Training Model with 150 iteration, mini batch size as 150, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.832141, with lower bound 0.819989 and upper bound 0.844293
+Training Model with 150 iteration, mini batch size as 150, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.837369, with lower bound 0.825371 and upper bound 0.849368
+Training Model with 150 iteration, mini batch size as 150, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.856632, with lower bound 0.845238 and upper bound 0.868026
+Training Model with 150 iteration, mini batch size as 150, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.872867, with lower bound 0.862036 and upper bound 0.883698
+Training Model with 150 iteration, mini batch size as 150, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.871216, with lower bound 0.860326 and upper bound 0.882107
+Training Model with 150 iteration, mini batch size as 150, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.875344, with lower bound 0.864604 and upper bound 0.886084
+Training Model with 150 iteration, mini batch size as 150, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.867914, with lower bound 0.856906 and upper bound 0.878923
+Training Model with 150 iteration, mini batch size as 150, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.867914, with lower bound 0.856906 and upper bound 0.878923
+Training Model with 150 iteration, mini batch size as 150, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.776830, with lower bound 0.763292 and upper bound 0.790368
+Training Model with 150 iteration, mini batch size as 150, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.851679, with lower bound 0.840123 and upper bound 0.863234
+Training Model with 150 iteration, mini batch size as 150, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.840121, with lower bound 0.828205 and upper bound 0.852037
+Training Model with 150 iteration, mini batch size as 200, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.702532, with lower bound 0.687668 and upper bound 0.717395
+Training Model with 150 iteration, mini batch size as 200, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.678866, with lower bound 0.663685 and upper bound 0.694047
+Training Model with 150 iteration, mini batch size as 200, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.686846, with lower bound 0.671767 and upper bound 0.701925
+Training Model with 150 iteration, mini batch size as 200, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.753165, with lower bound 0.739146 and upper bound 0.767183
+Training Model with 150 iteration, mini batch size as 200, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.761145, with lower bound 0.747282 and upper bound 0.775008
+Training Model with 150 iteration, mini batch size as 200, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.764997, with lower bound 0.751212 and upper bound 0.778783
+Training Model with 150 iteration, mini batch size as 200, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.810402, with lower bound 0.797657 and upper bound 0.823147
+Training Model with 150 iteration, mini batch size as 200, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.815630, with lower bound 0.803022 and upper bound 0.828238
+Training Model with 150 iteration, mini batch size as 200, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.826637, with lower bound 0.814329 and upper bound 0.838946
+Training Model with 150 iteration, mini batch size as 200, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.868465, with lower bound 0.857475 and upper bound 0.879454
+Training Model with 150 iteration, mini batch size as 200, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.864612, with lower bound 0.853488 and upper bound 0.875736
+Training Model with 150 iteration, mini batch size as 200, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.858833, with lower bound 0.847512 and upper bound 0.870154
+Training Model with 150 iteration, mini batch size as 200, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.866538, with lower bound 0.855481 and upper bound 0.877595
+Training Model with 150 iteration, mini batch size as 200, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.871767, with lower bound 0.860896 and upper bound 0.882638
+Training Model with 150 iteration, mini batch size as 200, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.869565, with lower bound 0.858615 and upper bound 0.880515
+Training Model with 150 iteration, mini batch size as 200, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.863786, with lower bound 0.852634 and upper bound 0.874939
+Training Model with 150 iteration, mini batch size as 200, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.863236, with lower bound 0.852065 and upper bound 0.874408
+Training Model with 150 iteration, mini batch size as 200, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.827188, with lower bound 0.814895 and upper bound 0.839481
+Training Model with 200 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.868189, with lower bound 0.857191 and upper bound 0.879188
+Training Model with 200 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.870941, with lower bound 0.860040 and upper bound 0.881842
+Training Model with 200 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.874794, with lower bound 0.864033 and upper bound 0.885554
+Training Model with 200 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.896258, with lower bound 0.886343 and upper bound 0.906172
+Training Model with 200 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.902862, with lower bound 0.893233 and upper bound 0.912491
+Training Model with 200 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.899560, with lower bound 0.889787 and upper bound 0.909333
+Training Model with 200 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.908090, with lower bound 0.898697 and upper bound 0.917483
+Training Model with 200 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.908641, with lower bound 0.899273 and upper bound 0.918008
+Training Model with 200 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.907265, with lower bound 0.897834 and upper bound 0.916696
+Training Model with 200 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.901486, with lower bound 0.891797 and upper bound 0.911175
+Training Model with 200 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.900660, with lower bound 0.890935 and upper bound 0.910386
+Training Model with 200 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.879747, with lower bound 0.869172 and upper bound 0.890322
+Training Model with 200 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.913319, with lower bound 0.904170 and upper bound 0.922467
+Training Model with 200 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.910017, with lower bound 0.900713 and upper bound 0.919321
+Training Model with 200 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.896258, with lower bound 0.886343 and upper bound 0.906172
+Training Model with 200 iteration, mini batch size as 10, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.566043, with lower bound 0.549929 and upper bound 0.582157
+Training Model with 200 iteration, mini batch size as 10, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.493946, with lower bound 0.477691 and upper bound 0.510202
+Training Model with 200 iteration, mini batch size as 10, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.556412, with lower bound 0.540259 and upper bound 0.572565
+Training Model with 200 iteration, mini batch size as 30, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.785636, with lower bound 0.772293 and upper bound 0.798979
+Training Model with 200 iteration, mini batch size as 30, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.794441, with lower bound 0.781302 and upper bound 0.807580
+Training Model with 200 iteration, mini batch size as 30, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.804073, with lower bound 0.791168 and upper bound 0.816978
+Training Model with 200 iteration, mini batch size as 30, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.875619, with lower bound 0.864889 and upper bound 0.886349
+Training Model with 200 iteration, mini batch size as 30, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.878096, with lower bound 0.867458 and upper bound 0.888733
+Training Model with 200 iteration, mini batch size as 30, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.880297, with lower bound 0.869743 and upper bound 0.890852
+Training Model with 200 iteration, mini batch size as 30, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.889103, with lower bound 0.878894 and upper bound 0.899312
+Training Model with 200 iteration, mini batch size as 30, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.890204, with lower bound 0.880039 and upper bound 0.900369
+Training Model with 200 iteration, mini batch size as 30, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.889103, with lower bound 0.878894 and upper bound 0.899312
+Training Model with 200 iteration, mini batch size as 30, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.906439, with lower bound 0.896971 and upper bound 0.915908
+Training Model with 200 iteration, mini batch size as 30, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.906439, with lower bound 0.896971 and upper bound 0.915908
+Training Model with 200 iteration, mini batch size as 30, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.903412, with lower bound 0.893808 and upper bound 0.913017
+Training Model with 200 iteration, mini batch size as 30, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.900660, with lower bound 0.890935 and upper bound 0.910386
+Training Model with 200 iteration, mini batch size as 30, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.906714, with lower bound 0.897258 and upper bound 0.916170
+Training Model with 200 iteration, mini batch size as 30, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.906714, with lower bound 0.897258 and upper bound 0.916170
+Training Model with 200 iteration, mini batch size as 30, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.826362, with lower bound 0.814046 and upper bound 0.838678
+Training Model with 200 iteration, mini batch size as 30, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.856081, with lower bound 0.844669 and upper bound 0.867494
+Training Model with 200 iteration, mini batch size as 30, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.772702, with lower bound 0.759076 and upper bound 0.786328
+Training Model with 200 iteration, mini batch size as 50, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.749312, with lower bound 0.735220 and upper bound 0.763404
+Training Model with 200 iteration, mini batch size as 50, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.765272, with lower bound 0.751492 and upper bound 0.779053
+Training Model with 200 iteration, mini batch size as 50, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.765823, with lower bound 0.752054 and upper bound 0.779592
+Training Model with 200 iteration, mini batch size as 50, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.862411, with lower bound 0.851211 and upper bound 0.873610
+Training Model with 200 iteration, mini batch size as 50, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.863511, with lower bound 0.852349 and upper bound 0.874673
+Training Model with 200 iteration, mini batch size as 50, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.871216, with lower bound 0.860326 and upper bound 0.882107
+Training Model with 200 iteration, mini batch size as 50, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.873418, with lower bound 0.862607 and upper bound 0.884229
+Training Model with 200 iteration, mini batch size as 50, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.871216, with lower bound 0.860326 and upper bound 0.882107
+Training Model with 200 iteration, mini batch size as 50, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.872317, with lower bound 0.861466 and upper bound 0.883168
+Training Model with 200 iteration, mini batch size as 50, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.911668, with lower bound 0.902441 and upper bound 0.920894
+Training Model with 200 iteration, mini batch size as 50, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.908916, with lower bound 0.899561 and upper bound 0.918271
+Training Model with 200 iteration, mini batch size as 50, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.911668, with lower bound 0.902441 and upper bound 0.920894
+Training Model with 200 iteration, mini batch size as 50, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.908916, with lower bound 0.899561 and upper bound 0.918271
+Training Model with 200 iteration, mini batch size as 50, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.909466, with lower bound 0.900137 and upper bound 0.918796
+Training Model with 200 iteration, mini batch size as 50, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.908365, with lower bound 0.898985 and upper bound 0.917746
+Training Model with 200 iteration, mini batch size as 50, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.744084, with lower bound 0.729896 and upper bound 0.758272
+Training Model with 200 iteration, mini batch size as 50, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.741057, with lower bound 0.726814 and upper bound 0.755299
+Training Model with 200 iteration, mini batch size as 50, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.761695, with lower bound 0.747843 and upper bound 0.775547
+Training Model with 200 iteration, mini batch size as 75, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.721244, with lower bound 0.706665 and upper bound 0.735822
+Training Model with 200 iteration, mini batch size as 75, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.735828, with lower bound 0.721493 and upper bound 0.750163
+Training Model with 200 iteration, mini batch size as 75, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.742157, with lower bound 0.727934 and upper bound 0.756380
+Training Model with 200 iteration, mini batch size as 75, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.850853, with lower bound 0.839271 and upper bound 0.862435
+Training Model with 200 iteration, mini batch size as 75, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.852504, with lower bound 0.840975 and upper bound 0.864033
+Training Model with 200 iteration, mini batch size as 75, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.862961, with lower bound 0.851780 and upper bound 0.874142
+Training Model with 200 iteration, mini batch size as 75, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.873968, with lower bound 0.863177 and upper bound 0.884759
+Training Model with 200 iteration, mini batch size as 75, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.876995, with lower bound 0.866316 and upper bound 0.887674
+Training Model with 200 iteration, mini batch size as 75, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.876170, with lower bound 0.865460 and upper bound 0.886879
+Training Model with 200 iteration, mini batch size as 75, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.893506, with lower bound 0.883476 and upper bound 0.903535
+Training Model with 200 iteration, mini batch size as 75, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.897358, with lower bound 0.887491 and upper bound 0.907226
+Training Model with 200 iteration, mini batch size as 75, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.900110, with lower bound 0.890361 and upper bound 0.909859
+Training Model with 200 iteration, mini batch size as 75, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.904513, with lower bound 0.894958 and upper bound 0.914068
+Training Model with 200 iteration, mini batch size as 75, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.898734, with lower bound 0.888925 and upper bound 0.908543
+Training Model with 200 iteration, mini batch size as 75, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.902862, with lower bound 0.893233 and upper bound 0.912491
+Training Model with 200 iteration, mini batch size as 75, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.868189, with lower bound 0.857191 and upper bound 0.879188
+Training Model with 200 iteration, mini batch size as 75, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.878096, with lower bound 0.867458 and upper bound 0.888733
+Training Model with 200 iteration, mini batch size as 75, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.864062, with lower bound 0.852919 and upper bound 0.875205
+Training Model with 200 iteration, mini batch size as 100, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.716015, with lower bound 0.701354 and upper bound 0.730677
+Training Model with 200 iteration, mini batch size as 100, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.701706, with lower bound 0.686831 and upper bound 0.716581
+Training Model with 200 iteration, mini batch size as 100, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.719042, with lower bound 0.704429 and upper bound 0.733656
+Training Model with 200 iteration, mini batch size as 100, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.833517, with lower bound 0.821405 and upper bound 0.845629
+Training Model with 200 iteration, mini batch size as 100, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.833242, with lower bound 0.821122 and upper bound 0.845361
+Training Model with 200 iteration, mini batch size as 100, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.843974, with lower bound 0.832175 and upper bound 0.855772
+Training Model with 200 iteration, mini batch size as 100, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.851128, with lower bound 0.839555 and upper bound 0.862702
+Training Model with 200 iteration, mini batch size as 100, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.853605, with lower bound 0.842111 and upper bound 0.865098
+Training Model with 200 iteration, mini batch size as 100, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.856632, with lower bound 0.845238 and upper bound 0.868026
+Training Model with 200 iteration, mini batch size as 100, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.878096, with lower bound 0.867458 and upper bound 0.888733
+Training Model with 200 iteration, mini batch size as 100, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.879196, with lower bound 0.868600 and upper bound 0.889793
+Training Model with 200 iteration, mini batch size as 100, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.894331, with lower bound 0.884336 and upper bound 0.904326
+Training Model with 200 iteration, mini batch size as 100, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.903963, with lower bound 0.894383 and upper bound 0.913542
+Training Model with 200 iteration, mini batch size as 100, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.909191, with lower bound 0.899849 and upper bound 0.918533
+Training Model with 200 iteration, mini batch size as 100, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.905614, with lower bound 0.896108 and upper bound 0.915119
+Training Model with 200 iteration, mini batch size as 100, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.761695, with lower bound 0.747843 and upper bound 0.775547
+Training Model with 200 iteration, mini batch size as 100, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.859659, with lower bound 0.848366 and upper bound 0.870952
+Training Model with 200 iteration, mini batch size as 100, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.694827, with lower bound 0.679855 and upper bound 0.709798
+Training Model with 200 iteration, mini batch size as 125, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.694001, with lower bound 0.679018 and upper bound 0.708984
+Training Model with 200 iteration, mini batch size as 125, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.714640, with lower bound 0.699957 and upper bound 0.729322
+Training Model with 200 iteration, mini batch size as 125, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.712713, with lower bound 0.698001 and upper bound 0.727426
+Training Model with 200 iteration, mini batch size as 125, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.814254, with lower bound 0.801610 and upper bound 0.826899
+Training Model with 200 iteration, mini batch size as 125, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.816181, with lower bound 0.803587 and upper bound 0.828774
+Training Model with 200 iteration, mini batch size as 125, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.825537, with lower bound 0.813197 and upper bound 0.837876
+Training Model with 200 iteration, mini batch size as 125, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.863786, with lower bound 0.852634 and upper bound 0.874939
+Training Model with 200 iteration, mini batch size as 125, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.860484, with lower bound 0.849219 and upper bound 0.871750
+Training Model with 200 iteration, mini batch size as 125, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.867914, with lower bound 0.856906 and upper bound 0.878923
+Training Model with 200 iteration, mini batch size as 125, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.887727, with lower bound 0.877462 and upper bound 0.897992
+Training Model with 200 iteration, mini batch size as 125, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.880297, with lower bound 0.869743 and upper bound 0.890852
+Training Model with 200 iteration, mini batch size as 125, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.890754, with lower bound 0.880611 and upper bound 0.900896
+Training Model with 200 iteration, mini batch size as 125, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.907815, with lower bound 0.898409 and upper bound 0.917221
+Training Model with 200 iteration, mini batch size as 125, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.901211, with lower bound 0.891509 and upper bound 0.910912
+Training Model with 200 iteration, mini batch size as 125, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.902587, with lower bound 0.892946 and upper bound 0.912228
+Training Model with 200 iteration, mini batch size as 125, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.879196, with lower bound 0.868600 and upper bound 0.889793
+Training Model with 200 iteration, mini batch size as 125, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.799945, with lower bound 0.786938 and upper bound 0.812952
+Training Model with 200 iteration, mini batch size as 125, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.863236, with lower bound 0.852065 and upper bound 0.874408
+Training Model with 200 iteration, mini batch size as 150, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.698679, with lower bound 0.683761 and upper bound 0.713597
+Training Model with 200 iteration, mini batch size as 150, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.711062, with lower bound 0.696325 and upper bound 0.725800
+Training Model with 200 iteration, mini batch size as 150, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.714640, with lower bound 0.699957 and upper bound 0.729322
+Training Model with 200 iteration, mini batch size as 150, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.804348, with lower bound 0.791450 and upper bound 0.817246
+Training Model with 200 iteration, mini batch size as 150, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.801321, with lower bound 0.788348 and upper bound 0.814294
+Training Model with 200 iteration, mini batch size as 150, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.809301, with lower bound 0.796528 and upper bound 0.822074
+Training Model with 200 iteration, mini batch size as 150, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.850853, with lower bound 0.839271 and upper bound 0.862435
+Training Model with 200 iteration, mini batch size as 150, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.853054, with lower bound 0.841543 and upper bound 0.864566
+Training Model with 200 iteration, mini batch size as 150, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.859659, with lower bound 0.848366 and upper bound 0.870952
+Training Model with 200 iteration, mini batch size as 150, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.863786, with lower bound 0.852634 and upper bound 0.874939
+Training Model with 200 iteration, mini batch size as 150, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.867639, with lower bound 0.856621 and upper bound 0.878657
+Training Model with 200 iteration, mini batch size as 150, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.877821, with lower bound 0.867173 and upper bound 0.888469
+Training Model with 200 iteration, mini batch size as 150, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.865988, with lower bound 0.854912 and upper bound 0.877064
+Training Model with 200 iteration, mini batch size as 150, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.868465, with lower bound 0.857475 and upper bound 0.879454
+Training Model with 200 iteration, mini batch size as 150, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.888553, with lower bound 0.878321 and upper bound 0.898784
+Training Model with 200 iteration, mini batch size as 150, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.855531, with lower bound 0.844101 and upper bound 0.866962
+Training Model with 200 iteration, mini batch size as 150, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.854155, with lower bound 0.842680 and upper bound 0.865631
+Training Model with 200 iteration, mini batch size as 150, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.842873, with lower bound 0.831041 and upper bound 0.854705
+Training Model with 200 iteration, mini batch size as 200, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.667309, with lower bound 0.651989 and upper bound 0.682628
+Training Model with 200 iteration, mini batch size as 200, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.680517, with lower bound 0.665357 and upper bound 0.695678
+Training Model with 200 iteration, mini batch size as 200, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.682444, with lower bound 0.667308 and upper bound 0.697579
+Training Model with 200 iteration, mini batch size as 200, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.767199, with lower bound 0.753458 and upper bound 0.780939
+Training Model with 200 iteration, mini batch size as 200, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.776280, with lower bound 0.762730 and upper bound 0.789829
+Training Model with 200 iteration, mini batch size as 200, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.791139, with lower bound 0.777923 and upper bound 0.804356
+Training Model with 200 iteration, mini batch size as 200, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.831040, with lower bound 0.818857 and upper bound 0.843224
+Training Model with 200 iteration, mini batch size as 200, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.839296, with lower bound 0.827355 and upper bound 0.851236
+Training Model with 200 iteration, mini batch size as 200, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.848652, with lower bound 0.836999 and upper bound 0.860304
+Training Model with 200 iteration, mini batch size as 200, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.870941, with lower bound 0.860040 and upper bound 0.881842
+Training Model with 200 iteration, mini batch size as 200, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.876170, with lower bound 0.865460 and upper bound 0.886879
+Training Model with 200 iteration, mini batch size as 200, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.870391, with lower bound 0.859470 and upper bound 0.881311
+Training Model with 200 iteration, mini batch size as 200, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.877821, with lower bound 0.867173 and upper bound 0.888469
+Training Model with 200 iteration, mini batch size as 200, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.867364, with lower bound 0.856336 and upper bound 0.878392
+Training Model with 200 iteration, mini batch size as 200, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.880022, with lower bound 0.869457 and upper bound 0.890587
+Training Model with 200 iteration, mini batch size as 200, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.869565, with lower bound 0.858615 and upper bound 0.880515
+Training Model with 200 iteration, mini batch size as 200, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.840396, with lower bound 0.828489 and upper bound 0.852304
+Training Model with 200 iteration, mini batch size as 200, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.852504, with lower bound 0.840975 and upper bound 0.864033
+Training Model with 250 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.873693, with lower bound 0.862892 and upper bound 0.884494
+Training Model with 250 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.875619, with lower bound 0.864889 and upper bound 0.886349
+Training Model with 250 iteration, mini batch size as 10, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.879196, with lower bound 0.868600 and upper bound 0.889793
+Training Model with 250 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.907815, with lower bound 0.898409 and upper bound 0.917221
+Training Model with 250 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.903137, with lower bound 0.893520 and upper bound 0.912754
+Training Model with 250 iteration, mini batch size as 10, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.905338, with lower bound 0.895820 and upper bound 0.914857
+Training Model with 250 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.905889, with lower bound 0.896395 and upper bound 0.915382
+Training Model with 250 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.902312, with lower bound 0.892658 and upper bound 0.911965
+Training Model with 250 iteration, mini batch size as 10, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.908365, with lower bound 0.898985 and upper bound 0.917746
+Training Model with 250 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.900660, with lower bound 0.890935 and upper bound 0.910386
+Training Model with 250 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.905614, with lower bound 0.896108 and upper bound 0.915119
+Training Model with 250 iteration, mini batch size as 10, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.906439, with lower bound 0.896971 and upper bound 0.915908
+Training Model with 250 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.902036, with lower bound 0.892371 and upper bound 0.911701
+Training Model with 250 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.908090, with lower bound 0.898697 and upper bound 0.917483
+Training Model with 250 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.900660, with lower bound 0.890935 and upper bound 0.910386
+Training Model with 250 iteration, mini batch size as 10, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.564942, with lower bound 0.548823 and upper bound 0.581061
+Training Model with 250 iteration, mini batch size as 10, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.500550, with lower bound 0.484294 and upper bound 0.516807
+Training Model with 250 iteration, mini batch size as 10, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.491469, with lower bound 0.475215 and upper bound 0.507724
+Training Model with 250 iteration, mini batch size as 30, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.812328, with lower bound 0.799633 and upper bound 0.825023
+Training Model with 250 iteration, mini batch size as 30, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.821959, with lower bound 0.809521 and upper bound 0.834397
+Training Model with 250 iteration, mini batch size as 30, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.830490, with lower bound 0.818291 and upper bound 0.842689
+Training Model with 250 iteration, mini batch size as 30, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.877821, with lower bound 0.867173 and upper bound 0.888469
+Training Model with 250 iteration, mini batch size as 30, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.879472, with lower bound 0.868886 and upper bound 0.890057
+Training Model with 250 iteration, mini batch size as 30, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.884150, with lower bound 0.873744 and upper bound 0.894555
+Training Model with 250 iteration, mini batch size as 30, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.891304, with lower bound 0.881184 and upper bound 0.901424
+Training Model with 250 iteration, mini batch size as 30, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.896533, with lower bound 0.886630 and upper bound 0.906435
+Training Model with 250 iteration, mini batch size as 30, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.900660, with lower bound 0.890935 and upper bound 0.910386
+Training Model with 250 iteration, mini batch size as 30, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.907815, with lower bound 0.898409 and upper bound 0.917221
+Training Model with 250 iteration, mini batch size as 30, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.899009, with lower bound 0.889213 and upper bound 0.908806
+Training Model with 250 iteration, mini batch size as 30, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.906164, with lower bound 0.896683 and upper bound 0.915645
+Training Model with 250 iteration, mini batch size as 30, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.903137, with lower bound 0.893520 and upper bound 0.912754
+Training Model with 250 iteration, mini batch size as 30, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.906164, with lower bound 0.896683 and upper bound 0.915645
+Training Model with 250 iteration, mini batch size as 30, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.907540, with lower bound 0.898122 and upper bound 0.916958
+Training Model with 250 iteration, mini batch size as 30, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.868465, with lower bound 0.857475 and upper bound 0.879454
+Training Model with 250 iteration, mini batch size as 30, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.858833, with lower bound 0.847512 and upper bound 0.870154
+Training Model with 250 iteration, mini batch size as 30, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.873693, with lower bound 0.862892 and upper bound 0.884494
+Training Model with 250 iteration, mini batch size as 50, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.768024, with lower bound 0.754300 and upper bound 0.781748
+Training Model with 250 iteration, mini batch size as 50, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.771051, with lower bound 0.757390 and upper bound 0.784712
+Training Model with 250 iteration, mini batch size as 50, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.795267, with lower bound 0.782148 and upper bound 0.808386
+Training Model with 250 iteration, mini batch size as 50, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.873693, with lower bound 0.862892 and upper bound 0.884494
+Training Model with 250 iteration, mini batch size as 50, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.873968, with lower bound 0.863177 and upper bound 0.884759
+Training Model with 250 iteration, mini batch size as 50, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.873693, with lower bound 0.862892 and upper bound 0.884494
+Training Model with 250 iteration, mini batch size as 50, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.880297, with lower bound 0.869743 and upper bound 0.890852
+Training Model with 250 iteration, mini batch size as 50, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.878096, with lower bound 0.867458 and upper bound 0.888733
+Training Model with 250 iteration, mini batch size as 50, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.880848, with lower bound 0.870314 and upper bound 0.891381
+Training Model with 250 iteration, mini batch size as 50, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.911668, with lower bound 0.902441 and upper bound 0.920894
+Training Model with 250 iteration, mini batch size as 50, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.910292, with lower bound 0.901001 and upper bound 0.919583
+Training Model with 250 iteration, mini batch size as 50, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.913319, with lower bound 0.904170 and upper bound 0.922467
+Training Model with 250 iteration, mini batch size as 50, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.914144, with lower bound 0.905036 and upper bound 0.923253
+Training Model with 250 iteration, mini batch size as 50, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.906714, with lower bound 0.897258 and upper bound 0.916170
+Training Model with 250 iteration, mini batch size as 50, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.910567, with lower bound 0.901289 and upper bound 0.919845
+Training Model with 250 iteration, mini batch size as 50, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.814529, with lower bound 0.801892 and upper bound 0.827167
+Training Model with 250 iteration, mini batch size as 50, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.818382, with lower bound 0.805847 and upper bound 0.830917
+Training Model with 250 iteration, mini batch size as 50, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.876720, with lower bound 0.866031 and upper bound 0.887409
+Training Model with 250 iteration, mini batch size as 75, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.737479, with lower bound 0.723173 and upper bound 0.751785
+Training Model with 250 iteration, mini batch size as 75, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.745735, with lower bound 0.731577 and upper bound 0.759893
+Training Model with 250 iteration, mini batch size as 75, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.761695, with lower bound 0.747843 and upper bound 0.775547
+Training Model with 250 iteration, mini batch size as 75, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.864887, with lower bound 0.853773 and upper bound 0.876002
+Training Model with 250 iteration, mini batch size as 75, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.864612, with lower bound 0.853488 and upper bound 0.875736
+Training Model with 250 iteration, mini batch size as 75, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.870666, with lower bound 0.859755 and upper bound 0.881576
+Training Model with 250 iteration, mini batch size as 75, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.875619, with lower bound 0.864889 and upper bound 0.886349
+Training Model with 250 iteration, mini batch size as 75, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.876170, with lower bound 0.865460 and upper bound 0.886879
+Training Model with 250 iteration, mini batch size as 75, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.879472, with lower bound 0.868886 and upper bound 0.890057
+Training Model with 250 iteration, mini batch size as 75, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.903137, with lower bound 0.893520 and upper bound 0.912754
+Training Model with 250 iteration, mini batch size as 75, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.901211, with lower bound 0.891509 and upper bound 0.910912
+Training Model with 250 iteration, mini batch size as 75, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.905614, with lower bound 0.896108 and upper bound 0.915119
+Training Model with 250 iteration, mini batch size as 75, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.899835, with lower bound 0.890074 and upper bound 0.909596
+Training Model with 250 iteration, mini batch size as 75, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.903963, with lower bound 0.894383 and upper bound 0.913542
+Training Model with 250 iteration, mini batch size as 75, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.905614, with lower bound 0.896108 and upper bound 0.915119
+Training Model with 250 iteration, mini batch size as 75, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.867089, with lower bound 0.856051 and upper bound 0.878126
+Training Model with 250 iteration, mini batch size as 75, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.888002, with lower bound 0.877749 and upper bound 0.898256
+Training Model with 250 iteration, mini batch size as 75, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.896258, with lower bound 0.886343 and upper bound 0.906172
+Training Model with 250 iteration, mini batch size as 100, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.731425, with lower bound 0.717015 and upper bound 0.745836
+Training Model with 250 iteration, mini batch size as 100, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.713814, with lower bound 0.699119 and upper bound 0.728509
+Training Model with 250 iteration, mini batch size as 100, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.729499, with lower bound 0.715056 and upper bound 0.743942
+Training Model with 250 iteration, mini batch size as 100, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.843148, with lower bound 0.831324 and upper bound 0.854972
+Training Model with 250 iteration, mini batch size as 100, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.843148, with lower bound 0.831324 and upper bound 0.854972
+Training Model with 250 iteration, mini batch size as 100, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.853054, with lower bound 0.841543 and upper bound 0.864566
+Training Model with 250 iteration, mini batch size as 100, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.862135, with lower bound 0.850926 and upper bound 0.873345
+Training Model with 250 iteration, mini batch size as 100, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.864337, with lower bound 0.853203 and upper bound 0.875470
+Training Model with 250 iteration, mini batch size as 100, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.865438, with lower bound 0.854342 and upper bound 0.876533
+Training Model with 250 iteration, mini batch size as 100, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.886626, with lower bound 0.876318 and upper bound 0.896935
+Training Model with 250 iteration, mini batch size as 100, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.894331, with lower bound 0.884336 and upper bound 0.904326
+Training Model with 250 iteration, mini batch size as 100, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.893506, with lower bound 0.883476 and upper bound 0.903535
+Training Model with 250 iteration, mini batch size as 100, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.908090, with lower bound 0.898697 and upper bound 0.917483
+Training Model with 250 iteration, mini batch size as 100, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.908090, with lower bound 0.898697 and upper bound 0.917483
+Training Model with 250 iteration, mini batch size as 100, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.910292, with lower bound 0.901001 and upper bound 0.919583
+Training Model with 250 iteration, mini batch size as 100, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.876445, with lower bound 0.865745 and upper bound 0.887144
+Training Model with 250 iteration, mini batch size as 100, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.779857, with lower bound 0.766385 and upper bound 0.793329
+Training Model with 250 iteration, mini batch size as 100, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.830490, with lower bound 0.818291 and upper bound 0.842689
+Training Model with 250 iteration, mini batch size as 125, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.722345, with lower bound 0.707784 and upper bound 0.736905
+Training Model with 250 iteration, mini batch size as 125, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.708861, with lower bound 0.694090 and upper bound 0.723631
+Training Model with 250 iteration, mini batch size as 125, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.720143, with lower bound 0.705547 and upper bound 0.734739
+Training Model with 250 iteration, mini batch size as 125, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.833242, with lower bound 0.821122 and upper bound 0.845361
+Training Model with 250 iteration, mini batch size as 125, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.836544, with lower bound 0.824521 and upper bound 0.848567
+Training Model with 250 iteration, mini batch size as 125, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.843148, with lower bound 0.831324 and upper bound 0.854972
+Training Model with 250 iteration, mini batch size as 125, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.869290, with lower bound 0.858330 and upper bound 0.880250
+Training Model with 250 iteration, mini batch size as 125, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.869015, with lower bound 0.858045 and upper bound 0.879984
+Training Model with 250 iteration, mini batch size as 125, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.872592, with lower bound 0.861751 and upper bound 0.883433
+Training Model with 250 iteration, mini batch size as 125, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.897083, with lower bound 0.887204 and upper bound 0.906962
+Training Model with 250 iteration, mini batch size as 125, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.895157, with lower bound 0.885196 and upper bound 0.905117
+Training Model with 250 iteration, mini batch size as 125, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.892130, with lower bound 0.882044 and upper bound 0.902216
+Training Model with 250 iteration, mini batch size as 125, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.905889, with lower bound 0.896395 and upper bound 0.915382
+Training Model with 250 iteration, mini batch size as 125, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.905338, with lower bound 0.895820 and upper bound 0.914857
+Training Model with 250 iteration, mini batch size as 125, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.913594, with lower bound 0.904459 and upper bound 0.922729
+Training Model with 250 iteration, mini batch size as 125, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.872042, with lower bound 0.861181 and upper bound 0.882903
+Training Model with 250 iteration, mini batch size as 125, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.895707, with lower bound 0.885770 and upper bound 0.905645
+Training Model with 250 iteration, mini batch size as 125, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.823060, with lower bound 0.810652 and upper bound 0.835468
+Training Model with 250 iteration, mini batch size as 150, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.692625, with lower bound 0.677623 and upper bound 0.707627
+Training Model with 250 iteration, mini batch size as 150, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.718767, with lower bound 0.704149 and upper bound 0.733385
+Training Model with 250 iteration, mini batch size as 150, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.708861, with lower bound 0.694090 and upper bound 0.723631
+Training Model with 250 iteration, mini batch size as 150, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.818657, with lower bound 0.806130 and upper bound 0.831185
+Training Model with 250 iteration, mini batch size as 150, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.821409, with lower bound 0.808956 and upper bound 0.833862
+Training Model with 250 iteration, mini batch size as 150, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.825812, with lower bound 0.813480 and upper bound 0.838143
+Training Model with 250 iteration, mini batch size as 150, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.864612, with lower bound 0.853488 and upper bound 0.875736
+Training Model with 250 iteration, mini batch size as 150, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.865713, with lower bound 0.854627 and upper bound 0.876799
+Training Model with 250 iteration, mini batch size as 150, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.868189, with lower bound 0.857191 and upper bound 0.879188
+Training Model with 250 iteration, mini batch size as 150, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.878371, with lower bound 0.867744 and upper bound 0.888998
+Training Model with 250 iteration, mini batch size as 150, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.876170, with lower bound 0.865460 and upper bound 0.886879
+Training Model with 250 iteration, mini batch size as 150, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.871767, with lower bound 0.860896 and upper bound 0.882638
+Training Model with 250 iteration, mini batch size as 150, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.887177, with lower bound 0.876890 and upper bound 0.897463
+Training Model with 250 iteration, mini batch size as 150, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.894331, with lower bound 0.884336 and upper bound 0.904326
+Training Model with 250 iteration, mini batch size as 150, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.888553, with lower bound 0.878321 and upper bound 0.898784
+Training Model with 250 iteration, mini batch size as 150, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.890204, with lower bound 0.880039 and upper bound 0.900369
+Training Model with 250 iteration, mini batch size as 150, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.873968, with lower bound 0.863177 and upper bound 0.884759
+Training Model with 250 iteration, mini batch size as 150, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.870116, with lower bound 0.859185 and upper bound 0.881046
+Training Model with 250 iteration, mini batch size as 200, eta as 0.010000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.686846, with lower bound 0.671767 and upper bound 0.701925
+Training Model with 250 iteration, mini batch size as 200, eta as 0.010000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.700330, with lower bound 0.685435 and upper bound 0.715225
+Training Model with 250 iteration, mini batch size as 200, eta as 0.010000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.706384, with lower bound 0.691577 and upper bound 0.721191
+Training Model with 250 iteration, mini batch size as 200, eta as 0.050000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.792790, with lower bound 0.779612 and upper bound 0.805968
+Training Model with 250 iteration, mini batch size as 200, eta as 0.050000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.799945, with lower bound 0.786938 and upper bound 0.812952
+Training Model with 250 iteration, mini batch size as 200, eta as 0.050000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.811502, with lower bound 0.798786 and upper bound 0.824219
+Training Model with 250 iteration, mini batch size as 200, eta as 0.100000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.851128, with lower bound 0.839555 and upper bound 0.862702
+Training Model with 250 iteration, mini batch size as 200, eta as 0.100000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.852779, with lower bound 0.841259 and upper bound 0.864300
+Training Model with 250 iteration, mini batch size as 200, eta as 0.100000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.855531, with lower bound 0.844101 and upper bound 0.866962
+Training Model with 250 iteration, mini batch size as 200, eta as 0.500000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.877821, with lower bound 0.867173 and upper bound 0.888469
+Training Model with 250 iteration, mini batch size as 200, eta as 0.500000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.876995, with lower bound 0.866316 and upper bound 0.887674
+Training Model with 250 iteration, mini batch size as 200, eta as 0.500000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.870666, with lower bound 0.859755 and upper bound 0.881576
+Training Model with 250 iteration, mini batch size as 200, eta as 1.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.886351, with lower bound 0.876032 and upper bound 0.896670
+Training Model with 250 iteration, mini batch size as 200, eta as 1.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.884150, with lower bound 0.873744 and upper bound 0.894555
+Training Model with 250 iteration, mini batch size as 200, eta as 1.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.892130, with lower bound 0.882044 and upper bound 0.902216
+Training Model with 250 iteration, mini batch size as 200, eta as 10.000000, momentum beta as 0.250000
+Accuracy from Cross Validation is 0.894882, with lower bound 0.884910 and upper bound 0.904854
+Training Model with 250 iteration, mini batch size as 200, eta as 10.000000, momentum beta as 0.330000
+Accuracy from Cross Validation is 0.885801, with lower bound 0.875460 and upper bound 0.896142
+Training Model with 250 iteration, mini batch size as 200, eta as 10.000000, momentum beta as 0.500000
+Accuracy from Cross Validation is 0.870116, with lower bound 0.859185 and upper bound 0.881046
+When 150 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.250000,
+Neural Networks has best accuracy 0.914695
+========== Mistake Categorize ==========
+Build Neural Network with 1 hidden layer, and 20 nodes for each layer
+Use 150 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.250000 to Train the Model
+### Find the Most False Negative ###
+[(array([1.10289263e-07]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedLeftEyes\\closed_eye_2532.jpg_face_1_L.jpg'),
+(array([1.38249097e-05]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedLeftEyes\\closed_eye_2378.jpg_face_1_L.jpg'),
+(array([8.24946001e-05]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedLeftEyes\\closed_eye_1195.jpg_face_1_L.jpg'),
+(array([0.00010214]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedLeftEyes\\closed_eye_0460.jpg_face_1_L.jpg'),
+(array([0.00015299]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedLeftEyes\\closed_eye_2099.jpg_face_1_L.jpg'),
+(array([0.00027205]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedRightEyes\\closed_eye_2612.jpg_face_1_R.jpg'),
+(array([0.0003739]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedRightEyes\\closed_eye_1589.jpg_face_1_R.jpg'),
+(array([0.00038958]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedRightEyes\\closed_eye_1738.jpg_face_1_R.jpg'),
+(array([0.00040029]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedRightEyes\\closed_eye_2026.jpg_face_1_R.jpg'),
+(array([0.00057914]), array([1]), '..\\..\\dataset_B_Eye_Images\\closedLeftEyes\\closed_eye_0472.jpg_face_2_L.jpg')]
+### Find the Most False Positive ###
+[(array([0.96399286]), array([0]), '..\\..\\dataset_B_Eye_Images\\openRightEyes\\Valentino_Rossi_0001_R.jpg'),
+(array([0.97504326]), array([0]), '..\\..\\dataset_B_Eye_Images\\openRightEyes\\Jennifer_Pena_0001_R.jpg'),
+(array([0.98247064]), array([0]), '..\\..\\dataset_B_Eye_Images\\openLeftEyes\\Gerhard_Schmid_0001_L.jpg'),
+(array([0.98636066]), array([0]), '..\\..\\dataset_B_Eye_Images\\openRightEyes\\Alina_Kabaeva_0001_R.jpg'),
+(array([0.99073221]), array([0]), '..\\..\\dataset_B_Eye_Images\\openRightEyes\\Barbara_Esbin_0001_R.jpg'),
+(array([0.99567362]), array([0]), '..\\..\\dataset_B_Eye_Images\\openLeftEyes\\Himmler_Rebu_0001_L.jpg'),
+(array([0.99646157]), array([0]), '..\\..\\dataset_B_Eye_Images\\openRightEyes\\Johnnie_Lynn_0001_R.jpg'),
+(array([0.99836847]), array([0]), '..\\..\\dataset_B_Eye_Images\\openRightEyes\\Hugo_Colace_0001_R.jpg'),
+(array([0.99983038]), array([0]), '..\\..\\dataset_B_Eye_Images\\openLeftEyes\\Hugo_Colace_0001_L.jpg'),
+(array([0.99997871]), array([0]), '..\\..\\dataset_B_Eye_Images\\openLeftEyes\\James_Smith_0001_L.jpg')]
+========== Evaluation on the Neural Networks ==========
+Add X-Gradient and Y-Gradient as the Features
+Build Neural Network with 1 hidden layer, and 20 nodes for each layer
+Use 150 iteration, mini batch size as 10, eta as 1.000000, momentum beta as 0.250000 to Train the Model
+Accuracy from Cross Validation is 0.936434, with lower bound 0.928501 and upper bound 0.944366
+Test Set Accuracy is 0.939769, with lower bound 0.926375 and upper bound 0.953163
+                 |  Predict True  |  Predict False
+---------------- | -------------- | ---------------
+ Actually True   |            566 |              32
+ Actually False  |             41 |             573
+None
+Accuracy: 0.9397689768976898
+Precision: 0.9324546952224053
+Recall: 0.9464882943143813
+FPR: 0.06677524429967427
+FNR: 0.05351170568561873
+========== Compare Models ==========
+Featurize the Data Set
+At threshold 0.010000
+X-Gradient Random Forests Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.828990, False Negative Rate 0.003344
+Best Neural Networks Model has False Positive Rate 0.519544, False Negative Rate 0.001672
+At threshold 0.020000
+X-Gradient Random Forests Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.728013, False Negative Rate 0.005017
+Best Neural Networks Model has False Positive Rate 0.415309, False Negative Rate 0.001672
+At threshold 0.030000
+X-Gradient Random Forests Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.666124, False Negative Rate 0.006689
+Best Neural Networks Model has False Positive Rate 0.346906, False Negative Rate 0.003344
+At threshold 0.040000
+X-Gradient Random Forests Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.627036, False Negative Rate 0.006689
+Best Neural Networks Model has False Positive Rate 0.298046, False Negative Rate 0.005017
+At threshold 0.050000
+X-Gradient Random Forests Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.592834, False Negative Rate 0.006689
+Best Neural Networks Model has False Positive Rate 0.263844, False Negative Rate 0.006689
+At threshold 0.060000
+X-Gradient Random Forests Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.555375, False Negative Rate 0.008361
+Best Neural Networks Model has False Positive Rate 0.241042, False Negative Rate 0.006689
+At threshold 0.070000
+X-Gradient Random Forests Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.534202, False Negative Rate 0.010033
+Best Neural Networks Model has False Positive Rate 0.221498, False Negative Rate 0.006689
+At threshold 0.080000
+X-Gradient Random Forests Model has False Positive Rate 1.000000, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.511401, False Negative Rate 0.010033
+Best Neural Networks Model has False Positive Rate 0.203583, False Negative Rate 0.008361
+At threshold 0.090000
+X-Gradient Random Forests Model has False Positive Rate 0.998371, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.491857, False Negative Rate 0.010033
+Best Neural Networks Model has False Positive Rate 0.185668, False Negative Rate 0.008361
+At threshold 0.100000
+X-Gradient Random Forests Model has False Positive Rate 0.998371, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.470684, False Negative Rate 0.010033
+Best Neural Networks Model has False Positive Rate 0.175896, False Negative Rate 0.011706
+At threshold 0.110000
+X-Gradient Random Forests Model has False Positive Rate 0.996743, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.449511, False Negative Rate 0.010033
+Best Neural Networks Model has False Positive Rate 0.164495, False Negative Rate 0.013378
+At threshold 0.120000
+X-Gradient Random Forests Model has False Positive Rate 0.995114, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.434853, False Negative Rate 0.011706
+Best Neural Networks Model has False Positive Rate 0.157980, False Negative Rate 0.016722
+At threshold 0.130000
+X-Gradient Random Forests Model has False Positive Rate 0.990228, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.415309, False Negative Rate 0.011706
+Best Neural Networks Model has False Positive Rate 0.149837, False Negative Rate 0.016722
+At threshold 0.140000
+X-Gradient Random Forests Model has False Positive Rate 0.983713, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.394137, False Negative Rate 0.015050
+Best Neural Networks Model has False Positive Rate 0.144951, False Negative Rate 0.020067
+At threshold 0.150000
+X-Gradient Random Forests Model has False Positive Rate 0.972313, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.382736, False Negative Rate 0.016722
+Best Neural Networks Model has False Positive Rate 0.140065, False Negative Rate 0.021739
+At threshold 0.160000
+X-Gradient Random Forests Model has False Positive Rate 0.970684, False Negative Rate 0.000000
+Initialize Neural Networks Model has False Positive Rate 0.363192, False Negative Rate 0.018395
+Best Neural Networks Model has False Positive Rate 0.136808, False Negative Rate 0.021739
+At threshold 0.170000
+X-Gradient Random Forests Model has False Positive Rate 0.962541, False Negative Rate 0.001672
+Initialize Neural Networks Model has False Positive Rate 0.350163, False Negative Rate 0.018395
+Best Neural Networks Model has False Positive Rate 0.127036, False Negative Rate 0.023411
+At threshold 0.180000
+X-Gradient Random Forests Model has False Positive Rate 0.957655, False Negative Rate 0.001672
+Initialize Neural Networks Model has False Positive Rate 0.332248, False Negative Rate 0.020067
+Best Neural Networks Model has False Positive Rate 0.122150, False Negative Rate 0.026756
+At threshold 0.190000
+X-Gradient Random Forests Model has False Positive Rate 0.938111, False Negative Rate 0.001672
+Initialize Neural Networks Model has False Positive Rate 0.319218, False Negative Rate 0.021739
+Best Neural Networks Model has False Positive Rate 0.115635, False Negative Rate 0.026756
+At threshold 0.200000
+X-Gradient Random Forests Model has False Positive Rate 0.938111, False Negative Rate 0.001672
+Initialize Neural Networks Model has False Positive Rate 0.309446, False Negative Rate 0.023411
+Best Neural Networks Model has False Positive Rate 0.112378, False Negative Rate 0.028428
+At threshold 0.210000
+X-Gradient Random Forests Model has False Positive Rate 0.925081, False Negative Rate 0.001672
+Initialize Neural Networks Model has False Positive Rate 0.296417, False Negative Rate 0.025084
+Best Neural Networks Model has False Positive Rate 0.109121, False Negative Rate 0.028428
+At threshold 0.220000
+X-Gradient Random Forests Model has False Positive Rate 0.905537, False Negative Rate 0.003344
+Initialize Neural Networks Model has False Positive Rate 0.286645, False Negative Rate 0.025084
+Best Neural Networks Model has False Positive Rate 0.107492, False Negative Rate 0.028428
+At threshold 0.230000
+X-Gradient Random Forests Model has False Positive Rate 0.890879, False Negative Rate 0.005017
+Initialize Neural Networks Model has False Positive Rate 0.276873, False Negative Rate 0.026756
+Best Neural Networks Model has False Positive Rate 0.102606, False Negative Rate 0.028428
+At threshold 0.240000
+X-Gradient Random Forests Model has False Positive Rate 0.881107, False Negative Rate 0.005017
+Initialize Neural Networks Model has False Positive Rate 0.265472, False Negative Rate 0.026756
+Best Neural Networks Model has False Positive Rate 0.099349, False Negative Rate 0.028428
+At threshold 0.250000
+X-Gradient Random Forests Model has False Positive Rate 0.861564, False Negative Rate 0.005017
+Initialize Neural Networks Model has False Positive Rate 0.252443, False Negative Rate 0.026756
+Best Neural Networks Model has False Positive Rate 0.097720, False Negative Rate 0.028428
+At threshold 0.260000
+X-Gradient Random Forests Model has False Positive Rate 0.832248, False Negative Rate 0.005017
+Initialize Neural Networks Model has False Positive Rate 0.245928, False Negative Rate 0.026756
+Best Neural Networks Model has False Positive Rate 0.091205, False Negative Rate 0.028428
+At threshold 0.270000
+X-Gradient Random Forests Model has False Positive Rate 0.793160, False Negative Rate 0.008361
+Initialize Neural Networks Model has False Positive Rate 0.241042, False Negative Rate 0.028428
+Best Neural Networks Model has False Positive Rate 0.089577, False Negative Rate 0.031773
+At threshold 0.280000
+X-Gradient Random Forests Model has False Positive Rate 0.770358, False Negative Rate 0.008361
+Initialize Neural Networks Model has False Positive Rate 0.239414, False Negative Rate 0.030100
+Best Neural Networks Model has False Positive Rate 0.086319, False Negative Rate 0.031773
+At threshold 0.290000
+X-Gradient Random Forests Model has False Positive Rate 0.744300, False Negative Rate 0.010033
+Initialize Neural Networks Model has False Positive Rate 0.234528, False Negative Rate 0.031773
+Best Neural Networks Model has False Positive Rate 0.084691, False Negative Rate 0.031773
+At threshold 0.300000
+X-Gradient Random Forests Model has False Positive Rate 0.714984, False Negative Rate 0.011706
+Initialize Neural Networks Model has False Positive Rate 0.228013, False Negative Rate 0.035117
+Best Neural Networks Model has False Positive Rate 0.084691, False Negative Rate 0.036789
+At threshold 0.310000
+X-Gradient Random Forests Model has False Positive Rate 0.682410, False Negative Rate 0.013378
+Initialize Neural Networks Model has False Positive Rate 0.223127, False Negative Rate 0.035117
+Best Neural Networks Model has False Positive Rate 0.084691, False Negative Rate 0.040134
+At threshold 0.320000
+X-Gradient Random Forests Model has False Positive Rate 0.656352, False Negative Rate 0.013378
+Initialize Neural Networks Model has False Positive Rate 0.214984, False Negative Rate 0.036789
+Best Neural Networks Model has False Positive Rate 0.083062, False Negative Rate 0.040134
+At threshold 0.330000
+X-Gradient Random Forests Model has False Positive Rate 0.635179, False Negative Rate 0.016722
+Initialize Neural Networks Model has False Positive Rate 0.210098, False Negative Rate 0.041806
+Best Neural Networks Model has False Positive Rate 0.079805, False Negative Rate 0.040134
+At threshold 0.340000
+X-Gradient Random Forests Model has False Positive Rate 0.565147, False Negative Rate 0.018395
+Initialize Neural Networks Model has False Positive Rate 0.200326, False Negative Rate 0.041806
+Best Neural Networks Model has False Positive Rate 0.079805, False Negative Rate 0.040134
+At threshold 0.350000
+X-Gradient Random Forests Model has False Positive Rate 0.532573, False Negative Rate 0.021739
+Initialize Neural Networks Model has False Positive Rate 0.195440, False Negative Rate 0.043478
+Best Neural Networks Model has False Positive Rate 0.078176, False Negative Rate 0.040134
+At threshold 0.360000
+X-Gradient Random Forests Model has False Positive Rate 0.516287, False Negative Rate 0.021739
+Initialize Neural Networks Model has False Positive Rate 0.192182, False Negative Rate 0.048495
+Best Neural Networks Model has False Positive Rate 0.074919, False Negative Rate 0.041806
+At threshold 0.370000
+X-Gradient Random Forests Model has False Positive Rate 0.478827, False Negative Rate 0.025084
+Initialize Neural Networks Model has False Positive Rate 0.185668, False Negative Rate 0.048495
+Best Neural Networks Model has False Positive Rate 0.073290, False Negative Rate 0.043478
+At threshold 0.380000
+X-Gradient Random Forests Model has False Positive Rate 0.447883, False Negative Rate 0.028428
+Initialize Neural Networks Model has False Positive Rate 0.179153, False Negative Rate 0.048495
+Best Neural Networks Model has False Positive Rate 0.071661, False Negative Rate 0.045151
+At threshold 0.390000
+X-Gradient Random Forests Model has False Positive Rate 0.416938, False Negative Rate 0.035117
+Initialize Neural Networks Model has False Positive Rate 0.172638, False Negative Rate 0.050167
+Best Neural Networks Model has False Positive Rate 0.070033, False Negative Rate 0.045151
+At threshold 0.400000
+X-Gradient Random Forests Model has False Positive Rate 0.412052, False Negative Rate 0.035117
+Initialize Neural Networks Model has False Positive Rate 0.167752, False Negative Rate 0.053512
+Best Neural Networks Model has False Positive Rate 0.070033, False Negative Rate 0.045151
+At threshold 0.410000
+X-Gradient Random Forests Model has False Positive Rate 0.366450, False Negative Rate 0.043478
+Initialize Neural Networks Model has False Positive Rate 0.162866, False Negative Rate 0.056856
+Best Neural Networks Model has False Positive Rate 0.068404, False Negative Rate 0.046823
+At threshold 0.420000
+X-Gradient Random Forests Model has False Positive Rate 0.330619, False Negative Rate 0.050167
+Initialize Neural Networks Model has False Positive Rate 0.157980, False Negative Rate 0.056856
+Best Neural Networks Model has False Positive Rate 0.063518, False Negative Rate 0.048495
+At threshold 0.430000
+X-Gradient Random Forests Model has False Positive Rate 0.299674, False Negative Rate 0.056856
+Initialize Neural Networks Model has False Positive Rate 0.149837, False Negative Rate 0.058528
+Best Neural Networks Model has False Positive Rate 0.063518, False Negative Rate 0.050167
+At threshold 0.440000
+X-Gradient Random Forests Model has False Positive Rate 0.289902, False Negative Rate 0.058528
+Initialize Neural Networks Model has False Positive Rate 0.146580, False Negative Rate 0.063545
+Best Neural Networks Model has False Positive Rate 0.063518, False Negative Rate 0.051839
+At threshold 0.450000
+X-Gradient Random Forests Model has False Positive Rate 0.267101, False Negative Rate 0.065217
+Initialize Neural Networks Model has False Positive Rate 0.140065, False Negative Rate 0.065217
+Best Neural Networks Model has False Positive Rate 0.061889, False Negative Rate 0.053512
+At threshold 0.460000
+X-Gradient Random Forests Model has False Positive Rate 0.231270, False Negative Rate 0.078595
+Initialize Neural Networks Model has False Positive Rate 0.135179, False Negative Rate 0.068562
+Best Neural Networks Model has False Positive Rate 0.060261, False Negative Rate 0.056856
+At threshold 0.470000
+X-Gradient Random Forests Model has False Positive Rate 0.205212, False Negative Rate 0.100334
+Initialize Neural Networks Model has False Positive Rate 0.131922, False Negative Rate 0.073579
+Best Neural Networks Model has False Positive Rate 0.055375, False Negative Rate 0.060201
+At threshold 0.480000
+X-Gradient Random Forests Model has False Positive Rate 0.174267, False Negative Rate 0.125418
+Initialize Neural Networks Model has False Positive Rate 0.123779, False Negative Rate 0.075251
+Best Neural Networks Model has False Positive Rate 0.055375, False Negative Rate 0.063545
+At threshold 0.490000
+X-Gradient Random Forests Model has False Positive Rate 0.174267, False Negative Rate 0.125418
+Initialize Neural Networks Model has False Positive Rate 0.118893, False Negative Rate 0.076923
+Best Neural Networks Model has False Positive Rate 0.055375, False Negative Rate 0.070234
+At threshold 0.500000
+X-Gradient Random Forests Model has False Positive Rate 0.162866, False Negative Rate 0.140468
+Initialize Neural Networks Model has False Positive Rate 0.112378, False Negative Rate 0.078595
+Best Neural Networks Model has False Positive Rate 0.055375, False Negative Rate 0.071906
+At threshold 0.510000
+X-Gradient Random Forests Model has False Positive Rate 0.125407, False Negative Rate 0.193980
+Initialize Neural Networks Model has False Positive Rate 0.110749, False Negative Rate 0.078595
+Best Neural Networks Model has False Positive Rate 0.055375, False Negative Rate 0.073579
+At threshold 0.520000
+X-Gradient Random Forests Model has False Positive Rate 0.125407, False Negative Rate 0.193980
+Initialize Neural Networks Model has False Positive Rate 0.109121, False Negative Rate 0.080268
+Best Neural Networks Model has False Positive Rate 0.053746, False Negative Rate 0.073579
+At threshold 0.530000
+X-Gradient Random Forests Model has False Positive Rate 0.109121, False Negative Rate 0.224080
+Initialize Neural Networks Model has False Positive Rate 0.107492, False Negative Rate 0.088629
+Best Neural Networks Model has False Positive Rate 0.050489, False Negative Rate 0.076923
+At threshold 0.540000
+X-Gradient Random Forests Model has False Positive Rate 0.096091, False Negative Rate 0.249164
+Initialize Neural Networks Model has False Positive Rate 0.105863, False Negative Rate 0.093645
+Best Neural Networks Model has False Positive Rate 0.048860, False Negative Rate 0.078595
+At threshold 0.550000
+X-Gradient Random Forests Model has False Positive Rate 0.076547, False Negative Rate 0.275920
+Initialize Neural Networks Model has False Positive Rate 0.097720, False Negative Rate 0.096990
+Best Neural Networks Model has False Positive Rate 0.047231, False Negative Rate 0.080268
+At threshold 0.560000
+X-Gradient Random Forests Model has False Positive Rate 0.070033, False Negative Rate 0.285953
+Initialize Neural Networks Model has False Positive Rate 0.096091, False Negative Rate 0.100334
+Best Neural Networks Model has False Positive Rate 0.047231, False Negative Rate 0.080268
+At threshold 0.570000
+X-Gradient Random Forests Model has False Positive Rate 0.060261, False Negative Rate 0.316054
+Initialize Neural Networks Model has False Positive Rate 0.096091, False Negative Rate 0.102007
+Best Neural Networks Model has False Positive Rate 0.047231, False Negative Rate 0.083612
+At threshold 0.580000
+X-Gradient Random Forests Model has False Positive Rate 0.048860, False Negative Rate 0.344482
+Initialize Neural Networks Model has False Positive Rate 0.094463, False Negative Rate 0.110368
+Best Neural Networks Model has False Positive Rate 0.045603, False Negative Rate 0.083612
+At threshold 0.590000
+X-Gradient Random Forests Model has False Positive Rate 0.037459, False Negative Rate 0.382943
+Initialize Neural Networks Model has False Positive Rate 0.094463, False Negative Rate 0.115385
+Best Neural Networks Model has False Positive Rate 0.045603, False Negative Rate 0.086957
+At threshold 0.600000
+X-Gradient Random Forests Model has False Positive Rate 0.037459, False Negative Rate 0.384615
+Initialize Neural Networks Model has False Positive Rate 0.092834, False Negative Rate 0.120401
+Best Neural Networks Model has False Positive Rate 0.043974, False Negative Rate 0.088629
+At threshold 0.610000
+X-Gradient Random Forests Model has False Positive Rate 0.026059, False Negative Rate 0.431438
+Initialize Neural Networks Model has False Positive Rate 0.084691, False Negative Rate 0.125418
+Best Neural Networks Model has False Positive Rate 0.042345, False Negative Rate 0.093645
+At threshold 0.620000
+X-Gradient Random Forests Model has False Positive Rate 0.014658, False Negative Rate 0.478261
+Initialize Neural Networks Model has False Positive Rate 0.083062, False Negative Rate 0.127090
+Best Neural Networks Model has False Positive Rate 0.042345, False Negative Rate 0.096990
+At threshold 0.630000
+X-Gradient Random Forests Model has False Positive Rate 0.011401, False Negative Rate 0.506689
+Initialize Neural Networks Model has False Positive Rate 0.083062, False Negative Rate 0.127090
+Best Neural Networks Model has False Positive Rate 0.039088, False Negative Rate 0.102007
+At threshold 0.640000
+X-Gradient Random Forests Model has False Positive Rate 0.009772, False Negative Rate 0.518395
+Initialize Neural Networks Model has False Positive Rate 0.076547, False Negative Rate 0.130435
+Best Neural Networks Model has False Positive Rate 0.039088, False Negative Rate 0.107023
+At threshold 0.650000
+X-Gradient Random Forests Model has False Positive Rate 0.009772, False Negative Rate 0.548495
+Initialize Neural Networks Model has False Positive Rate 0.071661, False Negative Rate 0.133779
+Best Neural Networks Model has False Positive Rate 0.037459, False Negative Rate 0.110368
+At threshold 0.660000
+X-Gradient Random Forests Model has False Positive Rate 0.009772, False Negative Rate 0.590301
+Initialize Neural Networks Model has False Positive Rate 0.070033, False Negative Rate 0.142140
+Best Neural Networks Model has False Positive Rate 0.037459, False Negative Rate 0.112040
+At threshold 0.670000
+X-Gradient Random Forests Model has False Positive Rate 0.006515, False Negative Rate 0.652174
+Initialize Neural Networks Model has False Positive Rate 0.066775, False Negative Rate 0.145485
+Best Neural Networks Model has False Positive Rate 0.034202, False Negative Rate 0.113712
+At threshold 0.680000
+X-Gradient Random Forests Model has False Positive Rate 0.006515, False Negative Rate 0.652174
+Initialize Neural Networks Model has False Positive Rate 0.065147, False Negative Rate 0.148829
+Best Neural Networks Model has False Positive Rate 0.030945, False Negative Rate 0.113712
+At threshold 0.690000
+X-Gradient Random Forests Model has False Positive Rate 0.004886, False Negative Rate 0.678930
+Initialize Neural Networks Model has False Positive Rate 0.063518, False Negative Rate 0.152174
+Best Neural Networks Model has False Positive Rate 0.029316, False Negative Rate 0.118729
+At threshold 0.700000
+X-Gradient Random Forests Model has False Positive Rate 0.004886, False Negative Rate 0.700669
+Initialize Neural Networks Model has False Positive Rate 0.063518, False Negative Rate 0.155518
+Best Neural Networks Model has False Positive Rate 0.029316, False Negative Rate 0.123746
+At threshold 0.710000
+X-Gradient Random Forests Model has False Positive Rate 0.004886, False Negative Rate 0.730769
+Initialize Neural Networks Model has False Positive Rate 0.061889, False Negative Rate 0.165552
+Best Neural Networks Model has False Positive Rate 0.027687, False Negative Rate 0.130435
+At threshold 0.720000
+X-Gradient Random Forests Model has False Positive Rate 0.003257, False Negative Rate 0.769231
+Initialize Neural Networks Model has False Positive Rate 0.060261, False Negative Rate 0.175585
+Best Neural Networks Model has False Positive Rate 0.026059, False Negative Rate 0.133779
+At threshold 0.730000
+X-Gradient Random Forests Model has False Positive Rate 0.003257, False Negative Rate 0.775920
+Initialize Neural Networks Model has False Positive Rate 0.057003, False Negative Rate 0.178930
+Best Neural Networks Model has False Positive Rate 0.026059, False Negative Rate 0.135452
+At threshold 0.740000
+X-Gradient Random Forests Model has False Positive Rate 0.001629, False Negative Rate 0.802676
+Initialize Neural Networks Model has False Positive Rate 0.053746, False Negative Rate 0.185619
+Best Neural Networks Model has False Positive Rate 0.026059, False Negative Rate 0.137124
+At threshold 0.750000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.839465
+Initialize Neural Networks Model has False Positive Rate 0.052117, False Negative Rate 0.200669
+Best Neural Networks Model has False Positive Rate 0.026059, False Negative Rate 0.140468
+At threshold 0.760000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.839465
+Initialize Neural Networks Model has False Positive Rate 0.048860, False Negative Rate 0.209030
+Best Neural Networks Model has False Positive Rate 0.024430, False Negative Rate 0.147157
+At threshold 0.770000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.867893
+Initialize Neural Networks Model has False Positive Rate 0.048860, False Negative Rate 0.217391
+Best Neural Networks Model has False Positive Rate 0.022801, False Negative Rate 0.152174
+At threshold 0.780000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.884615
+Initialize Neural Networks Model has False Positive Rate 0.047231, False Negative Rate 0.225753
+Best Neural Networks Model has False Positive Rate 0.021173, False Negative Rate 0.160535
+At threshold 0.790000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.904682
+Initialize Neural Networks Model has False Positive Rate 0.045603, False Negative Rate 0.237458
+Best Neural Networks Model has False Positive Rate 0.019544, False Negative Rate 0.170569
+At threshold 0.800000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.908027
+Initialize Neural Networks Model has False Positive Rate 0.042345, False Negative Rate 0.247492
+Best Neural Networks Model has False Positive Rate 0.017915, False Negative Rate 0.185619
+At threshold 0.810000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.923077
+Initialize Neural Networks Model has False Positive Rate 0.040717, False Negative Rate 0.260870
+Best Neural Networks Model has False Positive Rate 0.017915, False Negative Rate 0.190635
+At threshold 0.820000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.933110
+Initialize Neural Networks Model has False Positive Rate 0.040717, False Negative Rate 0.274247
+Best Neural Networks Model has False Positive Rate 0.014658, False Negative Rate 0.195652
+At threshold 0.830000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.943144
+Initialize Neural Networks Model has False Positive Rate 0.032573, False Negative Rate 0.285953
+Best Neural Networks Model has False Positive Rate 0.014658, False Negative Rate 0.207358
+At threshold 0.840000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.956522
+Initialize Neural Networks Model has False Positive Rate 0.030945, False Negative Rate 0.295987
+Best Neural Networks Model has False Positive Rate 0.013029, False Negative Rate 0.219064
+At threshold 0.850000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.959866
+Initialize Neural Networks Model has False Positive Rate 0.027687, False Negative Rate 0.309365
+Best Neural Networks Model has False Positive Rate 0.011401, False Negative Rate 0.234114
+At threshold 0.860000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.968227
+Initialize Neural Networks Model has False Positive Rate 0.027687, False Negative Rate 0.334448
+Best Neural Networks Model has False Positive Rate 0.011401, False Negative Rate 0.239130
+At threshold 0.870000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.978261
+Initialize Neural Networks Model has False Positive Rate 0.026059, False Negative Rate 0.354515
+Best Neural Networks Model has False Positive Rate 0.011401, False Negative Rate 0.252508
+At threshold 0.880000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.981605
+Initialize Neural Networks Model has False Positive Rate 0.022801, False Negative Rate 0.379599
+Best Neural Networks Model has False Positive Rate 0.011401, False Negative Rate 0.267559
+At threshold 0.890000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.986622
+Initialize Neural Networks Model has False Positive Rate 0.022801, False Negative Rate 0.391304
+Best Neural Networks Model has False Positive Rate 0.011401, False Negative Rate 0.279264
+At threshold 0.900000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.988294
+Initialize Neural Networks Model has False Positive Rate 0.021173, False Negative Rate 0.406355
+Best Neural Networks Model has False Positive Rate 0.008143, False Negative Rate 0.294314
+At threshold 0.910000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.996656
+Initialize Neural Networks Model has False Positive Rate 0.019544, False Negative Rate 0.428094
+Best Neural Networks Model has False Positive Rate 0.006515, False Negative Rate 0.311037
+At threshold 0.920000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 0.998328
+Initialize Neural Networks Model has False Positive Rate 0.014658, False Negative Rate 0.456522
+Best Neural Networks Model has False Positive Rate 0.006515, False Negative Rate 0.329431
+At threshold 0.930000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Initialize Neural Networks Model has False Positive Rate 0.013029, False Negative Rate 0.476589
+Best Neural Networks Model has False Positive Rate 0.004886, False Negative Rate 0.349498
+At threshold 0.940000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Initialize Neural Networks Model has False Positive Rate 0.009772, False Negative Rate 0.501672
+Best Neural Networks Model has False Positive Rate 0.004886, False Negative Rate 0.366221
+At threshold 0.950000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Initialize Neural Networks Model has False Positive Rate 0.008143, False Negative Rate 0.535117
+Best Neural Networks Model has False Positive Rate 0.004886, False Negative Rate 0.401338
+At threshold 0.960000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Initialize Neural Networks Model has False Positive Rate 0.008143, False Negative Rate 0.581940
+Best Neural Networks Model has False Positive Rate 0.004886, False Negative Rate 0.434783
+At threshold 0.970000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Initialize Neural Networks Model has False Positive Rate 0.004886, False Negative Rate 0.657191
+Best Neural Networks Model has False Positive Rate 0.004886, False Negative Rate 0.481605
+At threshold 0.980000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Initialize Neural Networks Model has False Positive Rate 0.001629, False Negative Rate 0.749164
+Best Neural Networks Model has False Positive Rate 0.003257, False Negative Rate 0.576923
+At threshold 0.990000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Initialize Neural Networks Model has False Positive Rate 0.001629, False Negative Rate 0.871237
+Best Neural Networks Model has False Positive Rate 0.001629, False Negative Rate 0.700669
+At threshold 1.000000
+X-Gradient Random Forests Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Initialize Neural Networks Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+Best Neural Networks Model has False Positive Rate 0.000000, False Negative Rate 1.000000
+
+### Plot Precision vs Recall.
+Close the plot diagram to continue program

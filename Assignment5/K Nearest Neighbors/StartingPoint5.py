@@ -10,7 +10,7 @@ import EvaluationsStub
 import matplotlib.pyplot as plt
 
 if __name__=="__main__":
-    kDataPath = "..\\dataset_B_Eye_Images"
+    kDataPath = "..\\..\\dataset_B_Eye_Images"
 
     (xRaw, yRaw) = Assignment5Support.LoadRawData(kDataPath, includeLeftEye = True, includeRightEye = True)
     (xTrainRaw, yTrainRaw, xTestRaw, yTestRaw) = Assignment5Support.TrainTestSplit(xRaw, yRaw, percentTest = .25)

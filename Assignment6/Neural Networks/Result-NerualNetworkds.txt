@@ -1,0 +1,37 @@
+Train is 0.491469 percent closed.
+Test is 0.493399 percent closed.
+Featurize the Samples
+========== Compare Models ==========
+Build Neural Network with 1 hidden layer, and 2 nodes for each layer
+Test Set Accuracy is 0.904290, with lower bound 0.887728 and upper bound 0.920853
+Build Neural Network with 1 hidden layer, and 5 nodes for each layer
+Test Set Accuracy is 0.904290, with lower bound 0.887728 and upper bound 0.920853
+Build Neural Network with 1 hidden layer, and 10 nodes for each layer
+Test Set Accuracy is 0.905116, with lower bound 0.888617 and upper bound 0.921614
+Build Neural Network with 1 hidden layer, and 15 nodes for each layer
+Test Set Accuracy is 0.904290, with lower bound 0.887728 and upper bound 0.920853
+Build Neural Network with 1 hidden layer, and 20 nodes for each layer
+Test Set Accuracy is 0.905941, with lower bound 0.889506 and upper bound 0.922375
+Build Neural Network with 2 hidden layer, and 2 nodes for each layer
+Test Set Accuracy is 0.506601, with lower bound 0.478453 and upper bound 0.534748
+Build Neural Network with 2 hidden layer, and 5 nodes for each layer
+Test Set Accuracy is 0.655116, with lower bound 0.628355 and upper bound 0.681876
+Build Neural Network with 2 hidden layer, and 10 nodes for each layer
+Test Set Accuracy is 0.707096, with lower bound 0.681474 and upper bound 0.732717
+Build Neural Network with 2 hidden layer, and 15 nodes for each layer
+Test Set Accuracy is 0.669142, with lower bound 0.642652 and upper bound 0.695632
+Build Neural Network with 2 hidden layer, and 20 nodes for each layer
+Test Set Accuracy is 0.734323, with lower bound 0.709456 and upper bound 0.759191
+### Plot Training Set Loss ###
+Close the plot diagram to continue program
+### Plot Test Set Loss ###
+Close the plot diagram to continue program
+========== Visualize the Weights ==========
+Training the model
+Output the weights
+========== Find Underfitting and Overfiting ==========
+Build Neural Network with 1 hidden layer, and 15 nodes for each layer
+### Plot Loss ###
+Close the plot diagram to continue program
+### Plot Accuracy ###
+Close the plot diagram to continue program
