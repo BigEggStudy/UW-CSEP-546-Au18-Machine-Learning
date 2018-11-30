@@ -130,3 +130,26 @@ if __name__=='__main__':
     print(f'2 fully connect layer output channel are ({nn1_out}, {nn2_out})')
     print(f'With learning rate {learning_rate}, momentum beta {momentum}, iteration {iteration}')
     print('Convolution Neural Networks has best accuracy %f' % best_accuracy)
+
+    ############################
+
+    # (layer, optimizer_type, pool, iteration, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out) = (1, 'Adam', 'Max', 500, 0.05, 0.25, 16, 5, 32, 5, 40, 30)
+
+    # print('========== Training the Best Model with more Data ==========')
+    # transforms_data_in_training, batch_size, shuffle, mirror = (True, 4, True, True)
+    # xTrain, yTrain = Featurize.Featurize(xTrainImages, yTrainRaw, transforms_data=transforms_data_in_training, batch_size=batch_size, shuffle=shuffle, mirror=mirror)
+    # print(f'Use the transfromed data to train: {transforms_data_in_training} with batch size {batch_size}, with mirror data {mirror}, and shuffle {shuffle}')
+    # print(f'Training data size: {xTrain.size()}')
+
+    # model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out, nn2_out=nn2_out) \
+    #         if layer == 2 else \
+    #         BlinkNeuralNetwork.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out)
+    # lossFunction = torch.nn.MSELoss(reduction='sum')
+    # optimizer = torch.optim.Adam(model.parameters(lr=learning_rate)) if optimizer_type == 'Adam' else torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=momentum)
+
+    # for i in range(iteration):
+    #     yTrainPredicted = model(foldTrainX)
+    #     loss = lossFunction(yTrainPredicted, foldTrainY)
+    #     optimizer.zero_grad()
+    #     loss.backward()
+    #     optimizer.step()
