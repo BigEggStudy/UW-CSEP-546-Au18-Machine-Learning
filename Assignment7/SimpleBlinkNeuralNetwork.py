@@ -9,7 +9,7 @@ class SimpleBlinkNeuralNetwork(torch.nn.Module):
 
         # Fully connected layer to all the down-sampled pixels to all the hidden nodes
         self.fullyConnectedOne = torch.nn.Sequential(
-           torch.nn.Linear(12*12, hiddenNodes),
+           torch.nn.Linear(12 * 12, hiddenNodes),
            torch.nn.Sigmoid()
         )
 

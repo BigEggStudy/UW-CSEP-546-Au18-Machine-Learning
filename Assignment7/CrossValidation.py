@@ -1,26 +1,37 @@
 import math
 import numpy as np
 from joblib import Parallel, delayed
+import torchvision
+import torchvision.transforms as transforms
+import torch
+
+import BlinkNeuralNetwork
+import BlinkNeuralNetworkTwoLayer
 
 class CrossValidation(object):
     def __init__(self, k):
         self.k = round(k)
 
     def __splitDataFold(self, x, y, index):
-        size = round(len(x) / self.k)
+        x_chunk = torch.chunk(x, self.k, 0)
+        y_chunk = torch.chunk(y, self.k, 0)
 
-        if (index * size == 0):
-            newTrainX = x[(index + 1) * size:]
-            newTrainY = y[(index + 1) * size:]
-        elif ((index + 1) * size >= len(x)):
-            newTrainX = x[:index * size]
-            newTrainY = y[:index * size]
+        if index == 0:
+            newTrainX = torch.cat(x_chunk[1:], 0)
+            newTrainY = torch.cat(y_chunk[1:], 0)
+        elif index == self.k - 1:
+            newTrainX = torch.cat(x_chunk[:-1], 0)
+            newTrainY = torch.cat(y_chunk[:-1], 0)
         else:
-            newTrainX = np.concatenate((x[:index * size], x[(index + 1) * size:]), axis=0)
-            newTrainY = np.concatenate((y[:index * size], y[(index + 1) * size:]), axis=0)
+            newTrainX1 = torch.cat(x_chunk[:index], 0)
+            newTrainY1 = torch.cat(y_chunk[:index], 0)
+            newTrainX2 = torch.cat(x_chunk[(index + 1):], 0)
+            newTrainY2 = torch.cat(y_chunk[(index + 1):], 0)
+            newTrainX = torch.cat((newTrainX1, newTrainX2), 0)
+            newTrainY = torch.cat((newTrainY1, newTrainY2), 0)
 
-        newValidationX = x[index * size:(index + 1) * size]
-        newValidationY = y[index * size:(index + 1) * size]
+        newValidationX = x_chunk[index]
+        newValidationY = y_chunk[index]
 
         return (newTrainX, newTrainY, newValidationX, newValidationY)
 
@@ -32,17 +43,29 @@ class CrossValidation(object):
 
         return count
 
-    def validate(self, x, y, iteration = 200, mini_batch_size = 10, eta = 0.05, beta = 0):
+    def validate(self, x, y, layer = 1, optimizer_type = 'SGD', pool = 'Max', iteration = 200, learning_rate = 0.05, momentum = 0.25, conv1_out = 16, conv1_kernel_size = 5, conv2_out = 16, conv2_kernel_size = 3, nn1_out = 20, nn2_out = 20):
         def validation_core(i, x, y):
             (foldTrainX, foldTrainY, foldValidationX, foldValidationY) = self.__splitDataFold(x, y, i)
 
-            # model = NeuralNetworks.NeuralNetworks(len(foldTrainX[0]), [ 20 ], 1)
-            # for i in range(iteration):
-            #     model.fit_one(foldTrainX, foldTrainY, mini_batch_size, eta, beta)
-            # return self.__countCorrect(model.predict(foldValidationX), foldValidationY)
-            return 0
+            model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out, nn2_out=nn2_out) \
+                    if layer == 2 else \
+                    BlinkNeuralNetwork.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out)
+            lossFunction = torch.nn.MSELoss(reduction='sum')
+            optimizer = torch.optim.Adam(model.parameters(lr=learning_rate)) if optimizer_type == 'Adam' else torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=momentum)
 
-        totalCorrects = Parallel(n_jobs=6)(delayed(validation_core)(i, x, y) for i in range(self.k))
+            for i in range(iteration):
+                yTrainPredicted = model(foldTrainX)
+                loss = lossFunction(yTrainPredicted, foldTrainY)
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
 
-        accuracy = sum(totalCorrects) / len(x)
+            return self.__countCorrect( model(foldValidationX), foldValidationY)
+
+        totalCorrects = 0
+        for i in range(self.k):
+            totalCorrects += validation_core(i, x, y)
+        # totalCorrects = Parallel(n_jobs=6)(delayed(validation_core)(i, x, y) for i in range(self.k))
+        # accuracy = sum(totalCorrects) / len(x)
+        accuracy = totalCorrects / len(x)
         return accuracy
