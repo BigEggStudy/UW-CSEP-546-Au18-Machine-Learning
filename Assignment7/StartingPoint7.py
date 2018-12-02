@@ -28,11 +28,11 @@ if __name__=='__main__':
 
     # Load the images and then convert them into tensors (no normalization)
     xTrainImages = [ Image.open(path) for path in xTrainRaw ]
-    xTrain, yTrain = Featurize.Featurize(xTrainImages, yTrainRaw, transforms_data=False)
+    xTrain, yTrain = Featurize.Featurize(xTrainImages, yTrainRaw)
     print(f'Training data size: {xTrain.size()}')
 
     xTestImages = [ Image.open(path) for path in xTestRaw ]
-    xTest, yTest = Featurize.Featurize(xTestImages, yTestRaw, transforms_data=False)
+    xTest, yTest = Featurize.Featurize(xTestImages, yTestRaw)
 
     ############################
 
@@ -78,7 +78,7 @@ if __name__=='__main__':
     import BlinkNeuralNetworkTwoLayer
 
     print('========= Try My Neural Network ==========')
-    model = BlinkNeuralNetwork.BlinkNeuralNetwork()
+    model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork()
 
     print('Training Model')
     lossFunction = torch.nn.MSELoss(reduction='sum')
@@ -116,12 +116,14 @@ if __name__=='__main__':
                                         print(f'2 fully connect layers output channel are ({nn1_out}, {nn2_out})')
                                         print(f'With learning rate {learning_rate}, momentum beta {momentum}, iteration {iteration}')
 
-                                        accuracy = crossValidation.validate(xTrain, yTrain, layer, optimizer_type, pool, iteration, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out)
-                                        (lower, upper) = EvaluationsStub.Bound(accuracy, len(xTrainRaw))
-                                        print('Accuracy from Cross Validation is %f, with lower bound %f and upper bound %f' % (accuracy, lower, upper))
-                                        if best_accuracy < accuracy:
-                                            best_accuracy = accuracy
-                                            best_parameter = (layer, optimizer_type, pool, iteration, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out)
+                                        result = crossValidation.validate(xTrain, yTrain, layer, optimizer_type, pool, 1500, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out)
+                                        for (iteration, accuracy) in result:
+                                            print(f'With iteration {iteration}')
+                                            (lower, upper) = EvaluationsStub.Bound(accuracy, len(xTrainRaw))
+                                            print('Accuracy from Cross Validation is %f, with lower bound %f and upper bound %f' % (accuracy, lower, upper))
+                                            if best_accuracy < accuracy:
+                                                best_accuracy = accuracy
+                                                best_parameter = (layer, optimizer_type, pool, iteration, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out)
 
     (layer, optimizer_type, pool, iteration, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out) = best_parameter
     print('When')

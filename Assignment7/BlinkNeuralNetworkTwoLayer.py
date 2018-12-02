@@ -6,18 +6,18 @@ class BlinkNeuralNetwork(nn.Module):
         super(BlinkNeuralNetwork, self).__init__()
 
         self.conv1 = nn.Sequential(
-            nn.Conv2d(1, conv1_out, kernel_size=conv1_kernel_size, stride=1, padding=1),
+            nn.Conv2d(1, conv1_out, kernel_size=conv1_kernel_size, stride=1, padding=0),
             nn.ReLU()
         )
         self.conv1_bn = nn.BatchNorm2d(conv1_out)
         self.conv2 = nn.Sequential(
-            nn.Conv2d(conv1_out, conv2_out, kernel_size=conv2_kernel_size, stride=1, padding=1),
+            nn.Conv2d(conv1_out, conv2_out, kernel_size=conv2_kernel_size, stride=1, padding=0),
             nn.ReLU()
         )
         self.conv2_bn = nn.BatchNorm2d(conv2_out)
         self.pool = nn.AvgPool2d(kernel_size=2, stride=2, padding=0) if pool == 'Average' else nn.MaxPool2d(kernel_size=2, stride=2, padding=0)
         self.fc1 = nn.Sequential(
-            nn.Linear(conv2_out * 5 * 5, nn1_out, bias=True),
+            nn.Linear(conv2_out * 4 * 4, nn1_out, bias=True),
             nn.Sigmoid(),
             nn.Dropout(0.4)
         )
@@ -38,15 +38,15 @@ class BlinkNeuralNetwork(nn.Module):
     def forward(self, x):
         # Size is (1, 24, 24)
         out = self.conv1_bn(self.conv1(x))
-        # Size is (conv1_out, 22, 22)
+        # Size is (conv1_out, 20, 20)
         out = self.pool(out)
-        # Size is (conv1_out, 11, 11)
+        # Size is (conv1_out, 10, 10)
         out = self.conv2_bn(self.conv2(out))
-        # Size is (conv2_out, 9, 9)
+        # Size is (conv2_out, 8, 8)
         out = self.pool(out)
-        # Size is (conv2_out, 5, 5)
+        # Size is (conv2_out, 4, 4)
         out = out.reshape(out.size(0), -1)
-        # Size is (1, conv2_out * 5 * 5)
+        # Size is (1, conv2_out * 4 * 4)
         out = self.fc1_bn(self.fc1(out))
         # Size is (1, nn1_out)
         out = self.fc2_bn(self.fc2(out))
