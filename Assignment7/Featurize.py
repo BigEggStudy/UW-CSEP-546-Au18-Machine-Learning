@@ -33,11 +33,10 @@ def Featurize(images, labels, contain_mirror = False, transform_batch_size = 0, 
             x = torch.cat((x, mirror_x), 0)
             y = torch.cat((y, mirror_y), 0)
 
-    # if shuffle:
-    #     print(x[0])
-    #     data = list(zip(x, y))
-    #     random.shuffle(data)
-    #     x, y = zip(*data)
-    #     print(x[0])
+    if shuffle:
+        indexes = torch.randperm(len(x))
+        x_perm = x[indexes]
+        y_perm = y[indexes]
+        x, y = x_perm, y_perm
 
     return (x, y)
