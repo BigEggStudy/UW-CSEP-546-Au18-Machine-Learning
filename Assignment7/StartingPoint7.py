@@ -135,23 +135,36 @@ if __name__=='__main__':
 
     ############################
 
-    # (layer, optimizer_type, pool, iteration, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out) = (1, 'Adam', 'Max', 500, 0.05, 0.25, 16, 5, 32, 5, 40, 30)
+    print('========== Test the Best Model with More Data ==========')
+    for mirror, batch_size in [(False, 0), (True, 0), (True, 1), (True, 2)]:
+        (xTrain, yTrain) = Featurize.Featurize(xTrainImages, yTrainRaw, mirror, batch_size)
+        print(f'Training data size: {xTrain.size()}')
 
-    # print('========== Training the Best Model with more Data ==========')
-    # transforms_data_in_training, batch_size, shuffle, mirror = (True, 4, True, True)
-    # xTrain, yTrain = Featurize.Featurize(xTrainImages, yTrainRaw, transforms_data=transforms_data_in_training, batch_size=batch_size, shuffle=shuffle, mirror=mirror)
-    # print(f'Use the transfromed data to train: {transforms_data_in_training} with batch size {batch_size}, with mirror data {mirror}, and shuffle {shuffle}')
-    # print(f'Training data size: {xTrain.size()}')
+        print('### Cross Validation on Training Set')
+        result = crossValidation.validate(xTrain, yTrain, 2, 'Adam', 'Max', 1500, 0.01, 0, 6, 5, 16, 3, 120, 84)
+        for (iteration, accuracy) in result:
+            print(f'With iteration {iteration}')
+            (lower, upper) = EvaluationsStub.Bound(accuracy, len(xTrainRaw))
+            print('Accuracy from Cross Validation is %f, with lower bound %f and upper bound %f' % (accuracy, lower, upper))
 
-    # model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out, nn2_out=nn2_out) \
-    #         if layer == 2 else \
-    #         BlinkNeuralNetwork.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out)
-    # lossFunction = torch.nn.MSELoss(reduction='sum')
-    # optimizer = torch.optim.Adam(model.parameters(lr=learning_rate)) if optimizer_type == 'Adam' else torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=momentum)
+        print('Test on Test Set')
+        model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork(pool='Max', conv1_out=6, conv1_kernel_size=5, conv2_out=16, conv2_kernel_size=3, nn1_out=120, nn2_out=84)
+        lossFunction = torch.nn.MSELoss(reduction='sum')
+        optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
 
-    # for i in range(iteration):
-    #     yTrainPredicted = model(foldTrainX)
-    #     loss = lossFunction(yTrainPredicted, foldTrainY)
-    #     optimizer.zero_grad()
-    #     loss.backward()
-    #     optimizer.step()
+        model.train()
+        for i in range(901):
+            yTrainPredicted = model(xTrain)
+            loss = lossFunction(yTrainPredicted, yTrain)
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+            if i > 100 and (i + 1) % 100 == 0:
+                model.eval()
+                print(f'Predict Test Data at iteration {i + 1}')
+                yTestPredicted = model(xTest)
+                yPred = [ 1 if pred > 0.5 else 0 for pred in yTestPredicted ]
+                testAccuracy = EvaluationsStub.Accuracy(yTest, yPred)
+                (lower, upper) = EvaluationsStub.Bound(testAccuracy, len(yPred))
+                print("Test Set Accuracy is %f, with lower bound %f and upper bound %f" % (testAccuracy, lower, upper))
+                model.train()
