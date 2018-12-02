@@ -168,3 +168,72 @@ if __name__=='__main__':
                 (lower, upper) = EvaluationsStub.Bound(testAccuracy, len(yPred))
                 print("Test Set Accuracy is %f, with lower bound %f and upper bound %f" % (testAccuracy, lower, upper))
                 model.train()
+
+    ############################
+
+    print('========== Find best parameter for the Best Model with more Data ==========')
+    contain_mirror = True
+    transform_batch_size = 2
+    (xTrain, yTrain) = Featurize.Featurize(xTrainImages, yTrainRaw, contain_mirror, transform_batch_size)
+    print(f'Use mirror data True, use transfromed data True, use transfromed mirror data, transform batch size {transform_batch_size}, and shuffle False')
+    print(f'Training data size: {xTrain.size()}')
+
+    best_accuracy = 0
+    best_parameter = (0, 0.0)
+    layer = 2
+    nn1_out, nn2_out = (120, 84)
+    conv1_out, conv2_out = (6, 16)
+    momentum = 0
+    optimizer_type = 'Adam'
+    for learning_rate in [0.001, 0.01, 0.1]:
+        for conv1_kernel_size, conv2_kernel_size in [(5, 3), (5, 5)]:
+            for pool in ['Max', 'Average']:
+                print(f'Training a {layer} fully connect layer(s) Model with {optimizer_type} optimizer and {pool} pooling')
+                print(f'2 convolution layer output channel are ({conv1_out}, {conv2_out}), and kernel size are ({conv1_kernel_size}, {conv2_kernel_size})')
+                print(f'2 fully connect layers output channel are ({nn1_out}, {nn2_out})')
+                print(f'With learning rate {learning_rate}, momentum beta {momentum}')
+
+                result = crossValidation.validate(xTrain, yTrain, layer, optimizer_type, pool, 1500, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out)
+                for (iteration, accuracy) in result:
+                    print(f'With iteration {iteration}')
+                    (lower, upper) = EvaluationsStub.Bound(accuracy, len(xTrainRaw))
+                    print('Accuracy from Cross Validation is %f, with lower bound %f and upper bound %f' % (accuracy, lower, upper))
+                    if best_accuracy < accuracy:
+                        best_accuracy = accuracy
+                        best_parameter = (layer, optimizer_type, pool, iteration, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out)
+
+    (layer, optimizer_type, pool, iteration, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out) = best_parameter
+    print('When')
+    print(f'Training a {layer} layer(s) Model with {optimizer_type} optimizer and {pool} pooling')
+    print(f'2 convolution layer output channel are ({conv1_out}, {conv2_out}), and kernel size are ({conv1_kernel_size}, {conv2_kernel_size})')
+    print(f'2 fully connect layer output channel are ({nn1_out}, {nn2_out})')
+    print(f'With learning rate {learning_rate}, momentum beta {momentum}, iteration {iteration}')
+    print('Convolution Neural Networks has best accuracy %f' % best_accuracy)
+
+    ############################
+
+    print('========== Test the Best Model ==========')
+    (xTrain, yTrain) = Featurize.Featurize(xTrainImages, yTrainRaw, True, 2)
+    print(xTrain.size())
+    model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork(pool=pool, conv1_out=6, conv1_kernel_size=conv1_kernel_size, conv2_out=16, conv2_kernel_size=conv2_kernel_size, nn1_out=120, nn2_out=84)
+    lossFunction = torch.nn.MSELoss(reduction='sum')
+    optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+
+    model.train()
+    for i in range(901):
+        yTrainPredicted = model(xTrain)
+        loss = lossFunction(yTrainPredicted, yTrain)
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+
+        if i > 100 and (i + 1) % 100 == 0:
+            model.eval()
+            print(f'Predict Test Data at iteration {i + 1}')
+            yTestPredicted = model(xTest)
+            yPred = [ 1 if pred > 0.5 else 0 for pred in yTestPredicted ]
+            testAccuracy = EvaluationsStub.Accuracy(yTest, yPred)
+            (lower, upper) = EvaluationsStub.Bound(testAccuracy, len(yPred))
+            print("Test Set Accuracy is %f, with lower bound %f and upper bound %f" % (testAccuracy, lower, upper))
+            model.train()
+
