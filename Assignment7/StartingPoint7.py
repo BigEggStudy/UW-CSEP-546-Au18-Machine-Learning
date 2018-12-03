@@ -173,9 +173,9 @@ if __name__=='__main__':
 
     print('========== Find best parameter for the Best Model with more Data ==========')
     contain_mirror = True
-    transform_batch_size = 2
-    (xTrain, yTrain) = Featurize.Featurize(xTrainImages, yTrainRaw, contain_mirror, transform_batch_size)
-    print(f'Use mirror data True, use transfromed data True, use transfromed mirror data, transform batch size {transform_batch_size}, and shuffle False')
+    transform_batch_size = 1
+    (xTrain, yTrain) = Featurize.Featurize(xTrainImages, yTrainRaw, contain_mirror, transform_batch_size, True)
+    print(f'Use mirror data True, use transformed data True, use transformed mirror data, transform batch size {transform_batch_size}, and shuffle True')
     print(f'Training data size: {xTrain.size()}')
 
     best_accuracy = 0
@@ -185,15 +185,17 @@ if __name__=='__main__':
     conv1_out, conv2_out = (6, 16)
     momentum = 0
     optimizer_type = 'Adam'
-    for learning_rate in [0.001, 0.01, 0.1]:
-        for conv1_kernel_size, conv2_kernel_size in [(5, 3), (5, 5)]:
-            for pool in ['Max', 'Average']:
+    for pool in ['Max', 'Average']:
+        for learning_rate in [0.01, 0.1]:
+            for conv1_kernel_size, conv2_kernel_size in [(5, 3), (5, 5)]:
+                if pool == 'Max' and learning_rate == 0.01 and conv1_kernel_size == 5 and conv2_kernel_size == 3:
+                    continue
                 print(f'Training a {layer} fully connect layer(s) Model with {optimizer_type} optimizer and {pool} pooling')
                 print(f'2 convolution layer output channel are ({conv1_out}, {conv2_out}), and kernel size are ({conv1_kernel_size}, {conv2_kernel_size})')
                 print(f'2 fully connect layers output channel are ({nn1_out}, {nn2_out})')
                 print(f'With learning rate {learning_rate}, momentum beta {momentum}')
 
-                result = crossValidation.validate(xTrain, yTrain, layer, optimizer_type, pool, 1500, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out)
+                result = crossValidation.validate2(xTrain, yTrain, layer, optimizer_type, pool, 1500, learning_rate, momentum, conv1_out, conv1_kernel_size, conv2_out, conv2_kernel_size, nn1_out, nn2_out)
                 for (iteration, accuracy) in result:
                     print(f'With iteration {iteration}')
                     (lower, upper) = EvaluationsStub.Bound(accuracy, len(xTrainRaw))
@@ -213,14 +215,12 @@ if __name__=='__main__':
     ############################
 
     print('========== Test the Best Model ==========')
-    (xTrain, yTrain) = Featurize.Featurize(xTrainImages, yTrainRaw, True, 2)
-    print(xTrain.size())
     model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork(pool=pool, conv1_out=6, conv1_kernel_size=conv1_kernel_size, conv2_out=16, conv2_kernel_size=conv2_kernel_size, nn1_out=120, nn2_out=84)
     lossFunction = torch.nn.MSELoss(reduction='sum')
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
     model.train()
-    for i in range(901):
+    for i in range(1500):
         yTrainPredicted = model(xTrain)
         loss = lossFunction(yTrainPredicted, yTrain)
         optimizer.zero_grad()
