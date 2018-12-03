@@ -8,6 +8,8 @@ from collections import defaultdict
 
 import BlinkNeuralNetwork
 import BlinkNeuralNetworkTwoLayer
+import BlinkNeuralNetworkTwoLayer2
+import BlinkNeuralNetworkTwoLayerSoftMax
 
 class CrossValidation(object):
     def __init__(self, k):
@@ -53,6 +55,86 @@ class CrossValidation(object):
                     BlinkNeuralNetwork.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out)
             lossFunction = torch.nn.MSELoss(reduction='sum')
             optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate) if optimizer_type == 'Adam' else torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=momentum)
+
+            corrects = []
+            model.train()
+            for i in range(max_iteration):
+                yTrainPredicted = model(foldTrainX)
+                loss = lossFunction(yTrainPredicted, foldTrainY)
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
+
+                if i > 100 and (i + 1) % 100 == 0:
+                    model.eval()
+                    yPredicted = model(foldValidationX)
+                    yPred = [ 1 if pred > 0.5 else 0 for pred in yPredicted ]
+                    model.train()
+
+                    corrects.append((i + 1, self.__countCorrect(yPred, foldValidationY)))
+            return corrects
+
+        totalCorrects = defaultdict(int)
+        for i in range(self.k):
+            results = validation_core(i, x, y)
+            for iteration, correct_count in results:
+                totalCorrects[iteration] += correct_count
+        # totalCorrects = Parallel(n_jobs=6)(delayed(validation_core)(i, x, y) for i in range(self.k))
+        # accuracy = sum(totalCorrects) / len(x)
+
+        accuracies = []
+        for key in totalCorrects.keys():
+            accuracies.append((key, totalCorrects[key] / len(x)))
+        return accuracies
+
+    def validate2(self, x, y, layer = 1, optimizer_type = 'SGD', pool = 'Max', max_iteration = 500, learning_rate = 0.05, momentum = 0.25, conv1_out = 16, conv1_kernel_size = 5, conv2_out = 16, conv2_kernel_size = 3, nn1_out = 20, nn2_out = 20):
+        def validation_core(i, x, y):
+            (foldTrainX, foldTrainY, foldValidationX, foldValidationY) = self.__splitDataFold(x, y, i)
+
+            model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out, nn2_out=nn2_out) \
+                    if conv2_kernel_size == 3 else \
+                    BlinkNeuralNetworkTwoLayer2.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out, nn2_out=nn2_out)
+            lossFunction = torch.nn.MSELoss(reduction='sum')
+            optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate) if optimizer_type == 'Adam' else torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=momentum)
+
+            corrects = []
+            model.train()
+            for i in range(max_iteration):
+                yTrainPredicted = model(foldTrainX)
+                loss = lossFunction(yTrainPredicted, foldTrainY)
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
+
+                if i > 100 and (i + 1) % 100 == 0:
+                    model.eval()
+                    yPredicted = model(foldValidationX)
+                    yPred = [ 1 if pred > 0.5 else 0 for pred in yPredicted ]
+                    model.train()
+
+                    corrects.append((i + 1, self.__countCorrect(yPred, foldValidationY)))
+            return corrects
+
+        totalCorrects = defaultdict(int)
+        for i in range(self.k):
+            results = validation_core(i, x, y)
+            for iteration, correct_count in results:
+                totalCorrects[iteration] += correct_count
+        # totalCorrects = Parallel(n_jobs=6)(delayed(validation_core)(i, x, y) for i in range(self.k))
+        # accuracy = sum(totalCorrects) / len(x)
+
+        accuracies = []
+        for key in totalCorrects.keys():
+            accuracies.append((key, totalCorrects[key] / len(x)))
+        return accuracies
+
+    def validate_softmax(self, x, y, max_iteration = 1500, pool = 'Max', learning_rate = 0.05, conv1_kernel_size = 5, conv2_kernel_size = 3):
+        def validation_core(i, x, y):
+            (foldTrainX, foldTrainY, foldValidationX, foldValidationY) = self.__splitDataFold(x, y, i)
+
+            model = BlinkNeuralNetworkTwoLayerSoftMax.BlinkNeuralNetwork(pool=pool, conv1_out=6, conv1_kernel_size=conv1_kernel_size, conv2_out=16, conv2_kernel_size=conv2_kernel_size, nn1_out=120, nn2_out=84)
+            lossFunction = torch.nn.MSELoss(reduction='sum')
+            optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
             corrects = []
             model.train()
