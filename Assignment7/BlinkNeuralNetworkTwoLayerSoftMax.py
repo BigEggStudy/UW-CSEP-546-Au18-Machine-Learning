@@ -18,24 +18,24 @@ class BlinkNeuralNetwork(nn.Module):
         self.pool = nn.AvgPool2d(kernel_size=2, stride=2, padding=0) if pool == 'Average' else nn.MaxPool2d(kernel_size=2, stride=2, padding=0)
         self.fc1 = nn.Sequential(
             nn.Linear(conv2_out * 4 * 4, nn1_out, bias=True),
-            nn.Sigmoid(),
-            nn.Dropout(0.4)
+            nn.ReLU(),
+            nn.Dropout(0.1)
         )
         self.fc1_bn = nn.BatchNorm1d(nn1_out)
         self.fc2 = nn.Sequential(
             nn.Linear(nn1_out, nn2_out, bias=True),
-            nn.Sigmoid(),
-            nn.Dropout(0.4)
+            nn.ReLU(),
+            nn.Dropout(0.1)
         )
         self.fc2_bn = nn.BatchNorm1d(nn2_out)
 
         # Fully connected layer from the hidden layer to a single output node
-        self.outputLayer1 = nn.Sequential(
-            nn.Linear(nn2_out, 2),
-            nn.Sigmoid()
-        )
-        self.outputLayer2 = nn.Sequential(
-            nn.Linear(2, 1),
+        # self.outputLayer1 = nn.Sequential(
+        #     nn.Linear(nn2_out, 2),
+        #     nn.Sigmoid()
+        # )
+        self.outputLayer = nn.Sequential(
+            nn.Linear(nn2_out, 1),
             nn.Softmax()
         )
 
@@ -55,8 +55,6 @@ class BlinkNeuralNetwork(nn.Module):
         # Size is (1, nn1_out)
         out = self.fc2_bn(self.fc2(out))
         # Size is (1, nn2_out)
-        out = self.outputLayer1(out)
-        # Size is (2, 1)
-        out = self.outputLayer2(out)
+        out = self.outputLayer(out)
         # Size is (1, 1)
         return out

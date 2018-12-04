@@ -87,13 +87,13 @@ class CrossValidation(object):
             accuracies.append((key, totalCorrects[key] / len(x)))
         return accuracies
 
-    def validate2(self, x, y, layer = 1, optimizer_type = 'SGD', pool = 'Max', max_iteration = 500, learning_rate = 0.05, momentum = 0.25, conv1_out = 16, conv1_kernel_size = 5, conv2_out = 16, conv2_kernel_size = 3, nn1_out = 20, nn2_out = 20):
+    def validate2(self, x, y, layer = 2, optimizer_type = 'Adam', pool = 'Max', max_iteration = 500, learning_rate = 0.05, momentum = 0.25, conv1_out = 16, conv1_kernel_size = 5, conv2_out = 16, conv2_kernel_size = 3, nn1_out = 120, nn2_out = 84, dropout=0.4):
         def validation_core(i, x, y):
             (foldTrainX, foldTrainY, foldValidationX, foldValidationY) = self.__splitDataFold(x, y, i)
 
-            model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out, nn2_out=nn2_out) \
-                    if conv2_kernel_size == 3 else \
-                    BlinkNeuralNetworkTwoLayer2.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out, nn2_out=nn2_out)
+            model = BlinkNeuralNetworkTwoLayer.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out, nn2_out=nn2_out, dropout=dropout)
+                    # if conv2_kernel_size == 3 else \
+                    # BlinkNeuralNetworkTwoLayer2.BlinkNeuralNetwork(pool=pool, conv1_out=conv1_out, conv1_kernel_size=conv1_kernel_size, conv2_out=conv2_out, conv2_kernel_size=conv2_kernel_size, nn1_out=nn1_out, nn2_out=nn2_out)
             lossFunction = torch.nn.MSELoss(reduction='sum')
             optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate) if optimizer_type == 'Adam' else torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=momentum)
 

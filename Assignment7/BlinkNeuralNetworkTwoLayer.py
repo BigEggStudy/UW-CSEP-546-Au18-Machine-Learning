@@ -2,16 +2,16 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class BlinkNeuralNetwork(nn.Module):
-    def __init__(self, pool = 'Max', conv1_out = 16, conv1_kernel_size = 5, conv2_out = 16, conv2_kernel_size = 3, nn1_out = 20, nn2_out = 20):
+    def __init__(self, pool = 'Max', conv1_out = 16, conv1_kernel_size = 5, conv2_out = 16, conv2_kernel_size = 3, nn1_out = 120, nn2_out = 84, dropout = 0.4):
         super(BlinkNeuralNetwork, self).__init__()
 
         self.conv1 = nn.Sequential(
-            nn.Conv2d(1, conv1_out, kernel_size=conv1_kernel_size, stride=1, padding=0),
+            nn.Conv2d(1, conv1_out, kernel_size=5, stride=1, padding=0),
             nn.ReLU()
         )
         self.conv1_bn = nn.BatchNorm2d(conv1_out)
         self.conv2 = nn.Sequential(
-            nn.Conv2d(conv1_out, conv2_out, kernel_size=conv2_kernel_size, stride=1, padding=0),
+            nn.Conv2d(conv1_out, conv2_out, kernel_size=3, stride=1, padding=0),
             nn.ReLU()
         )
         self.conv2_bn = nn.BatchNorm2d(conv2_out)
@@ -19,13 +19,13 @@ class BlinkNeuralNetwork(nn.Module):
         self.fc1 = nn.Sequential(
             nn.Linear(conv2_out * 4 * 4, nn1_out, bias=True),
             nn.Sigmoid(),
-            nn.Dropout(0.4)
+            nn.Dropout(dropout)
         )
         self.fc1_bn = nn.BatchNorm1d(nn1_out)
         self.fc2 = nn.Sequential(
             nn.Linear(nn1_out, nn2_out, bias=True),
             nn.Sigmoid(),
-            nn.Dropout(0.4)
+            nn.Dropout(dropout)
         )
         self.fc2_bn = nn.BatchNorm1d(nn2_out)
 
