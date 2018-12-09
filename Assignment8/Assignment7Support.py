@@ -5,14 +5,14 @@ import math
 
 
 # Mountain cart's state is described here: https://github.com/openai/gym/wiki/MountainCar-v0
-mountainCarBinsPerDimension = 20
+# mountainCarBinsPerDimension = 20
 mountainCarLow = [ -1.2 , -0.07 ]
 mountainCarHigh = [ 0.6 , 0.07 ]
 
-def MountainCarStateSpaceShape():
+def MountainCarStateSpaceShape(mountainCarBinsPerDimension = 20):
     return [ mountainCarBinsPerDimension, mountainCarBinsPerDimension ]
 
-def MountainCarObservationToStateSpace(observation):
+def MountainCarObservationToStateSpace(observation, mountainCarBinsPerDimension = 20):
     return [ _DimensionBinIndex(mountainCarLow[i], mountainCarHigh[i], mountainCarBinsPerDimension, observation[i]) for i in range(len(mountainCarLow)) ]
 
 def _DimensionBinIndex(binMin, binMax, binsPerDimension, value):
@@ -28,7 +28,7 @@ def _DimensionBinIndex(binMin, binMax, binsPerDimension, value):
 
     return min(binIndex, binsPerDimension - 1) # this min is so the max value ends up in the last bin, not beyond it
 
-# CartPole's state is described here: 
+# CartPole's state is described here:
 cartPoleBinsPerDimension = 20
 cartPoleLow = [ -4.8000002e+00, -4, -4.1887903e-01, -4 ]
 cartPoleHigh = [ 4.8000002e+00, 4, 4.1887903e-01, 4 ]
