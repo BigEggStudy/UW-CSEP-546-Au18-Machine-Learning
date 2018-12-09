@@ -19,11 +19,13 @@ trainingIterations = 20000
 
 if __name__=="__main__":
     def training_ten(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20):
+        print('10 Attempt for this parameters set')
+        print(f'discountRate = {discountRate}, actionProbabilityBase = {actionProbabilityBase}, trainingIterations = {trainingIterations}, mountainCarBinsPerDimension = {mountainCarBinsPerDimension}')
         total_scores = Parallel(n_jobs=6)(delayed(training_one)(discountRate, actionProbabilityBase, trainingIterations, mountainCarBinsPerDimension, False) for _ in range(10))
         return (sum(total_scores) / float(len(total_scores)), total_scores)
 
     def training_one(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20, render = False):
-        qlearner = QLearning.QLearning(stateSpaceShape=Assignment7Support.MountainCarStateSpaceShape(), numActions=env.action_space.n, discountRate=discountRate)
+        qlearner = QLearning.QLearning(stateSpaceShape=Assignment7Support.MountainCarStateSpaceShape(mountainCarBinsPerDimension), numActions=env.action_space.n, discountRate=discountRate)
 
         for trialNumber in range(trainingIterations):
             observation = env.reset()
@@ -98,55 +100,13 @@ if __name__=="__main__":
     #########################################
 
     best_score = float('-Inf')
-    best_bins = 0
-    x = []
-    y = []
-    print('Tune the Bins per Dimension')
-    for bins in [20, 30, 40, 50, 60, 70, 80, 90, 100]:
-        print(f'[{datetime.datetime.now()}] mountainCarBinsPerDimension {bins}')
-        score, all_score = training_ten(mountainCarBinsPerDimension=bins)
-        x.append(bins)
-        y.append(score)
-        if score > best_score:
-            best_score = score
-            best_bins = bins
-        print(f'[{datetime.datetime.now()}] The average score is {score}')
-
-    plot_result(x, y, 'Bins per Dimension vs Score', 'Bins per Dimension', True)
-    print(f'When Bins per Dimension is {best_bins}, the Q-Learning Agent performance the best')
-    print(f'When Score is {best_score}')
-
-    #########################################
-
-    best_score = float('-Inf')
-    best_iteration = 0
-    x = []
-    y = []
-    print('Tune the Training Iterations')
-    for iteration in [20000, 25000, 30000, 35000, 40000, 50000]:
-        print(f'[{datetime.datetime.now()}] Training with trainingIterations {iteration}')
-        score = training_ten(mountainCarBinsPerDimension=best_bins, trainingIterations=iteration)
-        x.append(iteration)
-        y.append(score)
-        if score > best_score:
-            best_score = score
-            best_iteration = iteration
-        print(f'[{datetime.datetime.now()}] The average score is {score}')
-
-    plot_result(x, y, 'Training Iterations vs Score', 'Training Iterations', True)
-    print(f'When Training Iterations is {best_iteration}, the Q-Learning Agent performance the best')
-    print(f'When Score is {best_score}')
-
-    #########################################
-
-    best_score = float('-Inf')
     best_base = 0
     x = []
     y = []
     print('Tune the Action Probability Base')
-    for base in [1.1, 1.2, 1.3, 1.4, 1.5, 1.8, 2.7]:
+    for base in [1.1, 1.2, 1.3, 1.4, 1.5, 1.8, 2.7, 5, 7]:
         print(f'[{datetime.datetime.now()}] Training with actionProbabilityBase {base}')
-        score = training_ten(mountainCarBinsPerDimension=best_bins, trainingIterations=best_iteration, actionProbabilityBase=base)
+        score = training_ten(actionProbabilityBase=base)
         x.append(base)
         y.append(score)
         if score > best_score:
@@ -161,11 +121,32 @@ if __name__=="__main__":
     #########################################
 
     best_score = float('-Inf')
+    best_bins = 0
+    x = []
+    y = []
+    print('Tune the Bins per Dimension')
+    for bins in range(20, 201, 10):
+        print(f'[{datetime.datetime.now()}] mountainCarBinsPerDimension {bins}')
+        score, all_score = training_ten(actionProbabilityBase=best_base, mountainCarBinsPerDimension=bins)
+        x.append(bins)
+        y.append(score)
+        if score > best_score:
+            best_score = score
+            best_bins = bins
+        print(f'[{datetime.datetime.now()}] The average score is {score}')
+
+    plot_result(x, y, 'Bins per Dimension vs Score', 'Bins per Dimension', True)
+    print(f'When Bins per Dimension is {best_bins}, the Q-Learning Agent performance the best')
+    print(f'When Score is {best_score}')
+
+    #########################################
+
+    best_score = float('-Inf')
     best_discount_rate = 0
     x = []
     y = []
     print('Tune the Discount Rate')
-    for discount_rate in [0.99, 0.98, 0.97, 0.96, 0.95, 0.9, 0.8, 0.75]:
+    for discount_rate in [1, 0.99, 0.98, 0.97, 0.96, 0.95, 0.9, 0.8, 0.75]:
         print(f'[{datetime.datetime.now()}] Training with discountRate {discount_rate}')
         score = training_ten(mountainCarBinsPerDimension=best_bins, trainingIterations=best_iteration, actionProbabilityBase=best_base, discountRate=discount_rate)
         x.append(discount_rate)
@@ -177,4 +158,25 @@ if __name__=="__main__":
 
     plot_result(x, y, 'Discount Rate vs Score', 'Discount Rate', True)
     print(f'When Discount Rate is {best_discount_rate}, the Q-Learning Agent performance the best')
+    print(f'When Score is {best_score}')
+
+    #########################################
+
+    best_score = float('-Inf')
+    best_iteration = 0
+    x = []
+    y = []
+    print('Tune the Training Iterations')
+    for iteration in [20000, 25000, 30000, 35000, 40000, 50000]:
+        print(f'[{datetime.datetime.now()}] Training with trainingIterations {iteration}')
+        score = training_ten(actionProbabilityBase=best_base, mountainCarBinsPerDimension=best_bins, trainingIterations=iteration)
+        x.append(iteration)
+        y.append(score)
+        if score > best_score:
+            best_score = score
+            best_iteration = iteration
+        print(f'[{datetime.datetime.now()}] The average score is {score}')
+
+    plot_result(x, y, 'Training Iterations vs Score', 'Training Iterations', True)
+    print(f'When Training Iterations is {best_iteration}, the Q-Learning Agent performance the best')
     print(f'When Score is {best_score}')
