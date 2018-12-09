@@ -106,7 +106,7 @@ if __name__=="__main__":
     print('Tune the Action Probability Base')
     for base in [1.1, 1.2, 1.3, 1.4, 1.5, 1.8, 2.7, 5, 7]:
         print(f'[{datetime.datetime.now()}] Training with actionProbabilityBase {base}')
-        score = training_ten(actionProbabilityBase=base)
+        score, all_score = training_ten(actionProbabilityBase=base)
         x.append(base)
         y.append(score)
         if score > best_score:
@@ -148,7 +148,7 @@ if __name__=="__main__":
     print('Tune the Discount Rate')
     for discount_rate in [1, 0.99, 0.98, 0.97, 0.96, 0.95, 0.9, 0.8, 0.75]:
         print(f'[{datetime.datetime.now()}] Training with discountRate {discount_rate}')
-        score = training_ten(mountainCarBinsPerDimension=best_bins, trainingIterations=best_iteration, actionProbabilityBase=best_base, discountRate=discount_rate)
+        score, all_score = training_ten(mountainCarBinsPerDimension=best_bins, trainingIterations=best_iteration, actionProbabilityBase=best_base, discountRate=discount_rate)
         x.append(discount_rate)
         y.append(score)
         if score > best_score:
@@ -169,7 +169,7 @@ if __name__=="__main__":
     print('Tune the Training Iterations')
     for iteration in [20000, 25000, 30000, 35000, 40000, 50000]:
         print(f'[{datetime.datetime.now()}] Training with trainingIterations {iteration}')
-        score = training_ten(actionProbabilityBase=best_base, mountainCarBinsPerDimension=best_bins, trainingIterations=iteration)
+        score, all_score = training_ten(actionProbabilityBase=best_base, mountainCarBinsPerDimension=best_bins, trainingIterations=iteration)
         x.append(iteration)
         y.append(score)
         if score > best_score:
