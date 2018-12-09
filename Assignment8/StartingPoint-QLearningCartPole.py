@@ -72,6 +72,7 @@ if __name__=="__main__":
         print(f'[{datetime.datetime.now()}] End of the Test, runs id {runs_index + 1}')
         print(f'runs id {runs_index + 1}, {totalRewards}')
         print(f'Your Score: {average_score}, runs id {runs_index + 1}')
+        return average_score
 
     print('========== Start 10 runs of Cart Pole ==========')
     total_scores = Parallel(n_jobs=6)(delayed(training_one)(i) for i in range(10))
