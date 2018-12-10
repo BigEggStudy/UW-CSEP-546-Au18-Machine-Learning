@@ -11,11 +11,11 @@ env = gym.make('MountainCar-v0')
 import QLearning # your implementation goes here...
 import Assignment7Support
 
-discountRate = 0.98          # Controls the discount rate for future rewards -- this is gamma from 13.10
-actionProbabilityBase = 1.8  # This is k from the P(a_i|s) expression from section 13.3.5 and influences how random exploration is
-randomActionRate = 0.01      # Percent of time the next action selected by GetAction is totally random
-learningRateScale = 0.01     # Should be multiplied by visits_n from 13.11.
-trainingIterations = 20000
+# discountRate = 0.98          # Controls the discount rate for future rewards -- this is gamma from 13.10
+# actionProbabilityBase = 1.8  # This is k from the P(a_i|s) expression from section 13.3.5 and influences how random exploration is
+# randomActionRate = 0.01      # Percent of time the next action selected by GetAction is totally random
+# learningRateScale = 0.01     # Should be multiplied by visits_n from 13.11.
+# trainingIterations = 20000
 
 if __name__=="__main__":
     def training_ten(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20):
@@ -42,7 +42,12 @@ if __name__=="__main__":
                 # learning rate scale
                 qlearner.ObserveAction(oldState, action, newState, reward, learningRateScale=learningRateScale)
 
+                if use_memory:
+                    qlearner.record(oldState, action, newState, reward)
+
                 if isDone:
+                    if use_memory:
+                        qlearner.replay(learningRateScale)
                 #     if (trialNumber + 1) % 1000 == 0:
                 #         print(trialNumber + 1, i + 1, np.min(qlearner.q_table), np.mean(qlearner.q_table))
                     break
@@ -189,3 +194,33 @@ if __name__=="__main__":
     print(f'When Training Iterations is {best_iteration}, the Q-Learning Agent performance the best')
     print(f'The best score is {best_score}')
     best_iteration = 35000
+
+    #########################################
+
+    print('========== Find a better Parameters Set ==========')
+    best_score = -101.86999999999999
+    best_parameters = (7, 50, 1, 30000, 0.01, 0.01)
+    for iteration in [30000, 35000, 40000]:
+        for random_action_rate in [0.01, 0.02, 0.03, 0.05]:
+            for learning_rate_scale in [0.01, 0.02, 0.03, 0.05]:
+                for bins in range(50, 101, 10):
+                    for base in [5, 7, 11, 13]:
+                        for discount_rate in [1, 0.99, 0.98]:
+                            score, all_score = training_ten(actionProbabilityBase=base, mountainCarBinsPerDimension=bins, discountRate=discount_rate, trainingIterations=iteration, randomActionRate=random_action_rate, learningRateScale=learning_rate_scale)
+                            if score > best_score:
+                                best_score = score
+                                best_parameters = (base, bins, discount_rate, iteration, random_action_rate, learning_rate_scale)
+                            print(f'[{datetime.datetime.now()}] The average score is {score}')
+
+        print(f'For Now....')
+        (base, bins, discount_rate, iteration, random_action_rate, learning_rate_scale) = best_parameters
+        print(f'When with the following parameters, the Q-Learning Agent performance the best')
+        print(f'discountRate = {discount_rate}, actionProbabilityBase = {base}, trainingIterations = {iteration}, mountainCarBinsPerDimension = {bins}, randomActionRate = {random_action_rate}, learningRateScale = {learning_rate_scale}')
+        print(f'The best score is {best_score}')
+
+    (base, bins, discount_rate, iteration, random_action_rate, learning_rate_scale) = best_parameters
+    print(f'Overall....')
+    print(f'When with the following parameters, the Q-Learning Agent performance the best')
+    print(f'discountRate = {discount_rate}, actionProbabilityBase = {base}, trainingIterations = {iteration}, mountainCarBinsPerDimension = {bins}, randomActionRate = {random_action_rate}, learningRateScale = {learning_rate_scale}')
+    print(f'The best score is {best_score}')
+

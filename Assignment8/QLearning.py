@@ -46,8 +46,9 @@ class QLearning(object):
         self.memory.append((oldState, action, newState, reward))
 
     def replay(self, learningRateScale):
-        for oldState, action, newState, reward in self.memory:
-            self.ObserveAction(oldState, action, newState, reward, learningRateScale)
+        for _ in range(len(self.memory)):
+            for oldState, action, newState, reward in self.memory:
+                self.ObserveAction(oldState, action, newState, reward, learningRateScale)
 
     def clear_record(self):
         self.memory.clear()
