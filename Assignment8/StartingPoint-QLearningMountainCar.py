@@ -18,18 +18,20 @@ import Assignment7Support
 # trainingIterations = 20000
 
 if __name__=="__main__":
-    def training_ten(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20):
+    def training_ten(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20, randomActionRate = 0.01, learningRateScale = 0.01, use_memory=False):
         print('10 Attempt for this parameters set')
-        total_scores = Parallel(n_jobs=6)(delayed(training_one)(discountRate, actionProbabilityBase, trainingIterations, mountainCarBinsPerDimension, False) for _ in range(10))
         print(f'discountRate = {discountRate}, actionProbabilityBase = {actionProbabilityBase}, trainingIterations = {trainingIterations}, mountainCarBinsPerDimension = {mountainCarBinsPerDimension}, randomActionRate = {randomActionRate}, learningRateScale = {learningRateScale}')
+        total_scores = Parallel(n_jobs=6)(delayed(training_one)(discountRate, actionProbabilityBase, trainingIterations, mountainCarBinsPerDimension, False, randomActionRate, learningRateScale) for _ in range(10))
         return (sum(total_scores) / float(len(total_scores)), total_scores)
 
-    def training_one(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20, render = False):
+    def training_one(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20, render = False, randomActionRate = 0.01, learningRateScale = 0.01, use_memory=False):
         qlearner = QLearning.QLearning(stateSpaceShape=Assignment7Support.MountainCarStateSpaceShape(mountainCarBinsPerDimension), numActions=env.action_space.n, discountRate=discountRate)
 
         for trialNumber in range(trainingIterations):
             observation = env.reset()
             reward = 0
+
+            qlearner.clear_record()
             for i in range(200):
 
                 currentState = Assignment7Support.MountainCarObservationToStateSpace(observation, mountainCarBinsPerDimension)
@@ -224,3 +226,32 @@ if __name__=="__main__":
     print(f'discountRate = {discount_rate}, actionProbabilityBase = {base}, trainingIterations = {iteration}, mountainCarBinsPerDimension = {bins}, randomActionRate = {random_action_rate}, learningRateScale = {learning_rate_scale}')
     print(f'The best score is {best_score}')
 
+    #########################################
+
+    print('========== Find a better Parameters Set ==========')
+    print('========== Add memory for Q Learning ==========')
+    best_score = -float('-inf')
+    best_parameters = (7, 50, 1, 30000, 0.01, 0.01)
+    random_action_rate = 0.01
+    learning_rate_scale = 0.01
+    for iteration in [30000, 35000]:
+        for bins in range(50, 91, 10):
+            for base in [2, 2.7, 5, 7, 11]:
+                for discount_rate in [1, 0.99, 0.98]:
+                    score, all_score = training_ten(actionProbabilityBase=base, mountainCarBinsPerDimension=bins, discountRate=discount_rate, trainingIterations=iteration, randomActionRate=random_action_rate, learningRateScale=learning_rate_scale, use_memory=True)
+                    if score > best_score:
+                        best_score = score
+                        best_parameters = (base, bins, discount_rate, iteration, random_action_rate, learning_rate_scale)
+                    print(f'[{datetime.datetime.now()}] The average score is {score}')
+
+        print(f'For Now....')
+        (base, bins, discount_rate, iteration, random_action_rate, learning_rate_scale) = best_parameters
+        print(f'When with the following parameters, the Q-Learning Agent performance the best')
+        print(f'discountRate = {discount_rate}, actionProbabilityBase = {base}, trainingIterations = {iteration}, mountainCarBinsPerDimension = {bins}, randomActionRate = {random_action_rate}, learningRateScale = {learning_rate_scale}')
+        print(f'The best score is {best_score}')
+
+    (base, bins, discount_rate, iteration, random_action_rate, learning_rate_scale) = best_parameters
+    print(f'Overall....')
+    print(f'When with the following parameters, the Q-Learning Agent performance the best')
+    print(f'discountRate = {discount_rate}, actionProbabilityBase = {base}, trainingIterations = {iteration}, mountainCarBinsPerDimension = {bins}, randomActionRate = {random_action_rate}, learningRateScale = {learning_rate_scale}')
+    print(f'The best score is {best_score}')
