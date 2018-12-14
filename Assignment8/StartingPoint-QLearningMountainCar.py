@@ -18,10 +18,10 @@ import Assignment7Support
 # trainingIterations = 20000
 
 if __name__=="__main__":
-    def training_ten(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20, randomActionRate = 0.01, learningRateScale = 0.01, use_memory=False):
-        print('10 Attempt for this parameters set')
+    def training_ten(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20, randomActionRate = 0.01, learningRateScale = 0.01, use_memory=False, times = 10):
+        print(f'{times} Attempt for this parameters set')
         print(f'discountRate = {discountRate}, actionProbabilityBase = {actionProbabilityBase}, trainingIterations = {trainingIterations}, mountainCarBinsPerDimension = {mountainCarBinsPerDimension}, randomActionRate = {randomActionRate}, learningRateScale = {learningRateScale}')
-        total_scores = Parallel(n_jobs=6)(delayed(training_one)(discountRate, actionProbabilityBase, trainingIterations, mountainCarBinsPerDimension, False, randomActionRate, learningRateScale) for _ in range(10))
+        total_scores = Parallel(n_jobs=6)(delayed(training_one)(discountRate, actionProbabilityBase, trainingIterations, mountainCarBinsPerDimension, False, randomActionRate, learningRateScale) for _ in range(times))
         return (sum(total_scores) / float(len(total_scores)), total_scores)
 
     def training_one(discountRate = 0.98, actionProbabilityBase = 1.8, trainingIterations = 20000, mountainCarBinsPerDimension = 20, render = False, randomActionRate = 0.01, learningRateScale = 0.01, use_memory=False):
@@ -255,3 +255,15 @@ if __name__=="__main__":
     print(f'When with the following parameters, the Q-Learning Agent performance the best')
     print(f'discountRate = {discount_rate}, actionProbabilityBase = {base}, trainingIterations = {iteration}, mountainCarBinsPerDimension = {bins}, randomActionRate = {random_action_rate}, learningRateScale = {learning_rate_scale}')
     print(f'The best score is {best_score}')
+
+    #########################################
+
+    print('========== More Runs on Best Parameters ==========')
+    score, all_score = training_ten(actionProbabilityBase=5, mountainCarBinsPerDimension=50, discountRate=0.99, trainingIterations=30000, randomActionRate=0.01, learningRateScale=0.01, use_memory=True, times=100)
+    print(f'[{datetime.datetime.now()}] The average score is {score}')
+
+    score, all_score = training_ten(actionProbabilityBase=7, mountainCarBinsPerDimension=50, discountRate=0.99, trainingIterations=30000, randomActionRate=0.01, learningRateScale=0.01, use_memory=True, times=100)
+    print(f'[{datetime.datetime.now()}] The average score is {score}')
+
+    score, all_score = training_ten(actionProbabilityBase=7, mountainCarBinsPerDimension=50, discountRate=1, trainingIterations=30000, randomActionRate=0.01, learningRateScale=0.01, use_memory=False, times=100)
+    print(f'[{datetime.datetime.now()}] The average score is {score}')
